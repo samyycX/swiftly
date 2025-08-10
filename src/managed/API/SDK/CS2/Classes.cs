@@ -20,6 +20,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AABB_t()
             {
             }
+            public AABB_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AABB_t", "AABB_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52,6 +56,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ActiveModelConfig_t()
             {
+            }
+            public ActiveModelConfig_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ActiveModelConfig_t", "ActiveModelConfig_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -90,6 +98,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AggregateInstanceStreamOnDiskData_t()
             {
             }
+            public AggregateInstanceStreamOnDiskData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AggregateInstanceStreamOnDiskData_t", "AggregateInstanceStreamOnDiskData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -117,6 +129,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AggregateLODSetup_t()
             {
+            }
+            public AggregateLODSetup_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AggregateLODSetup_t", "AggregateLODSetup_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -155,6 +171,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AggregateMeshInfo_t()
             {
+            }
+            public AggregateMeshInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AggregateMeshInfo_t", "AggregateMeshInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -239,6 +259,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AggregateSceneObject_t()
             {
             }
+            public AggregateSceneObject_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AggregateSceneObject_t", "AggregateSceneObject_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -292,6 +316,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AggregateVertexAlbedoStreamOnDiskData_t()
             {
             }
+            public AggregateVertexAlbedoStreamOnDiskData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AggregateVertexAlbedoStreamOnDiskData_t", "AggregateVertexAlbedoStreamOnDiskData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -315,6 +343,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AimCameraOpFixedSettings_t()
             {
+            }
+            public AimCameraOpFixedSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AimCameraOpFixedSettings_t", "AimCameraOpFixedSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -373,6 +405,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AimMatrixOpFixedSettings_t()
             {
+            }
+            public AimMatrixOpFixedSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AimMatrixOpFixedSettings_t", "AimMatrixOpFixedSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -454,6 +490,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AmmoIndex_t()
             {
             }
+            public AmmoIndex_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AmmoIndex_t", "AmmoIndex_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -481,6 +521,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AmmoTypeInfo_t()
             {
+            }
+            public AmmoTypeInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AmmoTypeInfo_t", "AmmoTypeInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -528,6 +572,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AnimationDecodeDebugDump_t()
             {
             }
+            public AnimationDecodeDebugDump_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimationDecodeDebugDump_t", "AnimationDecodeDebugDump_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -555,6 +603,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AnimationDecodeDebugDumpElement_t()
             {
+            }
+            public AnimationDecodeDebugDumpElement_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimationDecodeDebugDumpElement_t", "AnimationDecodeDebugDumpElement_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -609,6 +661,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AnimationSnapshot_t()
             {
             }
+            public AnimationSnapshot_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimationSnapshot_t", "AnimationSnapshot_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -645,6 +701,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AnimationSnapshotBase_t()
             {
+            }
+            public AnimationSnapshotBase_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimationSnapshotBase_t", "AnimationSnapshotBase_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -703,6 +763,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AnimComponentID()
             {
             }
+            public AnimComponentID(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimComponentID", "AnimComponentID", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -730,6 +794,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AnimNodeID()
             {
+            }
+            public AnimNodeID(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimNodeID", "AnimNodeID", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -759,6 +827,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AnimNodeOutputID()
             {
             }
+            public AnimNodeOutputID(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimNodeOutputID", "AnimNodeOutputID", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -786,6 +858,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AnimParamID()
             {
+            }
+            public AnimParamID(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimParamID", "AnimParamID", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -815,6 +891,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AnimScriptHandle()
             {
             }
+            public AnimScriptHandle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimScriptHandle", "AnimScriptHandle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -842,6 +922,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public AnimStateID()
             {
+            }
+            public AnimStateID(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimStateID", "AnimStateID", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -871,6 +955,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AnimTagID()
             {
             }
+            public AnimTagID(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AnimTagID", "AnimTagID", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -898,6 +986,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public audioparams_t()
             {
+            }
+            public audioparams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("audioparams_t", "audioparams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -947,6 +1039,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public AutoRoomDoorwayPairs_t()
             {
             }
+            public AutoRoomDoorwayPairs_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("AutoRoomDoorwayPairs_t", "AutoRoomDoorwayPairs_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -970,6 +1066,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public BakedLightingInfo_t()
             {
+            }
+            public BakedLightingInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("BakedLightingInfo_t", "BakedLightingInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1034,6 +1134,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public BaseSceneObjectOverride_t()
             {
             }
+            public BaseSceneObjectOverride_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("BaseSceneObjectOverride_t", "BaseSceneObjectOverride_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1061,6 +1165,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public BlendItem_t()
             {
+            }
+            public BlendItem_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("BlendItem_t", "BlendItem_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1108,6 +1216,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public BoneDemoCaptureSettings_t()
             {
+            }
+            public BoneDemoCaptureSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("BoneDemoCaptureSettings_t", "BoneDemoCaptureSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1167,6 +1279,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CActionComponentUpdater()
             {
             }
+            public CActionComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CActionComponentUpdater", "CActionComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1193,6 +1309,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAddUpdateNode()
             {
+            }
+            public CAddUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAddUpdateNode", "CAddUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1246,6 +1366,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAI_ChangeHintGroup()
             {
             }
+            public CAI_ChangeHintGroup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAI_ChangeHintGroup", "CAI_ChangeHintGroup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1292,6 +1416,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAI_Expresser()
             {
+            }
+            public CAI_Expresser(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAI_Expresser", "CAI_Expresser", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1370,6 +1498,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAI_ExpresserWithFollowup()
             {
             }
+            public CAI_ExpresserWithFollowup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAI_ExpresserWithFollowup", "CAI_ExpresserWithFollowup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1396,6 +1528,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAimCameraUpdateNode()
             {
+            }
+            public CAimCameraUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAimCameraUpdateNode", "CAimCameraUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1464,6 +1600,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAimConstraint()
             {
             }
+            public CAimConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAimConstraint", "CAimConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1495,6 +1635,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAimMatrixUpdateNode()
             {
+            }
+            public CAimMatrixUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAimMatrixUpdateNode", "CAimMatrixUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1551,6 +1695,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAK47()
             {
             }
+            public CAK47(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAK47", "CAK47", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1577,6 +1725,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAmbientGeneric()
             {
+            }
+            public CAmbientGeneric(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAmbientGeneric", "CAmbientGeneric", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1653,6 +1805,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimActionUpdater()
             {
             }
+            public CAnimActionUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimActionUpdater", "CAnimActionUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1676,6 +1832,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimActivity()
             {
+            }
+            public CAnimActivity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimActivity", "CAnimActivity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1715,6 +1875,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimationGraphVisualizerAxis()
             {
             }
+            public CAnimationGraphVisualizerAxis(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimationGraphVisualizerAxis", "CAnimationGraphVisualizerAxis", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1746,6 +1910,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimationGraphVisualizerLine()
             {
+            }
+            public CAnimationGraphVisualizerLine(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimationGraphVisualizerLine", "CAnimationGraphVisualizerLine", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1788,6 +1956,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimationGraphVisualizerPie()
             {
+            }
+            public CAnimationGraphVisualizerPie(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimationGraphVisualizerPie", "CAnimationGraphVisualizerPie", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1836,6 +2008,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimationGraphVisualizerPrimitiveBase()
             {
             }
+            public CAnimationGraphVisualizerPrimitiveBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimationGraphVisualizerPrimitiveBase", "CAnimationGraphVisualizerPrimitiveBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1868,6 +2044,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimationGraphVisualizerSphere()
             {
+            }
+            public CAnimationGraphVisualizerSphere(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimationGraphVisualizerSphere", "CAnimationGraphVisualizerSphere", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -1911,6 +2091,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimationGraphVisualizerText()
             {
             }
+            public CAnimationGraphVisualizerText(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimationGraphVisualizerText", "CAnimationGraphVisualizerText", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1953,6 +2137,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimationGroup()
             {
             }
+            public CAnimationGroup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimationGroup", "CAnimationGroup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -1984,6 +2172,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimAttachment()
             {
+            }
+            public CAnimAttachment(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimAttachment", "CAnimAttachment", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2028,6 +2220,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimBone()
             {
             }
+            public CAnimBone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimBone", "CAnimBone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2071,6 +2267,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimBoneDifference()
             {
             }
+            public CAnimBoneDifference(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimBoneDifference", "CAnimBoneDifference", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2108,6 +2308,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimComponentUpdater()
             {
+            }
+            public CAnimComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimComponentUpdater", "CAnimComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2151,6 +2355,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimCycle()
             {
             }
+            public CAnimCycle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimCycle", "CAnimCycle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2177,6 +2385,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimData()
             {
+            }
+            public CAnimData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimData", "CAnimData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2205,6 +2417,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimDataChannelDesc()
             {
+            }
+            public CAnimDataChannelDesc(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimDataChannelDesc", "CAnimDataChannelDesc", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2249,6 +2465,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimDecoder()
             {
             }
+            public CAnimDecoder(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimDecoder", "CAnimDecoder", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2281,6 +2501,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimDemoCaptureSettings()
             {
+            }
+            public CAnimDemoCaptureSettings(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimDemoCaptureSettings", "CAnimDemoCaptureSettings", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2370,6 +2594,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimDesc()
             {
             }
+            public CAnimDesc(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimDesc", "CAnimDesc", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2435,6 +2663,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimDesc_Flag()
             {
             }
+            public CAnimDesc_Flag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimDesc_Flag", "CAnimDesc_Flag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2498,6 +2730,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimEncodedFrames()
             {
             }
+            public CAnimEncodedFrames(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimEncodedFrames", "CAnimEncodedFrames", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2534,6 +2770,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimEncodeDifference()
             {
+            }
+            public CAnimEncodeDifference(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimEncodeDifference", "CAnimEncodeDifference", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2578,6 +2818,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimEnum()
             {
             }
+            public CAnimEnum(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimEnum", "CAnimEnum", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2605,6 +2849,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimEventDefinition()
             {
+            }
+            public CAnimEventDefinition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimEventDefinition", "CAnimEventDefinition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2649,6 +2897,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimEventListener()
             {
             }
+            public CAnimEventListener(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimEventListener", "CAnimEventListener", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2676,6 +2928,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimEventListenerBase()
             {
             }
+            public CAnimEventListenerBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimEventListenerBase", "CAnimEventListenerBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2699,6 +2955,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimEventQueueListener()
             {
+            }
+            public CAnimEventQueueListener(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimEventQueueListener", "CAnimEventQueueListener", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2726,6 +2986,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimFoot()
             {
+            }
+            public CAnimFoot(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimFoot", "CAnimFoot", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2775,6 +3039,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimFrameBlockAnim()
             {
             }
+            public CAnimFrameBlockAnim(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimFrameBlockAnim", "CAnimFrameBlockAnim", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2812,6 +3080,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimFrameSegment()
             {
+            }
+            public CAnimFrameSegment(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimFrameSegment", "CAnimFrameSegment", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2851,6 +3123,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimGraphControllerBase()
             {
             }
+            public CAnimGraphControllerBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimGraphControllerBase", "CAnimGraphControllerBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2874,6 +3150,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimGraphDebugReplay()
             {
+            }
+            public CAnimGraphDebugReplay(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimGraphDebugReplay", "CAnimGraphDebugReplay", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -2918,6 +3198,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimGraphModelBinding()
             {
             }
+            public CAnimGraphModelBinding(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimGraphModelBinding", "CAnimGraphModelBinding", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -2945,6 +3229,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimGraphNetworkedVariables()
             {
+            }
+            public CAnimGraphNetworkedVariables(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimGraphNetworkedVariables", "CAnimGraphNetworkedVariables", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3039,6 +3327,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimGraphNetworkSettings()
             {
             }
+            public CAnimGraphNetworkSettings(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimGraphNetworkSettings", "CAnimGraphNetworkSettings", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3071,6 +3363,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimGraphSettingsGroup()
             {
             }
+            public CAnimGraphSettingsGroup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimGraphSettingsGroup", "CAnimGraphSettingsGroup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3095,6 +3391,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimGraphSettingsManager()
             {
             }
+            public CAnimGraphSettingsManager(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimGraphSettingsManager", "CAnimGraphSettingsManager", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3118,6 +3418,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimInputDamping()
             {
+            }
+            public CAnimInputDamping(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimInputDamping", "CAnimInputDamping", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3157,6 +3461,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimKeyData()
             {
             }
+            public CAnimKeyData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimKeyData", "CAnimKeyData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3184,6 +3492,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimLocalHierarchy()
             {
+            }
+            public CAnimLocalHierarchy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimLocalHierarchy", "CAnimLocalHierarchy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3228,6 +3540,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimMorphDifference()
             {
             }
+            public CAnimMorphDifference(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimMorphDifference", "CAnimMorphDifference", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3251,6 +3567,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimMotorUpdaterBase()
             {
+            }
+            public CAnimMotorUpdaterBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimMotorUpdaterBase", "CAnimMotorUpdaterBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3284,6 +3604,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimMovement()
             {
+            }
+            public CAnimMovement(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimMovement", "CAnimMovement", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3333,6 +3657,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimNodePath()
             {
             }
+            public CAnimNodePath(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimNodePath", "CAnimNodePath", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3360,6 +3688,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimParameterBase()
             {
+            }
+            public CAnimParameterBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimParameterBase", "CAnimParameterBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3413,6 +3745,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimParameterManagerUpdater()
             {
             }
+            public CAnimParameterManagerUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimParameterManagerUpdater", "CAnimParameterManagerUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3436,6 +3772,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimParamHandle()
             {
+            }
+            public CAnimParamHandle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimParamHandle", "CAnimParamHandle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3470,6 +3810,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimParamHandleMap()
             {
             }
+            public CAnimParamHandleMap(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimParamHandleMap", "CAnimParamHandleMap", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3493,6 +3837,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimReplayFrame()
             {
+            }
+            public CAnimReplayFrame(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimReplayFrame", "CAnimReplayFrame", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3522,6 +3870,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimScriptBase()
             {
             }
+            public CAnimScriptBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimScriptBase", "CAnimScriptBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3545,6 +3897,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimScriptComponentUpdater()
             {
+            }
+            public CAnimScriptComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimScriptComponentUpdater", "CAnimScriptComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3577,6 +3933,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimScriptManager()
             {
             }
+            public CAnimScriptManager(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimScriptManager", "CAnimScriptManager", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3600,6 +3960,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimSequenceParams()
             {
+            }
+            public CAnimSequenceParams(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimSequenceParams", "CAnimSequenceParams", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3633,6 +3997,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimSkeleton()
             {
+            }
+            public CAnimSkeleton(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimSkeleton", "CAnimSkeleton", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3677,6 +4045,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimStateMachineUpdater()
             {
             }
+            public CAnimStateMachineUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimStateMachineUpdater", "CAnimStateMachineUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3704,6 +4076,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimTagBase()
             {
+            }
+            public CAnimTagBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimTagBase", "CAnimTagBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3742,6 +4118,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimTagManagerUpdater()
             {
             }
+            public CAnimTagManagerUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimTagManagerUpdater", "CAnimTagManagerUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3765,6 +4145,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimUpdateNodeBase()
             {
+            }
+            public CAnimUpdateNodeBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimUpdateNodeBase", "CAnimUpdateNodeBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3803,6 +4187,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimUpdateNodeRef()
             {
             }
+            public CAnimUpdateNodeRef(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimUpdateNodeRef", "CAnimUpdateNodeRef", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3830,6 +4218,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAnimUpdateSharedData()
             {
+            }
+            public CAnimUpdateSharedData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimUpdateSharedData", "CAnimUpdateSharedData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3862,6 +4254,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimUser()
             {
             }
+            public CAnimUser(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimUser", "CAnimUser", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3890,6 +4286,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAnimUserDifference()
             {
             }
+            public CAnimUserDifference(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAnimUserDifference", "CAnimUserDifference", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -3917,6 +4317,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CastSphereSATParams_t()
             {
+            }
+            public CastSphereSATParams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CastSphereSATParams_t", "CastSphereSATParams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -3969,6 +4373,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAttachment()
             {
+            }
+            public CAttachment(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAttachment", "CAttachment", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -4028,6 +4436,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAttributeContainer()
             {
             }
+            public CAttributeContainer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAttributeContainer", "CAttributeContainer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -4059,6 +4471,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAttributeList()
             {
             }
+            public CAttributeList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAttributeList", "CAttributeList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public void SetOrAddAttributeValueByName(string key, float value)
             {
                 Internal_API.Invoker.CallNative("SDKClass", "SetOrAddAttributeValueByName", Internal_API.CallKind.ClassFunction, m_classData, key, value);
@@ -4089,6 +4505,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAttributeManager()
             {
+            }
+            public CAttributeManager(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAttributeManager", "CAttributeManager", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -4131,6 +4551,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAudioAnimTag()
             {
+            }
+            public CAudioAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAudioAnimTag", "CAudioAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -4194,6 +4618,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAudioEmphasisSample()
             {
             }
+            public CAudioEmphasisSample(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAudioEmphasisSample", "CAudioEmphasisSample", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -4226,6 +4654,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CAudioMorphData()
             {
+            }
+            public CAudioMorphData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAudioMorphData", "CAudioMorphData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -4275,6 +4707,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAudioPhonemeTag()
             {
             }
+            public CAudioPhonemeTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAudioPhonemeTag", "CAudioPhonemeTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -4313,6 +4749,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CAudioSentence()
             {
             }
+            public CAudioSentence(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CAudioSentence", "CAudioSentence", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -4344,6 +4784,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBarnLight()
             {
+            }
+            public CBarnLight(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBarnLight", "CBarnLight", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -4647,6 +5091,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseAnimGraph()
             {
             }
+            public CBaseAnimGraph(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseAnimGraph", "CBaseAnimGraph", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -4727,6 +5175,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseAnimGraphAnimGraphController()
             {
             }
+            public CBaseAnimGraphAnimGraphController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseAnimGraphAnimGraphController", "CBaseAnimGraphAnimGraphController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -4753,6 +5205,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseAnimGraphController()
             {
+            }
+            public CBaseAnimGraphController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseAnimGraphController", "CBaseAnimGraphController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -4849,6 +5305,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseButton()
             {
+            }
+            public CBaseButton(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseButton", "CBaseButton", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -4989,6 +5449,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseClientUIEntity()
             {
             }
+            public CBaseClientUIEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseClientUIEntity", "CBaseClientUIEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -5035,6 +5499,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseCombatCharacter()
             {
+            }
+            public CBaseCombatCharacter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseCombatCharacter", "CBaseCombatCharacter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -5112,6 +5580,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseConstraint()
             {
             }
+            public CBaseConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseConstraint", "CBaseConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -5148,6 +5620,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseCSGrenade()
             {
+            }
+            public CBaseCSGrenade(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseCSGrenade", "CBaseCSGrenade", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -5239,6 +5715,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseCSGrenadeProjectile()
             {
+            }
+            public CBaseCSGrenadeProjectile(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseCSGrenadeProjectile", "CBaseCSGrenadeProjectile", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -5342,6 +5822,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseDMStart()
             {
             }
+            public CBaseDMStart(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseDMStart", "CBaseDMStart", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -5373,6 +5857,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseDoor()
             {
+            }
+            public CBaseDoor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseDoor", "CBaseDoor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -5531,13 +6019,17 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseEntity()
             {
             }
-            public void EmitSound(string sound_name, float pitch, float volume)
+            public CBaseEntity(IntPtr ptr_or_class)
             {
-                Internal_API.Invoker.CallNative("SDKClass", "EmitSound", Internal_API.CallKind.ClassFunction, m_classData, sound_name, pitch, volume);
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseEntity", "CBaseEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
-            public void EmitSoundFromEntity(string sound_name, float pitch, float volume, float delay)
+            public uint EmitSound(string sound_name, float pitch, float volume)
             {
-                Internal_API.Invoker.CallNative("SDKClass", "EmitSoundFromEntity", Internal_API.CallKind.ClassFunction, m_classData, sound_name, pitch, volume, delay);
+                return Internal_API.Invoker.CallNative<uint>("SDKClass", "EmitSound", Internal_API.CallKind.ClassFunction, m_classData, sound_name, pitch, volume);
+            }
+            public uint EmitSoundFromEntity(string sound_name, float pitch, float volume, float delay)
+            {
+                return Internal_API.Invoker.CallNative<uint>("SDKClass", "EmitSoundFromEntity", Internal_API.CallKind.ClassFunction, m_classData, sound_name, pitch, volume, delay);
             }
             public void TakeDamage(ClassData? attacker, ClassData? inflictor, ClassData? ability, DamageTypes_t damageType, float damage)
             {
@@ -5952,6 +6444,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseEntityAPI()
             {
             }
+            public CBaseEntityAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseEntityAPI", "CBaseEntityAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -5975,6 +6471,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseFilter()
             {
+            }
+            public CBaseFilter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseFilter", "CBaseFilter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -6015,6 +6515,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseFlex()
             {
+            }
+            public CBaseFlex(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseFlex", "CBaseFlex", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -6077,6 +6581,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseFlexAlias_funCBaseFlex()
             {
             }
+            public CBaseFlexAlias_funCBaseFlex(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseFlexAlias_funCBaseFlex", "CBaseFlexAlias_funCBaseFlex", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -6103,6 +6611,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseGrenade()
             {
+            }
+            public CBaseGrenade(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseGrenade", "CBaseGrenade", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -6197,6 +6709,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseIssue()
             {
             }
+            public CBaseIssue(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseIssue", "CBaseIssue", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -6244,6 +6760,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseModelEntity()
             {
+            }
+            public CBaseModelEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseModelEntity", "CBaseModelEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public void SetBodygroup(string key, ulong value)
             {
@@ -6412,6 +6932,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseModelEntityAPI()
             {
             }
+            public CBaseModelEntityAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseModelEntityAPI", "CBaseModelEntityAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -6435,6 +6959,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseMoveBehavior()
             {
+            }
+            public CBaseMoveBehavior(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseMoveBehavior", "CBaseMoveBehavior", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -6514,6 +7042,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBasePlatTrain()
             {
             }
+            public CBasePlatTrain(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBasePlatTrain", "CBasePlatTrain", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -6565,6 +7097,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBasePlayerController()
             {
+            }
+            public CBasePlayerController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBasePlayerController", "CBasePlayerController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public int EntityIndex()
             {
@@ -6710,6 +7246,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBasePlayerControllerAPI()
             {
             }
+            public CBasePlayerControllerAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBasePlayerControllerAPI", "CBasePlayerControllerAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -6733,6 +7273,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBasePlayerPawn()
             {
+            }
+            public CBasePlayerPawn(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBasePlayerPawn", "CBasePlayerPawn", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -6859,6 +7403,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBasePlayerVData()
             {
             }
+            public CBasePlayerVData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBasePlayerVData", "CBasePlayerVData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -6946,6 +7494,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBasePlayerWeapon()
             {
             }
+            public CBasePlayerWeapon(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBasePlayerWeapon", "CBasePlayerWeapon", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -7001,6 +7553,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBasePlayerWeaponVData()
             {
+            }
+            public CBasePlayerWeaponVData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBasePlayerWeaponVData", "CBasePlayerWeaponVData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -7119,6 +7675,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseProp()
             {
             }
+            public CBaseProp(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseProp", "CBaseProp", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -7160,6 +7720,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBasePropDoor()
             {
+            }
+            public CBasePropDoor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBasePropDoor", "CBasePropDoor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -7358,6 +7922,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseRendererSource2()
             {
+            }
+            public CBaseRendererSource2(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseRendererSource2", "CBaseRendererSource2", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -7666,6 +8234,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseToggle()
             {
             }
+            public CBaseToggle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseToggle", "CBaseToggle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -7752,6 +8324,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseTrailRenderer()
             {
             }
+            public CBaseTrailRenderer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseTrailRenderer", "CBaseTrailRenderer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -7811,6 +8387,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBaseTrigger()
             {
+            }
+            public CBaseTrigger(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseTrigger", "CBaseTrigger", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -7886,6 +8466,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBaseTriggerAPI()
             {
             }
+            public CBaseTriggerAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBaseTriggerAPI", "CBaseTriggerAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -7909,6 +8493,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBeam()
             {
+            }
+            public CBeam(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBeam", "CBeam", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8036,6 +8624,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBinaryUpdateNode()
             {
             }
+            public CBinaryUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBinaryUpdateNode", "CBinaryUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8073,6 +8665,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBindPoseUpdateNode()
             {
             }
+            public CBindPoseUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBindPoseUpdateNode", "CBindPoseUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8099,6 +8695,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBlend2DUpdateNode()
             {
+            }
+            public CBlend2DUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBlend2DUpdateNode", "CBlend2DUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8188,6 +8788,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBlendCurve()
             {
             }
+            public CBlendCurve(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBlendCurve", "CBlendCurve", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8211,6 +8815,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBlendUpdateNode()
             {
+            }
+            public CBlendUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBlendUpdateNode", "CBlendUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8297,6 +8905,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBlockSelectionMetricEvaluator()
             {
             }
+            public CBlockSelectionMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBlockSelectionMetricEvaluator", "CBlockSelectionMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8323,6 +8935,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBlood()
             {
+            }
+            public CBlood(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBlood", "CBlood", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8371,6 +8987,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBodyComponent()
             {
             }
+            public CBodyComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBodyComponent", "CBodyComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8406,6 +9026,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBodyComponentBaseAnimGraph()
             {
             }
+            public CBodyComponentBaseAnimGraph(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBodyComponentBaseAnimGraph", "CBodyComponentBaseAnimGraph", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8437,6 +9061,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBodyComponentBaseModelEntity()
             {
             }
+            public CBodyComponentBaseModelEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBodyComponentBaseModelEntity", "CBodyComponentBaseModelEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8463,6 +9091,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBodyComponentPoint()
             {
+            }
+            public CBodyComponentPoint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBodyComponentPoint", "CBodyComponentPoint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8495,6 +9127,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBodyComponentSkeletonInstance()
             {
             }
+            public CBodyComponentSkeletonInstance(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBodyComponentSkeletonInstance", "CBodyComponentSkeletonInstance", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8525,6 +9161,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBodyGroupAnimTag()
             {
+            }
+            public CBodyGroupAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBodyGroupAnimTag", "CBodyGroupAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8558,6 +9198,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBodyGroupSetting()
             {
             }
+            public CBodyGroupSetting(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBodyGroupSetting", "CBodyGroupSetting", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8590,6 +9234,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBombTarget()
             {
+            }
+            public CBombTarget(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBombTarget", "CBombTarget", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8659,6 +9307,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBoneConstraintBase()
             {
             }
+            public CBoneConstraintBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBoneConstraintBase", "CBoneConstraintBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8682,6 +9334,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBoneConstraintDotToMorph()
             {
+            }
+            public CBoneConstraintDotToMorph(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBoneConstraintDotToMorph", "CBoneConstraintDotToMorph", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8730,6 +9386,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBoneConstraintPoseSpaceBone()
             {
             }
+            public CBoneConstraintPoseSpaceBone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBoneConstraintPoseSpaceBone", "CBoneConstraintPoseSpaceBone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8756,6 +9416,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBoneConstraintPoseSpaceMorph()
             {
+            }
+            public CBoneConstraintPoseSpaceMorph(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBoneConstraintPoseSpaceMorph", "CBoneConstraintPoseSpaceMorph", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8804,6 +9468,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBoneConstraintRbf()
             {
             }
+            public CBoneConstraintRbf(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBoneConstraintRbf", "CBoneConstraintRbf", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8830,6 +9498,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBoneMaskUpdateNode()
             {
+            }
+            public CBoneMaskUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBoneMaskUpdateNode", "CBoneMaskUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8892,6 +9564,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBonePositionMetricEvaluator()
             {
             }
+            public CBonePositionMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBonePositionMetricEvaluator", "CBonePositionMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8923,6 +9599,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBoneVelocityMetricEvaluator()
             {
+            }
+            public CBoneVelocityMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBoneVelocityMetricEvaluator", "CBoneVelocityMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -8956,6 +9636,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBoolAnimParameter()
             {
             }
+            public CBoolAnimParameter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBoolAnimParameter", "CBoolAnimParameter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -8987,6 +9671,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBot()
             {
+            }
+            public CBot(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBot", "CBot", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9073,6 +9761,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBreakable()
             {
+            }
+            public CBreakable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBreakable", "CBreakable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9166,6 +9858,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBreakableProp()
             {
+            }
+            public CBreakableProp(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBreakableProp", "CBreakableProp", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9342,6 +10038,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBreakableStageHelper()
             {
             }
+            public CBreakableStageHelper(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBreakableStageHelper", "CBreakableStageHelper", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -9374,6 +10074,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBtActionAim()
             {
+            }
+            public CBtActionAim(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBtActionAim", "CBtActionAim", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9459,6 +10163,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBtActionCombatPositioning()
             {
             }
+            public CBtActionCombatPositioning(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBtActionCombatPositioning", "CBtActionCombatPositioning", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -9504,6 +10212,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBtActionMoveTo()
             {
+            }
+            public CBtActionMoveTo(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBtActionMoveTo", "CBtActionMoveTo", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9594,6 +10306,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBtActionParachutePositioning()
             {
             }
+            public CBtActionParachutePositioning(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBtActionParachutePositioning", "CBtActionParachutePositioning", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -9625,6 +10341,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBtNode()
             {
             }
+            public CBtNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBtNode", "CBtNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -9648,6 +10368,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBtNodeComposite()
             {
+            }
+            public CBtNodeComposite(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBtNodeComposite", "CBtNodeComposite", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9675,6 +10399,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBtNodeCondition()
             {
+            }
+            public CBtNodeCondition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBtNodeCondition", "CBtNodeCondition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9707,6 +10435,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBtNodeConditionInactive()
             {
+            }
+            public CBtNodeConditionInactive(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBtNodeConditionInactive", "CBtNodeConditionInactive", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9749,6 +10481,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBtNodeDecorator()
             {
             }
+            public CBtNodeDecorator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBtNodeDecorator", "CBtNodeDecorator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -9775,6 +10511,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CBuoyancyHelper()
             {
+            }
+            public CBuoyancyHelper(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBuoyancyHelper", "CBuoyancyHelper", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9849,6 +10589,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CBuyZone()
             {
             }
+            public CBuyZone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CBuyZone", "CBuyZone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -9880,6 +10624,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CC4()
             {
+            }
+            public CC4(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CC4", "CC4", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -9962,6 +10710,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCachedPose()
             {
             }
+            public CCachedPose(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCachedPose", "CCachedPose", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -9999,6 +10751,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CChangeLevel()
             {
+            }
+            public CChangeLevel(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CChangeLevel", "CChangeLevel", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -10060,6 +10816,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CChicken()
             {
+            }
+            public CChicken(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CChicken", "CChicken", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -10213,6 +10973,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CChoiceUpdateNode()
             {
             }
+            public CChoiceUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CChoiceUpdateNode", "CChoiceUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -10285,6 +11049,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CChoreoUpdateNode()
             {
             }
+            public CChoreoUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CChoreoUpdateNode", "CChoreoUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -10311,6 +11079,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCitadelSoundOpvarSetOBB()
             {
+            }
+            public CCitadelSoundOpvarSetOBB(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCitadelSoundOpvarSetOBB", "CCitadelSoundOpvarSetOBB", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -10378,6 +11150,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CClientAlphaProperty()
             {
+            }
+            public CClientAlphaProperty(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CClientAlphaProperty", "CClientAlphaProperty", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -10451,6 +11227,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CClothSettingsAnimTag()
             {
             }
+            public CClothSettingsAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CClothSettingsAnimTag", "CClothSettingsAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -10497,6 +11277,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCollisionProperty()
             {
+            }
+            public CCollisionProperty(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCollisionProperty", "CCollisionProperty", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -10594,6 +11378,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CColorCorrection()
             {
+            }
+            public CColorCorrection(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CColorCorrection", "CColorCorrection", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -10707,6 +11495,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CColorCorrectionVolume()
             {
             }
+            public CColorCorrectionVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CColorCorrectionVolume", "CColorCorrectionVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -10774,6 +11566,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCommentaryAuto()
             {
             }
+            public CCommentaryAuto(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCommentaryAuto", "CCommentaryAuto", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -10812,6 +11608,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCommentarySystem()
             {
+            }
+            public CCommentarySystem(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCommentarySystem", "CCommentarySystem", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -10866,6 +11666,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCommentaryViewPosition()
             {
             }
+            public CCommentaryViewPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCommentaryViewPosition", "CCommentaryViewPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -10892,6 +11696,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCompositeMaterialEditorDoc()
             {
+            }
+            public CCompositeMaterialEditorDoc(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCompositeMaterialEditorDoc", "CCompositeMaterialEditorDoc", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -10920,6 +11728,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CConcreteAnimParameter()
             {
+            }
+            public CConcreteAnimParameter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CConcreteAnimParameter", "CConcreteAnimParameter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -10978,6 +11790,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CConstantForceController()
             {
             }
+            public CConstantForceController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CConstantForceController", "CConstantForceController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -11021,6 +11837,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CConstraintAnchor()
             {
             }
+            public CConstraintAnchor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CConstraintAnchor", "CConstraintAnchor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -11052,6 +11872,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CConstraintSlave()
             {
+            }
+            public CConstraintSlave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CConstraintSlave", "CConstraintSlave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -11095,6 +11919,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CConstraintTarget()
             {
+            }
+            public CConstraintTarget(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CConstraintTarget", "CConstraintTarget", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -11144,6 +11972,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCopyRecipientFilter()
             {
             }
+            public CCopyRecipientFilter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCopyRecipientFilter", "CCopyRecipientFilter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -11177,6 +12009,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCPPScriptComponentUpdater()
             {
             }
+            public CCPPScriptComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCPPScriptComponentUpdater", "CCPPScriptComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -11203,6 +12039,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCredits()
             {
+            }
+            public CCredits(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCredits", "CCredits", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -11245,6 +12085,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCS2ChickenGraphController()
             {
             }
+            public CCS2ChickenGraphController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCS2ChickenGraphController", "CCS2ChickenGraphController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -11282,6 +12126,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCS2UIPawnGraphController()
             {
             }
+            public CCS2UIPawnGraphController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCS2UIPawnGraphController", "CCS2UIPawnGraphController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -11309,6 +12157,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCS2WeaponGraphController()
             {
             }
+            public CCS2WeaponGraphController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCS2WeaponGraphController", "CCS2WeaponGraphController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -11335,6 +12187,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSBot()
             {
+            }
+            public CCSBot(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSBot", "CCSBot", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -12018,6 +12874,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSClientPointScriptEntity()
             {
             }
+            public CCSClientPointScriptEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSClientPointScriptEntity", "CCSClientPointScriptEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -12045,6 +12905,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSGameModeRules()
             {
             }
+            public CCSGameModeRules(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGameModeRules", "CCSGameModeRules", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -12071,6 +12935,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSGameModeRules_ArmsRace()
             {
+            }
+            public CCSGameModeRules_ArmsRace(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGameModeRules_ArmsRace", "CCSGameModeRules_ArmsRace", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -12103,6 +12971,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSGameModeRules_Deathmatch()
             {
+            }
+            public CCSGameModeRules_Deathmatch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGameModeRules_Deathmatch", "CCSGameModeRules_Deathmatch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -12146,6 +13018,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSGameModeRules_Noop()
             {
             }
+            public CCSGameModeRules_Noop(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGameModeRules_Noop", "CCSGameModeRules_Noop", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -12172,6 +13048,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSGameRules()
             {
+            }
+            public CCSGameRules(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGameRules", "CCSGameRules", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13091,6 +13971,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSGameRulesProxy()
             {
             }
+            public CCSGameRulesProxy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGameRulesProxy", "CCSGameRulesProxy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13122,6 +14006,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSGO_TeamIntroCharacterPosition()
             {
             }
+            public CCSGO_TeamIntroCharacterPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_TeamIntroCharacterPosition", "CCSGO_TeamIntroCharacterPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13148,6 +14036,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSGO_TeamIntroCounterTerroristPosition()
             {
+            }
+            public CCSGO_TeamIntroCounterTerroristPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_TeamIntroCounterTerroristPosition", "CCSGO_TeamIntroCounterTerroristPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13176,6 +14068,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSGO_TeamIntroTerroristPosition()
             {
             }
+            public CCSGO_TeamIntroTerroristPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_TeamIntroTerroristPosition", "CCSGO_TeamIntroTerroristPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13202,6 +14098,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSGO_TeamPreviewCharacterPosition()
             {
+            }
+            public CCSGO_TeamPreviewCharacterPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_TeamPreviewCharacterPosition", "CCSGO_TeamPreviewCharacterPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13267,6 +14167,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSGO_TeamSelectCharacterPosition()
             {
             }
+            public CCSGO_TeamSelectCharacterPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_TeamSelectCharacterPosition", "CCSGO_TeamSelectCharacterPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13293,6 +14197,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSGO_TeamSelectCounterTerroristPosition()
             {
+            }
+            public CCSGO_TeamSelectCounterTerroristPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_TeamSelectCounterTerroristPosition", "CCSGO_TeamSelectCounterTerroristPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13321,6 +14229,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSGO_TeamSelectTerroristPosition()
             {
             }
+            public CCSGO_TeamSelectTerroristPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_TeamSelectTerroristPosition", "CCSGO_TeamSelectTerroristPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13347,6 +14259,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSGO_WingmanIntroCharacterPosition()
             {
+            }
+            public CCSGO_WingmanIntroCharacterPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_WingmanIntroCharacterPosition", "CCSGO_WingmanIntroCharacterPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13375,6 +14291,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSGO_WingmanIntroCounterTerroristPosition()
             {
             }
+            public CCSGO_WingmanIntroCounterTerroristPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_WingmanIntroCounterTerroristPosition", "CCSGO_WingmanIntroCounterTerroristPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13401,6 +14321,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSGO_WingmanIntroTerroristPosition()
             {
+            }
+            public CCSGO_WingmanIntroTerroristPosition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGO_WingmanIntroTerroristPosition", "CCSGO_WingmanIntroTerroristPosition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13429,6 +14353,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSGOPlayerAnimGraphState()
             {
             }
+            public CCSGOPlayerAnimGraphState(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSGOPlayerAnimGraphState", "CCSGOPlayerAnimGraphState", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13452,6 +14380,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSMinimapBoundary()
             {
+            }
+            public CCSMinimapBoundary(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSMinimapBoundary", "CCSMinimapBoundary", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13480,6 +14412,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSObserver_CameraServices()
             {
             }
+            public CCSObserver_CameraServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSObserver_CameraServices", "CCSObserver_CameraServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13506,6 +14442,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSObserver_MovementServices()
             {
+            }
+            public CCSObserver_MovementServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSObserver_MovementServices", "CCSObserver_MovementServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13534,6 +14474,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSObserver_ObserverServices()
             {
             }
+            public CCSObserver_ObserverServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSObserver_ObserverServices", "CCSObserver_ObserverServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13560,6 +14504,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSObserver_UseServices()
             {
+            }
+            public CCSObserver_UseServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSObserver_UseServices", "CCSObserver_UseServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13588,6 +14536,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSObserverPawn()
             {
             }
+            public CCSObserverPawn(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSObserverPawn", "CCSObserverPawn", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13615,6 +14567,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPetPlacement()
             {
             }
+            public CCSPetPlacement(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPetPlacement", "CCSPetPlacement", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13641,6 +14597,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlace()
             {
+            }
+            public CCSPlace(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlace", "CCSPlace", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13673,6 +14633,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayer_ActionTrackingServices()
             {
+            }
+            public CCSPlayer_ActionTrackingServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_ActionTrackingServices", "CCSPlayer_ActionTrackingServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13714,6 +14678,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayer_BulletServices()
             {
             }
+            public CCSPlayer_BulletServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_BulletServices", "CCSPlayer_BulletServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13746,6 +14714,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayer_BuyServices()
             {
             }
+            public CCSPlayer_BuyServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_BuyServices", "CCSPlayer_BuyServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13772,6 +14744,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayer_CameraServices()
             {
+            }
+            public CCSPlayer_CameraServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_CameraServices", "CCSPlayer_CameraServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13800,6 +14776,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayer_DamageReactServices()
             {
             }
+            public CCSPlayer_DamageReactServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_DamageReactServices", "CCSPlayer_DamageReactServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13827,6 +14807,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayer_GlowServices()
             {
             }
+            public CCSPlayer_GlowServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_GlowServices", "CCSPlayer_GlowServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -13853,6 +14837,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayer_HostageServices()
             {
+            }
+            public CCSPlayer_HostageServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_HostageServices", "CCSPlayer_HostageServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13888,6 +14876,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayer_ItemServices()
             {
+            }
+            public CCSPlayer_ItemServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_ItemServices", "CCSPlayer_ItemServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -13925,6 +14917,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayer_MovementServices()
             {
+            }
+            public CCSPlayer_MovementServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_MovementServices", "CCSPlayer_MovementServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -14158,6 +15154,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayer_PingServices()
             {
             }
+            public CCSPlayer_PingServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_PingServices", "CCSPlayer_PingServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -14193,6 +15193,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayer_RadioServices()
             {
+            }
+            public CCSPlayer_RadioServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_RadioServices", "CCSPlayer_RadioServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -14241,6 +15245,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayer_UseServices()
             {
             }
+            public CCSPlayer_UseServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_UseServices", "CCSPlayer_UseServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -14281,6 +15289,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayer_WaterServices()
             {
+            }
+            public CCSPlayer_WaterServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_WaterServices", "CCSPlayer_WaterServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -14338,6 +15350,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayer_WeaponServices()
             {
+            }
+            public CCSPlayer_WeaponServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayer_WeaponServices", "CCSPlayer_WeaponServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -14440,6 +15456,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayerBase_CameraServices()
             {
             }
+            public CCSPlayerBase_CameraServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayerBase_CameraServices", "CCSPlayerBase_CameraServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -14494,6 +15514,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayerController()
             {
+            }
+            public CCSPlayerController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayerController", "CCSPlayerController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -14968,6 +15992,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayerController_ActionTrackingServices()
             {
             }
+            public CCSPlayerController_ActionTrackingServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayerController_ActionTrackingServices", "CCSPlayerController_ActionTrackingServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -15014,6 +16042,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayerController_DamageServices()
             {
             }
+            public CCSPlayerController_DamageServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayerController_DamageServices", "CCSPlayerController_DamageServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -15045,6 +16077,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayerController_InGameMoneyServices()
             {
+            }
+            public CCSPlayerController_InGameMoneyServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayerController_InGameMoneyServices", "CCSPlayerController_InGameMoneyServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -15102,6 +16138,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayerController_InventoryServices()
             {
+            }
+            public CCSPlayerController_InventoryServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayerController_InventoryServices", "CCSPlayerController_InventoryServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -15169,6 +16209,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPlayerPawn()
             {
+            }
+            public CCSPlayerPawn(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayerPawn", "CCSPlayerPawn", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -15788,6 +16832,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayerPawnBase()
             {
             }
+            public CCSPlayerPawnBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayerPawnBase", "CCSPlayerPawnBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -15892,6 +16940,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPlayerResource()
             {
             }
+            public CCSPlayerResource(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPlayerResource", "CCSPlayerResource", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -15969,6 +17021,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPointScriptEntity()
             {
             }
+            public CCSPointScriptEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPointScriptEntity", "CCSPointScriptEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -15996,6 +17052,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPointScriptExtensions_CCSWeaponBaseVData()
             {
             }
+            public CCSPointScriptExtensions_CCSWeaponBaseVData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPointScriptExtensions_CCSWeaponBaseVData", "CCSPointScriptExtensions_CCSWeaponBaseVData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -16019,6 +17079,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPointScriptExtensions_entity()
             {
+            }
+            public CCSPointScriptExtensions_entity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPointScriptExtensions_entity", "CCSPointScriptExtensions_entity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -16044,6 +17108,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPointScriptExtensions_observer()
             {
             }
+            public CCSPointScriptExtensions_observer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPointScriptExtensions_observer", "CCSPointScriptExtensions_observer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -16067,6 +17135,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSPointScriptExtensions_player()
             {
+            }
+            public CCSPointScriptExtensions_player(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPointScriptExtensions_player", "CCSPointScriptExtensions_player", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -16092,6 +17164,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPointScriptExtensions_player_controller()
             {
             }
+            public CCSPointScriptExtensions_player_controller(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPointScriptExtensions_player_controller", "CCSPointScriptExtensions_player_controller", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -16116,6 +17192,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSPointScriptExtensions_weapon_cs_base()
             {
             }
+            public CCSPointScriptExtensions_weapon_cs_base(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSPointScriptExtensions_weapon_cs_base", "CCSPointScriptExtensions_weapon_cs_base", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -16139,6 +17219,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSServerPointScriptEntity()
             {
+            }
+            public CCSServerPointScriptEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSServerPointScriptEntity", "CCSServerPointScriptEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -16167,6 +17251,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSSprite()
             {
             }
+            public CCSSprite(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSSprite", "CCSSprite", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -16193,6 +17281,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSTeam()
             {
+            }
+            public CCSTeam(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSTeam", "CCSTeam", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -16290,6 +17382,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSWeaponBase()
             {
+            }
+            public CCSWeaponBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSWeaponBase", "CCSWeaponBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -16575,6 +17671,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCSWeaponBaseGun()
             {
             }
+            public CCSWeaponBaseGun(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSWeaponBaseGun", "CCSWeaponBaseGun", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -16651,6 +17751,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCSWeaponBaseVData()
             {
+            }
+            public CCSWeaponBaseVData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCSWeaponBaseVData", "CCSWeaponBaseVData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17009,6 +18113,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCurrentRotationVelocityMetricEvaluator()
             {
             }
+            public CCurrentRotationVelocityMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCurrentRotationVelocityMetricEvaluator", "CCurrentRotationVelocityMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17035,6 +18143,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCurrentVelocityMetricEvaluator()
             {
+            }
+            public CCurrentVelocityMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCurrentVelocityMetricEvaluator", "CCurrentVelocityMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17063,6 +18175,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCycleBase()
             {
             }
+            public CCycleBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCycleBase", "CCycleBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17090,6 +18206,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CCycleControlClipUpdateNode()
             {
+            }
+            public CCycleControlClipUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCycleControlClipUpdateNode", "CCycleControlClipUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17137,6 +18257,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CCycleControlUpdateNode()
             {
             }
+            public CCycleControlUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CCycleControlUpdateNode", "CCycleControlUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17172,6 +18296,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDamageRecord()
             {
+            }
+            public CDamageRecord(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDamageRecord", "CDamageRecord", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17267,6 +18395,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDampedPathAnimMotorUpdater()
             {
             }
+            public CDampedPathAnimMotorUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDampedPathAnimMotorUpdater", "CDampedPathAnimMotorUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17327,6 +18459,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDampedValueComponentUpdater()
             {
             }
+            public CDampedValueComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDampedValueComponentUpdater", "CDampedValueComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17353,6 +18489,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDampedValueUpdateItem()
             {
+            }
+            public CDampedValueUpdateItem(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDampedValueUpdateItem", "CDampedValueUpdateItem", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17389,6 +18529,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDEagle()
             {
             }
+            public CDEagle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDEagle", "CDEagle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17415,6 +18559,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDebugHistory()
             {
+            }
+            public CDebugHistory(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDebugHistory", "CDebugHistory", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17447,6 +18595,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDecalInfo()
             {
+            }
+            public CDecalInfo(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDecalInfo", "CDecalInfo", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17529,6 +18681,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDecoyGrenade()
             {
             }
+            public CDecoyGrenade(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDecoyGrenade", "CDecoyGrenade", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17555,6 +18711,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDecoyProjectile()
             {
+            }
+            public CDecoyProjectile(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDecoyProjectile", "CDecoyProjectile", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17603,6 +18763,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDemoSettingsComponentUpdater()
             {
             }
+            public CDemoSettingsComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDemoSettingsComponentUpdater", "CDemoSettingsComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17633,6 +18797,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDestructiblePartsSystemComponent()
             {
+            }
+            public CDestructiblePartsSystemComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDestructiblePartsSystemComponent", "CDestructiblePartsSystemComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17675,6 +18843,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDestructiblePartsSystemData()
             {
             }
+            public CDestructiblePartsSystemData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDestructiblePartsSystemData", "CDestructiblePartsSystemData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17701,6 +18873,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDestructiblePartsSystemData_DamageLevel()
             {
+            }
+            public CDestructiblePartsSystemData_DamageLevel(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDestructiblePartsSystemData_DamageLevel", "CDestructiblePartsSystemData_DamageLevel", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17758,6 +18934,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDestructiblePartsSystemData_HitGroupInfoAndDamageLevels()
             {
             }
+            public CDestructiblePartsSystemData_HitGroupInfoAndDamageLevels(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDestructiblePartsSystemData_HitGroupInfoAndDamageLevels", "CDestructiblePartsSystemData_HitGroupInfoAndDamageLevels", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17800,6 +18980,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDirectionalBlendUpdateNode()
             {
+            }
+            public CDirectionalBlendUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDirectionalBlendUpdateNode", "CDirectionalBlendUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17866,6 +19050,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDirectPlaybackTagData()
             {
             }
+            public CDirectPlaybackTagData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDirectPlaybackTagData", "CDirectPlaybackTagData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -17893,6 +19081,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDirectPlaybackUpdateNode()
             {
+            }
+            public CDirectPlaybackUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDirectPlaybackUpdateNode", "CDirectPlaybackUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17930,6 +19122,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDistanceRemainingMetricEvaluator()
             {
+            }
+            public CDistanceRemainingMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDistanceRemainingMetricEvaluator", "CDistanceRemainingMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -17993,6 +19189,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDrawCullingData()
             {
             }
+            public CDrawCullingData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDrawCullingData", "CDrawCullingData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18025,6 +19225,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDSPMixgroupModifier()
             {
+            }
+            public CDSPMixgroupModifier(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDSPMixgroupModifier", "CDSPMixgroupModifier", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -18079,6 +19283,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDSPPresetMixgroupModifierTable()
             {
             }
+            public CDSPPresetMixgroupModifierTable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDSPPresetMixgroupModifierTable", "CDSPPresetMixgroupModifierTable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18102,6 +19310,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDspPresetModifierList()
             {
+            }
+            public CDspPresetModifierList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDspPresetModifierList", "CDspPresetModifierList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -18130,6 +19342,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDynamicLight()
             {
+            }
+            public CDynamicLight(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDynamicLight", "CDynamicLight", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -18203,6 +19419,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDynamicNavConnectionsVolume()
             {
             }
+            public CDynamicNavConnectionsVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDynamicNavConnectionsVolume", "CDynamicNavConnectionsVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18254,6 +19474,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDynamicProp()
             {
+            }
+            public CDynamicProp(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDynamicProp", "CDynamicProp", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -18387,6 +19611,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDynamicPropAlias_cable_dynamic()
             {
             }
+            public CDynamicPropAlias_cable_dynamic(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDynamicPropAlias_cable_dynamic", "CDynamicPropAlias_cable_dynamic", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18413,6 +19641,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CDynamicPropAlias_dynamic_prop()
             {
+            }
+            public CDynamicPropAlias_dynamic_prop(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDynamicPropAlias_dynamic_prop", "CDynamicPropAlias_dynamic_prop", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -18441,6 +19673,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CDynamicPropAlias_prop_dynamic_override()
             {
             }
+            public CDynamicPropAlias_prop_dynamic_override(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CDynamicPropAlias_prop_dynamic_override", "CDynamicPropAlias_prop_dynamic_override", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18467,6 +19703,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEconEntity()
             {
+            }
+            public CEconEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEconEntity", "CEconEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -18538,6 +19778,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEconItemAttribute()
             {
             }
+            public CEconItemAttribute(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEconItemAttribute", "CEconItemAttribute", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18585,6 +19829,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEconItemView()
             {
+            }
+            public CEconItemView(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEconItemView", "CEconItemView", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -18676,6 +19924,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEconWearable()
             {
             }
+            public CEconWearable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEconWearable", "CEconWearable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18713,6 +19965,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEditableMotionGraph()
             {
             }
+            public CEditableMotionGraph(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEditableMotionGraph", "CEditableMotionGraph", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18739,6 +19995,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEffectData()
             {
+            }
+            public CEffectData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEffectData", "CEffectData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -18856,6 +20116,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEmitTagActionUpdater()
             {
             }
+            public CEmitTagActionUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEmitTagActionUpdater", "CEmitTagActionUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18893,6 +20157,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEmptyEntityInstance()
             {
             }
+            public CEmptyEntityInstance(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEmptyEntityInstance", "CEmptyEntityInstance", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18916,6 +20184,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnableMotionFixup()
             {
+            }
+            public CEnableMotionFixup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnableMotionFixup", "CEnableMotionFixup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -18944,6 +20216,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEntityBlocker()
             {
             }
+            public CEntityBlocker(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEntityBlocker", "CEntityBlocker", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18971,6 +20247,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEntityComponent()
             {
             }
+            public CEntityComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEntityComponent", "CEntityComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -18994,6 +20274,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEntityComponentHelper()
             {
+            }
+            public CEntityComponentHelper(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEntityComponentHelper", "CEntityComponentHelper", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -19035,6 +20319,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEntityDissolve()
             {
+            }
+            public CEntityDissolve(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEntityDissolve", "CEntityDissolve", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -19113,6 +20401,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEntityFlame()
             {
             }
+            public CEntityFlame(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEntityFlame", "CEntityFlame", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -19188,6 +20480,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEntityIdentity()
             {
             }
+            public CEntityIdentity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEntityIdentity", "CEntityIdentity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -19261,6 +20557,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEntityInstance()
             {
             }
+            public CEntityInstance(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEntityInstance", "CEntityInstance", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -19297,6 +20597,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEntityIOOutput()
             {
             }
+            public CEntityIOOutput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEntityIOOutput", "CEntityIOOutput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -19321,6 +20625,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEntitySubclassVDataBase()
             {
             }
+            public CEntitySubclassVDataBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEntitySubclassVDataBase", "CEntitySubclassVDataBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -19344,6 +20652,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnumAnimParameter()
             {
+            }
+            public CEnumAnimParameter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnumAnimParameter", "CEnumAnimParameter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -19386,6 +20698,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvBeam()
             {
+            }
+            public CEnvBeam(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvBeam", "CEnvBeam", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -19502,6 +20818,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvBeverage()
             {
             }
+            public CEnvBeverage(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvBeverage", "CEnvBeverage", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -19538,6 +20858,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvCombinedLightProbeVolume()
             {
+            }
+            public CEnvCombinedLightProbeVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvCombinedLightProbeVolume", "CEnvCombinedLightProbeVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -19661,6 +20985,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume()
             {
             }
+            public CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume", "CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -19687,6 +21015,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvCubemap()
             {
+            }
+            public CEnvCubemap(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvCubemap", "CEnvCubemap", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -19800,6 +21132,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvCubemapBox()
             {
             }
+            public CEnvCubemapBox(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvCubemapBox", "CEnvCubemapBox", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -19826,6 +21162,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvCubemapFog()
             {
+            }
+            public CEnvCubemapFog(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvCubemapFog", "CEnvCubemapFog", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -19934,6 +21274,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvDecal()
             {
             }
+            public CEnvDecal(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvDecal", "CEnvDecal", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -20001,6 +21345,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvDetailController()
             {
             }
+            public CEnvDetailController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvDetailController", "CEnvDetailController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -20038,6 +21386,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvEntityIgniter()
             {
             }
+            public CEnvEntityIgniter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvEntityIgniter", "CEnvEntityIgniter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -20069,6 +21421,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvEntityMaker()
             {
+            }
+            public CEnvEntityMaker(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvEntityMaker", "CEnvEntityMaker", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -20152,6 +21508,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvExplosion()
             {
+            }
+            public CEnvExplosion(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvExplosion", "CEnvExplosion", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -20248,6 +21608,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvFade()
             {
             }
+            public CEnvFade(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvFade", "CEnvFade", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -20293,6 +21657,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvGlobal()
             {
+            }
+            public CEnvGlobal(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvGlobal", "CEnvGlobal", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -20341,6 +21709,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvHudHint()
             {
             }
+            public CEnvHudHint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvHudHint", "CEnvHudHint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -20372,6 +21744,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvInstructorHint()
             {
+            }
+            public CEnvInstructorHint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvInstructorHint", "CEnvInstructorHint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -20520,6 +21896,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvInstructorVRHint()
             {
             }
+            public CEnvInstructorVRHint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvInstructorVRHint", "CEnvInstructorVRHint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -20592,6 +21972,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvLaser()
             {
             }
+            public CEnvLaser(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvLaser", "CEnvLaser", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -20642,6 +22026,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvLightProbeVolume()
             {
+            }
+            public CEnvLightProbeVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvLightProbeVolume", "CEnvLightProbeVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -20735,6 +22123,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvMuzzleFlash()
             {
             }
+            public CEnvMuzzleFlash(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvMuzzleFlash", "CEnvMuzzleFlash", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -20771,6 +22163,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvParticleGlow()
             {
+            }
+            public CEnvParticleGlow(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvParticleGlow", "CEnvParticleGlow", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -20818,6 +22214,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvProjectedTexture()
             {
+            }
+            public CEnvProjectedTexture(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvProjectedTexture", "CEnvProjectedTexture", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -20995,6 +22395,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvShake()
             {
             }
+            public CEnvShake(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvShake", "CEnvShake", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -21070,6 +22474,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvSky()
             {
+            }
+            public CEnvSky(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvSky", "CEnvSky", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -21147,6 +22555,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvSoundscape()
             {
+            }
+            public CEnvSoundscape(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvSoundscape", "CEnvSoundscape", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -21228,6 +22640,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvSoundscapeAlias_snd_soundscape()
             {
             }
+            public CEnvSoundscapeAlias_snd_soundscape(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvSoundscapeAlias_snd_soundscape", "CEnvSoundscapeAlias_snd_soundscape", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -21254,6 +22670,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvSoundscapeProxy()
             {
+            }
+            public CEnvSoundscapeProxy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvSoundscapeProxy", "CEnvSoundscapeProxy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -21287,6 +22707,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvSoundscapeProxyAlias_snd_soundscape_proxy()
             {
             }
+            public CEnvSoundscapeProxyAlias_snd_soundscape_proxy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvSoundscapeProxyAlias_snd_soundscape_proxy", "CEnvSoundscapeProxyAlias_snd_soundscape_proxy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -21313,6 +22737,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvSoundscapeTriggerable()
             {
+            }
+            public CEnvSoundscapeTriggerable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvSoundscapeTriggerable", "CEnvSoundscapeTriggerable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -21341,6 +22769,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable()
             {
             }
+            public CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable", "CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -21367,6 +22799,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvSpark()
             {
+            }
+            public CEnvSpark(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvSpark", "CEnvSpark", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -21419,6 +22855,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvSplash()
             {
             }
+            public CEnvSplash(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvSplash", "CEnvSplash", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -21450,6 +22890,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvTilt()
             {
+            }
+            public CEnvTilt(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvTilt", "CEnvTilt", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -21498,6 +22942,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvViewPunch()
             {
             }
+            public CEnvViewPunch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvViewPunch", "CEnvViewPunch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -21534,6 +22982,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvVolumetricFogController()
             {
+            }
+            public CEnvVolumetricFogController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvVolumetricFogController", "CEnvVolumetricFogController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -21737,6 +23189,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvVolumetricFogVolume()
             {
             }
+            public CEnvVolumetricFogVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvVolumetricFogVolume", "CEnvVolumetricFogVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -21854,6 +23310,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvWind()
             {
             }
+            public CEnvWind(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvWind", "CEnvWind", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -21884,6 +23344,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvWindController()
             {
+            }
+            public CEnvWindController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvWindController", "CEnvWindController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -21965,6 +23429,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CEnvWindShared()
             {
+            }
+            public CEnvWindShared(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvWindShared", "CEnvWindShared", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22071,6 +23539,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CEnvWindVolume()
             {
             }
+            public CEnvWindVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CEnvWindVolume", "CEnvWindVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22143,6 +23615,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CExampleSchemaVData_Monomorphic()
             {
             }
+            public CExampleSchemaVData_Monomorphic(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CExampleSchemaVData_Monomorphic", "CExampleSchemaVData_Monomorphic", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22166,6 +23642,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CExampleSchemaVData_PolymorphicBase()
             {
+            }
+            public CExampleSchemaVData_PolymorphicBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CExampleSchemaVData_PolymorphicBase", "CExampleSchemaVData_PolymorphicBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22194,6 +23674,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CExampleSchemaVData_PolymorphicDerivedA()
             {
+            }
+            public CExampleSchemaVData_PolymorphicDerivedA(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CExampleSchemaVData_PolymorphicDerivedA", "CExampleSchemaVData_PolymorphicDerivedA", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22227,6 +23711,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CExampleSchemaVData_PolymorphicDerivedB()
             {
             }
+            public CExampleSchemaVData_PolymorphicDerivedB(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CExampleSchemaVData_PolymorphicDerivedB", "CExampleSchemaVData_PolymorphicDerivedB", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22258,6 +23746,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CExpressionActionUpdater()
             {
+            }
+            public CExpressionActionUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CExpressionActionUpdater", "CExpressionActionUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22299,6 +23791,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFeIndexedJiggleBone()
             {
             }
+            public CFeIndexedJiggleBone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFeIndexedJiggleBone", "CFeIndexedJiggleBone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22335,6 +23831,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFeJiggleBone()
             {
+            }
+            public CFeJiggleBone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFeJiggleBone", "CFeJiggleBone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22514,6 +24014,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFeMorphLayer()
             {
             }
+            public CFeMorphLayer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFeMorphLayer", "CFeMorphLayer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22572,6 +24076,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFeNamedJiggleBone()
             {
             }
+            public CFeNamedJiggleBone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFeNamedJiggleBone", "CFeNamedJiggleBone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22609,6 +24117,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFeVertexMapBuildArray()
             {
             }
+            public CFeVertexMapBuildArray(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFeVertexMapBuildArray", "CFeVertexMapBuildArray", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22632,6 +24144,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFilterAttributeInt()
             {
+            }
+            public CFilterAttributeInt(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterAttributeInt", "CFilterAttributeInt", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22665,6 +24181,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFilterClass()
             {
             }
+            public CFilterClass(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterClass", "CFilterClass", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22697,6 +24217,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFilterContext()
             {
             }
+            public CFilterContext(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterContext", "CFilterContext", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22728,6 +24252,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFilterEnemy()
             {
+            }
+            public CFilterEnemy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterEnemy", "CFilterEnemy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22781,6 +24309,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFilterLOS()
             {
             }
+            public CFilterLOS(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterLOS", "CFilterLOS", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22807,6 +24339,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFilterMassGreater()
             {
+            }
+            public CFilterMassGreater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterMassGreater", "CFilterMassGreater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22840,6 +24376,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFilterModel()
             {
             }
+            public CFilterModel(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterModel", "CFilterModel", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22871,6 +24411,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFilterMultiple()
             {
+            }
+            public CFilterMultiple(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterMultiple", "CFilterMultiple", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22909,6 +24453,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFilterMultipleAPI()
             {
             }
+            public CFilterMultipleAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterMultipleAPI", "CFilterMultipleAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22932,6 +24480,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFilterName()
             {
+            }
+            public CFilterName(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterName", "CFilterName", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -22965,6 +24517,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFilterProximity()
             {
             }
+            public CFilterProximity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterProximity", "CFilterProximity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -22996,6 +24552,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFilterTeam()
             {
+            }
+            public CFilterTeam(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFilterTeam", "CFilterTeam", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23029,6 +24589,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFireCrackerBlast()
             {
             }
+            public CFireCrackerBlast(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFireCrackerBlast", "CFireCrackerBlast", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23055,6 +24619,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFiringModeFloat()
             {
+            }
+            public CFiringModeFloat(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFiringModeFloat", "CFiringModeFloat", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23084,6 +24652,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFiringModeInt()
             {
             }
+            public CFiringModeInt(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFiringModeInt", "CFiringModeInt", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23111,6 +24683,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFish()
             {
+            }
+            public CFish(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFish", "CFish", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23247,6 +24823,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFishPool()
             {
             }
+            public CFishPool(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFishPool", "CFishPool", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23303,6 +24883,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFlashbang()
             {
             }
+            public CFlashbang(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFlashbang", "CFlashbang", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23329,6 +24913,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFlashbangProjectile()
             {
+            }
+            public CFlashbangProjectile(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFlashbangProjectile", "CFlashbangProjectile", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23371,6 +24959,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFlashlightEffect()
             {
+            }
+            public CFlashlightEffect(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFlashlightEffect", "CFlashlightEffect", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23445,6 +25037,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFlexController()
             {
             }
+            public CFlexController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFlexController", "CFlexController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23488,6 +25084,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFlexDesc()
             {
             }
+            public CFlexDesc(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFlexDesc", "CFlexDesc", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23515,6 +25115,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFlexOp()
             {
+            }
+            public CFlexOp(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFlexOp", "CFlexOp", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23549,6 +25153,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFlexRule()
             {
             }
+            public CFlexRule(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFlexRule", "CFlexRule", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23576,6 +25184,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFloatAnimParameter()
             {
+            }
+            public CFloatAnimParameter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFloatAnimParameter", "CFloatAnimParameter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23624,6 +25236,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFloatExponentialMovingAverage()
             {
             }
+            public CFloatExponentialMovingAverage(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFloatExponentialMovingAverage", "CFloatExponentialMovingAverage", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23648,6 +25264,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFloatMovingAverage()
             {
             }
+            public CFloatMovingAverage(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFloatMovingAverage", "CFloatMovingAverage", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23671,6 +25291,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFogController()
             {
+            }
+            public CFogController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFogController", "CFogController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23713,6 +25337,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFogTrigger()
             {
             }
+            public CFogTrigger(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFogTrigger", "CFogTrigger", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23743,6 +25371,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFogVolume()
             {
+            }
+            public CFogVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFogVolume", "CFogVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23796,6 +25428,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFollowAttachmentUpdateNode()
             {
             }
+            public CFollowAttachmentUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFollowAttachmentUpdateNode", "CFollowAttachmentUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23826,6 +25462,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFollowPathUpdateNode()
             {
+            }
+            public CFollowPathUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFollowPathUpdateNode", "CFollowPathUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -23917,6 +25557,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFollowTargetUpdateNode()
             {
             }
+            public CFollowTargetUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFollowTargetUpdateNode", "CFollowTargetUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -23955,6 +25599,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFootAdjustmentUpdateNode()
             {
+            }
+            public CFootAdjustmentUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootAdjustmentUpdateNode", "CFootAdjustmentUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24026,6 +25674,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFootCycle()
             {
             }
+            public CFootCycle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootCycle", "CFootCycle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24052,6 +25704,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFootCycleDefinition()
             {
+            }
+            public CFootCycleDefinition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootCycleDefinition", "CFootCycleDefinition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24116,6 +25772,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFootCycleMetricEvaluator()
             {
             }
+            public CFootCycleMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootCycleMetricEvaluator", "CFootCycleMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24147,6 +25807,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFootDefinition()
             {
+            }
+            public CFootDefinition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootDefinition", "CFootDefinition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24216,6 +25880,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFootFallAnimTag()
             {
             }
+            public CFootFallAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootFallAnimTag", "CFootFallAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24247,6 +25915,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFootLockUpdateNode()
             {
+            }
+            public CFootLockUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootLockUpdateNode", "CFootLockUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24367,6 +26039,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFootMotion()
             {
             }
+            public CFootMotion(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootMotion", "CFootMotion", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24399,6 +26075,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFootPinningUpdateNode()
             {
+            }
+            public CFootPinningUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootPinningUpdateNode", "CFootPinningUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24441,6 +26121,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFootPositionMetricEvaluator()
             {
             }
+            public CFootPositionMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootPositionMetricEvaluator", "CFootPositionMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24478,6 +26162,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFootstepControl()
             {
             }
+            public CFootstepControl(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootstepControl", "CFootstepControl", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24514,6 +26202,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFootstepLandedAnimTag()
             {
+            }
+            public CFootstepLandedAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootstepLandedAnimTag", "CFootstepLandedAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24562,6 +26254,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFootstepTableHandle()
             {
             }
+            public CFootstepTableHandle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootstepTableHandle", "CFootstepTableHandle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24585,6 +26281,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFootStepTriggerUpdateNode()
             {
+            }
+            public CFootStepTriggerUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootStepTriggerUpdateNode", "CFootStepTriggerUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24618,6 +26318,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFootStride()
             {
             }
+            public CFootStride(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootStride", "CFootStride", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24649,6 +26353,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFootTrajectories()
             {
             }
+            public CFootTrajectories(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootTrajectories", "CFootTrajectories", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24672,6 +26380,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFootTrajectory()
             {
+            }
+            public CFootTrajectory(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFootTrajectory", "CFootTrajectory", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24710,6 +26422,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncBrush()
             {
+            }
+            public CFuncBrush(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncBrush", "CFuncBrush", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24767,6 +26483,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncConveyor()
             {
+            }
+            public CFuncConveyor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncConveyor", "CFuncConveyor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24835,6 +26555,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncElectrifiedVolume()
             {
             }
+            public CFuncElectrifiedVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncElectrifiedVolume", "CFuncElectrifiedVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24882,6 +26606,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncIllusionary()
             {
             }
+            public CFuncIllusionary(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncIllusionary", "CFuncIllusionary", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -24908,6 +26636,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncInteractionLayerClip()
             {
+            }
+            public CFuncInteractionLayerClip(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncInteractionLayerClip", "CFuncInteractionLayerClip", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -24950,6 +26682,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncLadder()
             {
+            }
+            public CFuncLadder(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncLadder", "CFuncLadder", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -25031,6 +26767,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncLadderAlias_func_useableladder()
             {
             }
+            public CFuncLadderAlias_func_useableladder(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncLadderAlias_func_useableladder", "CFuncLadderAlias_func_useableladder", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -25057,6 +26797,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncMonitor()
             {
+            }
+            public CFuncMonitor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncMonitor", "CFuncMonitor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -25119,6 +26863,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncMoveLinear()
             {
+            }
+            public CFuncMoveLinear(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncMoveLinear", "CFuncMoveLinear", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -25210,6 +26958,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncMoveLinearAlias_momentary_door()
             {
             }
+            public CFuncMoveLinearAlias_momentary_door(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncMoveLinearAlias_momentary_door", "CFuncMoveLinearAlias_momentary_door", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -25236,6 +26988,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncMover()
             {
+            }
+            public CFuncMover(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncMover", "CFuncMover", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -25586,6 +27342,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncMoverAPI()
             {
             }
+            public CFuncMoverAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncMoverAPI", "CFuncMoverAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -25609,6 +27369,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncNavBlocker()
             {
+            }
+            public CFuncNavBlocker(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncNavBlocker", "CFuncNavBlocker", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -25647,6 +27411,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncNavObstruction()
             {
             }
+            public CFuncNavObstruction(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncNavObstruction", "CFuncNavObstruction", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -25684,6 +27452,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncPlat()
             {
             }
+            public CFuncPlat(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncPlat", "CFuncPlat", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -25715,6 +27487,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncPlatRot()
             {
+            }
+            public CFuncPlatRot(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncPlatRot", "CFuncPlatRot", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -25753,6 +27529,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncPropRespawnZone()
             {
             }
+            public CFuncPropRespawnZone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncPropRespawnZone", "CFuncPropRespawnZone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -25779,6 +27559,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncRotating()
             {
+            }
+            public CFuncRotating(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncRotating", "CFuncRotating", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -25893,6 +27677,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncShatterglass()
             {
+            }
+            public CFuncShatterglass(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncShatterglass", "CFuncShatterglass", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26015,6 +27803,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncTankTrain()
             {
             }
+            public CFuncTankTrain(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncTankTrain", "CFuncTankTrain", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26045,6 +27837,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncTimescale()
             {
+            }
+            public CFuncTimescale(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncTimescale", "CFuncTimescale", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26098,6 +27894,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncTrackAuto()
             {
             }
+            public CFuncTrackAuto(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncTrackAuto", "CFuncTrackAuto", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26124,6 +27924,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncTrackChange()
             {
+            }
+            public CFuncTrackChange(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncTrackChange", "CFuncTrackChange", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26193,6 +27997,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncTrackTrain()
             {
+            }
+            public CFuncTrackTrain(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncTrackTrain", "CFuncTrackTrain", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26402,6 +28210,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncTrain()
             {
             }
+            public CFuncTrain(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncTrain", "CFuncTrain", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26457,6 +28269,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncTrainControls()
             {
             }
+            public CFuncTrainControls(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncTrainControls", "CFuncTrainControls", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26484,6 +28300,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncVehicleClip()
             {
             }
+            public CFuncVehicleClip(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncVehicleClip", "CFuncVehicleClip", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26510,6 +28330,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncVPhysicsClip()
             {
+            }
+            public CFuncVPhysicsClip(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncVPhysicsClip", "CFuncVPhysicsClip", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26543,6 +28367,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncWall()
             {
             }
+            public CFuncWall(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncWall", "CFuncWall", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26575,6 +28403,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuncWallToggle()
             {
             }
+            public CFuncWallToggle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncWallToggle", "CFuncWallToggle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26601,6 +28433,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuncWater()
             {
+            }
+            public CFuncWater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuncWater", "CFuncWater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26632,6 +28468,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFuseProgram()
             {
+            }
+            public CFuseProgram(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuseProgram", "CFuseProgram", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26666,6 +28506,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CFuseSymbolTable()
             {
             }
+            public CFuseSymbolTable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFuseSymbolTable", "CFuseSymbolTable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26689,6 +28533,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFutureFacingMetricEvaluator()
             {
+            }
+            public CFutureFacingMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFutureFacingMetricEvaluator", "CFutureFacingMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26726,6 +28574,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CFutureVelocityMetricEvaluator()
             {
+            }
+            public CFutureVelocityMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CFutureVelocityMetricEvaluator", "CFutureVelocityMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26774,6 +28626,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGameChoreoServices()
             {
             }
+            public CGameChoreoServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameChoreoServices", "CGameChoreoServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26814,6 +28670,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGameEnd()
             {
             }
+            public CGameEnd(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameEnd", "CGameEnd", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26840,6 +28700,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CGameGibManager()
             {
+            }
+            public CGameGibManager(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameGibManager", "CGameGibManager", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26888,6 +28752,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGameMoney()
             {
             }
+            public CGameMoney(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameMoney", "CGameMoney", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26933,6 +28801,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGamePlayerEquip()
             {
             }
+            public CGamePlayerEquip(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGamePlayerEquip", "CGamePlayerEquip", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -26959,6 +28831,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CGamePlayerZone()
             {
+            }
+            public CGamePlayerZone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGamePlayerZone", "CGamePlayerZone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -26994,6 +28870,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CGameRules()
             {
+            }
+            public CGameRules(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameRules", "CGameRules", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -27047,6 +28927,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGameRulesProxy()
             {
             }
+            public CGameRulesProxy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameRulesProxy", "CGameRulesProxy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -27073,6 +28957,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CGameSceneNode()
             {
+            }
+            public CGameSceneNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameSceneNode", "CGameSceneNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public CSkeletonInstance GetSkeletonInstance()
             {
@@ -27206,6 +29094,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGameScriptedMoveData()
             {
             }
+            public CGameScriptedMoveData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameScriptedMoveData", "CGameScriptedMoveData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -27313,6 +29205,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGameScriptedMoveDef_t()
             {
             }
+            public CGameScriptedMoveDef_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameScriptedMoveDef_t", "CGameScriptedMoveDef_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -27380,6 +29276,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGameText()
             {
             }
+            public CGameText(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGameText", "CGameText", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -27415,6 +29315,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CGeneralRandomRotation()
             {
+            }
+            public CGeneralRandomRotation(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGeneralRandomRotation", "CGeneralRandomRotation", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -27472,6 +29376,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGeneralSpin()
             {
             }
+            public CGeneralSpin(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGeneralSpin", "CGeneralSpin", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -27513,6 +29421,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CGenericConstraint()
             {
+            }
+            public CGenericConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGenericConstraint", "CGenericConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -27778,6 +29690,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGlobalLightBase()
             {
             }
+            public CGlobalLightBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGlobalLightBase", "CGlobalLightBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -27959,6 +29875,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGlowProperty()
             {
             }
+            public CGlowProperty(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGlowProperty", "CGlowProperty", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28036,6 +29956,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CGradientFog()
             {
+            }
+            public CGradientFog(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGradientFog", "CGradientFog", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -28139,6 +30063,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CGunTarget()
             {
             }
+            public CGunTarget(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CGunTarget", "CGunTarget", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28178,6 +30106,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ChainToSolveData_t()
             {
+            }
+            public ChainToSolveData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ChainToSolveData_t", "ChainToSolveData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -28230,6 +30162,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHandleDummy()
             {
             }
+            public CHandleDummy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHandleDummy", "CHandleDummy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28256,6 +30192,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CHandleTest()
             {
+            }
+            public CHandleTest(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHandleTest", "CHandleTest", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -28293,6 +30233,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHandshakeAnimTagBase()
             {
             }
+            public CHandshakeAnimTagBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHandshakeAnimTagBase", "CHandshakeAnimTagBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28325,6 +30269,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ChangeAccessorFieldPathIndex_t()
             {
             }
+            public ChangeAccessorFieldPathIndex_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ChangeAccessorFieldPathIndex_t", "ChangeAccessorFieldPathIndex_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28353,6 +30301,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHEGrenade()
             {
             }
+            public CHEGrenade(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHEGrenade", "CHEGrenade", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28380,6 +30332,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHEGrenadeProjectile()
             {
             }
+            public CHEGrenadeProjectile(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHEGrenadeProjectile", "CHEGrenadeProjectile", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28406,6 +30362,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CHitBox()
             {
+            }
+            public CHitBox(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHitBox", "CHitBox", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -28495,6 +30455,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHitboxComponent()
             {
             }
+            public CHitboxComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHitboxComponent", "CHitboxComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28526,6 +30490,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CHitBoxSet()
             {
+            }
+            public CHitBoxSet(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHitBoxSet", "CHitBoxSet", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -28565,6 +30533,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHitBoxSetList()
             {
             }
+            public CHitBoxSetList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHitBoxSetList", "CHitBoxSetList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28588,6 +30560,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CHitReactUpdateNode()
             {
+            }
+            public CHitReactUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHitReactUpdateNode", "CHitReactUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -28649,6 +30625,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CHostage()
             {
+            }
+            public CHostage(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHostage", "CHostage", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -28858,6 +30838,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHostageAlias_info_hostage_spawn()
             {
             }
+            public CHostageAlias_info_hostage_spawn(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHostageAlias_info_hostage_spawn", "CHostageAlias_info_hostage_spawn", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28885,6 +30869,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHostageCarriableProp()
             {
             }
+            public CHostageCarriableProp(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHostageCarriableProp", "CHostageCarriableProp", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28911,6 +30899,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CHostageExpresserShim()
             {
+            }
+            public CHostageExpresserShim(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHostageExpresserShim", "CHostageExpresserShim", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -28943,6 +30935,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHostageRescueZone()
             {
             }
+            public CHostageRescueZone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHostageRescueZone", "CHostageRescueZone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28970,6 +30966,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CHostageRescueZoneShim()
             {
             }
+            public CHostageRescueZoneShim(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CHostageRescueZoneShim", "CHostageRescueZoneShim", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -28996,6 +30996,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInButtonState()
             {
+            }
+            public CInButtonState(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInButtonState", "CInButtonState", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29025,6 +31029,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CIncendiaryGrenade()
             {
             }
+            public CIncendiaryGrenade(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CIncendiaryGrenade", "CIncendiaryGrenade", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29051,6 +31059,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInferno()
             {
+            }
+            public CInferno(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInferno", "CInferno", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29198,6 +31210,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoData()
             {
             }
+            public CInfoData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoData", "CInfoData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29225,6 +31241,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoDeathmatchSpawn()
             {
             }
+            public CInfoDeathmatchSpawn(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoDeathmatchSpawn", "CInfoDeathmatchSpawn", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29251,6 +31271,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoDynamicShadowHint()
             {
+            }
+            public CInfoDynamicShadowHint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoDynamicShadowHint", "CInfoDynamicShadowHint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29303,6 +31327,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoDynamicShadowHintBox()
             {
             }
+            public CInfoDynamicShadowHintBox(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoDynamicShadowHintBox", "CInfoDynamicShadowHintBox", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29339,6 +31367,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoFan()
             {
+            }
+            public CInfoFan(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoFan", "CInfoFan", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29387,6 +31419,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoGameEventProxy()
             {
             }
+            public CInfoGameEventProxy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoGameEventProxy", "CInfoGameEventProxy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29424,6 +31460,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoInstructorHintBombTargetA()
             {
             }
+            public CInfoInstructorHintBombTargetA(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoInstructorHintBombTargetA", "CInfoInstructorHintBombTargetA", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29450,6 +31490,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoInstructorHintBombTargetB()
             {
+            }
+            public CInfoInstructorHintBombTargetB(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoInstructorHintBombTargetB", "CInfoInstructorHintBombTargetB", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29478,6 +31522,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoInstructorHintHostageRescueZone()
             {
             }
+            public CInfoInstructorHintHostageRescueZone(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoInstructorHintHostageRescueZone", "CInfoInstructorHintHostageRescueZone", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29504,6 +31552,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoInstructorHintTarget()
             {
+            }
+            public CInfoInstructorHintTarget(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoInstructorHintTarget", "CInfoInstructorHintTarget", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29532,6 +31584,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoLadderDismount()
             {
             }
+            public CInfoLadderDismount(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoLadderDismount", "CInfoLadderDismount", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29559,6 +31615,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoLandmark()
             {
             }
+            public CInfoLandmark(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoLandmark", "CInfoLandmark", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29585,6 +31645,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoOffscreenPanoramaTexture()
             {
+            }
+            public CInfoOffscreenPanoramaTexture(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoOffscreenPanoramaTexture", "CInfoOffscreenPanoramaTexture", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29653,6 +31717,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoParticleTarget()
             {
             }
+            public CInfoParticleTarget(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoParticleTarget", "CInfoParticleTarget", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29680,6 +31748,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoPlayerCounterterrorist()
             {
             }
+            public CInfoPlayerCounterterrorist(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoPlayerCounterterrorist", "CInfoPlayerCounterterrorist", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29706,6 +31778,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoPlayerStart()
             {
+            }
+            public CInfoPlayerStart(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoPlayerStart", "CInfoPlayerStart", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29744,6 +31820,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoPlayerTerrorist()
             {
             }
+            public CInfoPlayerTerrorist(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoPlayerTerrorist", "CInfoPlayerTerrorist", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29771,6 +31851,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoSpawnGroupLandmark()
             {
             }
+            public CInfoSpawnGroupLandmark(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoSpawnGroupLandmark", "CInfoSpawnGroupLandmark", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29797,6 +31881,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoSpawnGroupLoadUnload()
             {
+            }
+            public CInfoSpawnGroupLoadUnload(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoSpawnGroupLoadUnload", "CInfoSpawnGroupLoadUnload", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29886,6 +31974,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoTarget()
             {
             }
+            public CInfoTarget(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoTarget", "CInfoTarget", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29912,6 +32004,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoTargetServerOnly()
             {
+            }
+            public CInfoTargetServerOnly(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoTargetServerOnly", "CInfoTargetServerOnly", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -29940,6 +32036,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInfoTeleportDestination()
             {
             }
+            public CInfoTeleportDestination(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoTeleportDestination", "CInfoTeleportDestination", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -29966,6 +32066,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoVisibilityBox()
             {
+            }
+            public CInfoVisibilityBox(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoVisibilityBox", "CInfoVisibilityBox", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30008,6 +32112,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInfoWorldLayer()
             {
+            }
+            public CInfoWorldLayer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInfoWorldLayer", "CInfoWorldLayer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30070,6 +32178,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInputStreamUpdateNode()
             {
             }
+            public CInputStreamUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInputStreamUpdateNode", "CInputStreamUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30096,6 +32208,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInstancedSceneEntity()
             {
+            }
+            public CInstancedSceneEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInstancedSceneEntity", "CInstancedSceneEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30157,6 +32273,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInstructorEventEntity()
             {
             }
+            public CInstructorEventEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInstructorEventEntity", "CInstructorEventEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30197,6 +32317,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CIntAnimParameter()
             {
+            }
+            public CIntAnimParameter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CIntAnimParameter", "CIntAnimParameter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30239,6 +32363,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CInterpolatedValue()
             {
+            }
+            public CInterpolatedValue(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInterpolatedValue", "CInterpolatedValue", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30288,6 +32416,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CInventoryImageData()
             {
             }
+            public CInventoryImageData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CInventoryImageData", "CInventoryImageData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30324,6 +32456,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CIronSightController()
             {
+            }
+            public CIronSightController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CIronSightController", "CIronSightController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30367,6 +32503,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CItem()
             {
+            }
+            public CItem(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CItem", "CItem", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30431,6 +32571,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CItem_Healthshot()
             {
             }
+            public CItem_Healthshot(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CItem_Healthshot", "CItem_Healthshot", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30458,6 +32602,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CItemAssaultSuit()
             {
             }
+            public CItemAssaultSuit(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CItemAssaultSuit", "CItemAssaultSuit", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30484,6 +32632,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CItemDefuser()
             {
+            }
+            public CItemDefuser(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CItemDefuser", "CItemDefuser", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30521,6 +32673,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CItemDefuserAlias_item_defuser()
             {
             }
+            public CItemDefuserAlias_item_defuser(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CItemDefuserAlias_item_defuser", "CItemDefuserAlias_item_defuser", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30547,6 +32703,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CItemDogtags()
             {
+            }
+            public CItemDogtags(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CItemDogtags", "CItemDogtags", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30583,6 +32743,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CItemKevlar()
             {
             }
+            public CItemKevlar(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CItemKevlar", "CItemKevlar", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30610,6 +32774,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CItemSoda()
             {
             }
+            public CItemSoda(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CItemSoda", "CItemSoda", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30636,6 +32804,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CJiggleBoneUpdateNode()
             {
+            }
+            public CJiggleBoneUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CJiggleBoneUpdateNode", "CJiggleBoneUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30667,6 +32839,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CJumpHelperUpdateNode()
             {
+            }
+            public CJumpHelperUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CJumpHelperUpdateNode", "CJumpHelperUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30734,6 +32910,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CKeepUpright()
             {
             }
+            public CKeepUpright(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CKeepUpright", "CKeepUpright", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30795,6 +32975,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CKnife()
             {
             }
+            public CKnife(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CKnife", "CKnife", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30827,6 +33011,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLeafUpdateNode()
             {
             }
+            public CLeafUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLeafUpdateNode", "CLeafUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -30853,6 +33041,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLeanMatrixUpdateNode()
             {
+            }
+            public CLeanMatrixUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLeanMatrixUpdateNode", "CLeanMatrixUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -30923,6 +33115,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLightComponent()
             {
+            }
+            public CLightComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLightComponent", "CLightComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31240,6 +33436,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLightDirectionalEntity()
             {
             }
+            public CLightDirectionalEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLightDirectionalEntity", "CLightDirectionalEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -31266,6 +33466,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLightEntity()
             {
+            }
+            public CLightEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLightEntity", "CLightEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31298,6 +33502,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLightEnvironmentEntity()
             {
             }
+            public CLightEnvironmentEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLightEnvironmentEntity", "CLightEnvironmentEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -31324,6 +33532,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLightOrthoEntity()
             {
+            }
+            public CLightOrthoEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLightOrthoEntity", "CLightOrthoEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31352,6 +33564,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLightSpotEntity()
             {
             }
+            public CLightSpotEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLightSpotEntity", "CLightSpotEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -31378,6 +33594,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLODComponentUpdater()
             {
+            }
+            public CLODComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLODComponentUpdater", "CLODComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31410,6 +33630,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicAchievement()
             {
+            }
+            public CLogicAchievement(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicAchievement", "CLogicAchievement", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31451,6 +33675,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicActiveAutosave()
             {
+            }
+            public CLogicActiveAutosave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicActiveAutosave", "CLogicActiveAutosave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31499,6 +33727,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicalEntity()
             {
             }
+            public CLogicalEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicalEntity", "CLogicalEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -31525,6 +33757,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicAuto()
             {
+            }
+            public CLogicAuto(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicAuto", "CLogicAuto", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31598,6 +33834,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicAutosave()
             {
             }
+            public CLogicAutosave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicAutosave", "CLogicAutosave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -31640,6 +33880,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicBranch()
             {
             }
+            public CLogicBranch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicBranch", "CLogicBranch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -31679,6 +33923,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicBranchList()
             {
+            }
+            public CLogicBranchList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicBranchList", "CLogicBranchList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31723,6 +33971,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicCase()
             {
+            }
+            public CLogicCase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicCase", "CLogicCase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31771,6 +34023,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicCollisionPair()
             {
             }
+            public CLogicCollisionPair(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicCollisionPair", "CLogicCollisionPair", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -31813,6 +34069,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicCompare()
             {
             }
+            public CLogicCompare(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicCompare", "CLogicCompare", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -31849,6 +34109,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicDistanceAutosave()
             {
+            }
+            public CLogicDistanceAutosave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicDistanceAutosave", "CLogicDistanceAutosave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31907,6 +34171,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicDistanceCheck()
             {
             }
+            public CLogicDistanceCheck(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicDistanceCheck", "CLogicDistanceCheck", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -31943,6 +34211,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicEventListener()
             {
+            }
+            public CLogicEventListener(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicEventListener", "CLogicEventListener", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -31990,6 +34262,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicGameEvent()
             {
             }
+            public CLogicGameEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicGameEvent", "CLogicGameEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32021,6 +34297,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicGameEventListener()
             {
+            }
+            public CLogicGameEventListener(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicGameEventListener", "CLogicGameEventListener", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32073,6 +34353,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicLineToEntity()
             {
             }
+            public CLogicLineToEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicLineToEntity", "CLogicLineToEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32112,6 +34396,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicMeasureMovement()
             {
+            }
+            public CLogicMeasureMovement(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicMeasureMovement", "CLogicMeasureMovement", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32181,6 +34469,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicNavigation()
             {
             }
+            public CLogicNavigation(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicNavigation", "CLogicNavigation", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32217,6 +34509,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicNPCCounter()
             {
+            }
+            public CLogicNPCCounter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicNPCCounter", "CLogicNPCCounter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32292,6 +34588,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicNPCCounterAABB()
             {
             }
+            public CLogicNPCCounterAABB(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicNPCCounterAABB", "CLogicNPCCounterAABB", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32339,6 +34639,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicNPCCounterOBB()
             {
             }
+            public CLogicNPCCounterOBB(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicNPCCounterOBB", "CLogicNPCCounterOBB", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32365,6 +34669,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicPlayerProxy()
             {
+            }
+            public CLogicPlayerProxy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicPlayerProxy", "CLogicPlayerProxy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32409,6 +34717,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicProximity()
             {
             }
+            public CLogicProximity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicProximity", "CLogicProximity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32435,6 +34747,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicRelay()
             {
+            }
+            public CLogicRelay(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicRelay", "CLogicRelay", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32488,6 +34804,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CLogicRelayAPI()
             {
             }
+            public CLogicRelayAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicRelayAPI", "CLogicRelayAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32511,6 +34831,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLogicScript()
             {
+            }
+            public CLogicScript(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLogicScript", "CLogicScript", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32538,6 +34862,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLookAtUpdateNode()
             {
+            }
+            public CLookAtUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLookAtUpdateNode", "CLookAtUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32592,6 +34920,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CLookComponentUpdater()
             {
+            }
+            public CLookComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CLookComponentUpdater", "CLookComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32656,6 +34988,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ClutterSceneObject_t()
             {
+            }
+            public ClutterSceneObject_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ClutterSceneObject_t", "ClutterSceneObject_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32724,6 +35060,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ClutterTile_t()
             {
             }
+            public ClutterTile_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ClutterTile_t", "ClutterTile_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32760,6 +35100,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMapInfo()
             {
+            }
+            public CMapInfo(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMapInfo", "CMapInfo", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32833,6 +35177,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMapSharedEnvironment()
             {
             }
+            public CMapSharedEnvironment(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMapSharedEnvironment", "CMapSharedEnvironment", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32864,6 +35212,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMapVetoPickController()
             {
+            }
+            public CMapVetoPickController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMapVetoPickController", "CMapVetoPickController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -32952,6 +35304,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMarkupVolume()
             {
             }
+            public CMarkupVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMarkupVolume", "CMarkupVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -32983,6 +35339,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMarkupVolumeTagged()
             {
+            }
+            public CMarkupVolumeTagged(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMarkupVolumeTagged", "CMarkupVolumeTagged", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -33036,6 +35396,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMarkupVolumeTagged_Nav()
             {
             }
+            public CMarkupVolumeTagged_Nav(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMarkupVolumeTagged_Nav", "CMarkupVolumeTagged_Nav", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33067,6 +35431,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMarkupVolumeTagged_NavGame()
             {
+            }
+            public CMarkupVolumeTagged_NavGame(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMarkupVolumeTagged_NavGame", "CMarkupVolumeTagged_NavGame", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -33109,6 +35477,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMarkupVolumeWithRef()
             {
+            }
+            public CMarkupVolumeWithRef(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMarkupVolumeWithRef", "CMarkupVolumeWithRef", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -33157,6 +35529,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMaterialAttributeAnimTag()
             {
             }
+            public CMaterialAttributeAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMaterialAttributeAnimTag", "CMaterialAttributeAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33203,6 +35579,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMaterialDrawDescriptor()
             {
+            }
+            public CMaterialDrawDescriptor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMaterialDrawDescriptor", "CMaterialDrawDescriptor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -33300,6 +35680,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMathColorBlend()
             {
             }
+            public CMathColorBlend(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMathColorBlend", "CMathColorBlend", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33336,6 +35720,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMathCounter()
             {
+            }
+            public CMathCounter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMathCounter", "CMathCounter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -33405,6 +35793,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMathRemap()
             {
             }
+            public CMathRemap(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMathRemap", "CMathRemap", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33468,6 +35860,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMeshletDescriptor()
             {
             }
+            public CMeshletDescriptor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMeshletDescriptor", "CMeshletDescriptor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33514,6 +35910,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMessage()
             {
+            }
+            public CMessage(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMessage", "CMessage", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -33571,6 +35971,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMessageEntity()
             {
             }
+            public CMessageEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMessageEntity", "CMessageEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33623,6 +36027,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CModelConfig()
             {
             }
+            public CModelConfig(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfig", "CModelConfig", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33661,6 +36069,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CModelConfigElement()
             {
             }
+            public CModelConfigElement(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement", "CModelConfigElement", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33688,6 +36100,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CModelConfigElement_AttachedModel()
             {
+            }
+            public CModelConfigElement_AttachedModel(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_AttachedModel", "CModelConfigElement_AttachedModel", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -33781,6 +36197,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CModelConfigElement_Command()
             {
             }
+            public CModelConfigElement_Command(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_Command", "CModelConfigElement_Command", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33813,6 +36233,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CModelConfigElement_RandomColor()
             {
             }
+            public CModelConfigElement_RandomColor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_RandomColor", "CModelConfigElement_RandomColor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33839,6 +36263,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CModelConfigElement_RandomPick()
             {
+            }
+            public CModelConfigElement_RandomPick(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_RandomPick", "CModelConfigElement_RandomPick", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -33877,6 +36305,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CModelConfigElement_SetBodygroup()
             {
             }
+            public CModelConfigElement_SetBodygroup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_SetBodygroup", "CModelConfigElement_SetBodygroup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33908,6 +36340,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CModelConfigElement_SetBodygroupOnAttachedModels()
             {
+            }
+            public CModelConfigElement_SetBodygroupOnAttachedModels(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_SetBodygroupOnAttachedModels", "CModelConfigElement_SetBodygroupOnAttachedModels", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -33946,6 +36382,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CModelConfigElement_SetMaterialGroup()
             {
             }
+            public CModelConfigElement_SetMaterialGroup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_SetMaterialGroup", "CModelConfigElement_SetMaterialGroup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -33977,6 +36417,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CModelConfigElement_SetMaterialGroupOnAttachedModels()
             {
+            }
+            public CModelConfigElement_SetMaterialGroupOnAttachedModels(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_SetMaterialGroupOnAttachedModels", "CModelConfigElement_SetMaterialGroupOnAttachedModels", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34010,6 +36454,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CModelConfigElement_SetRenderColor()
             {
             }
+            public CModelConfigElement_SetRenderColor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_SetRenderColor", "CModelConfigElement_SetRenderColor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34042,6 +36490,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CModelConfigElement_UserPick()
             {
             }
+            public CModelConfigElement_UserPick(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigElement_UserPick", "CModelConfigElement_UserPick", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34073,6 +36525,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CModelConfigList()
             {
+            }
+            public CModelConfigList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelConfigList", "CModelConfigList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34107,6 +36563,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CModelPointEntity()
             {
             }
+            public CModelPointEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelPointEntity", "CModelPointEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34133,6 +36593,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CModelState()
             {
+            }
+            public CModelState(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CModelState", "CModelState", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34192,6 +36656,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMolotovGrenade()
             {
             }
+            public CMolotovGrenade(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMolotovGrenade", "CMolotovGrenade", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34218,6 +36686,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMolotovProjectile()
             {
+            }
+            public CMolotovProjectile(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMolotovProjectile", "CMolotovProjectile", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34264,6 +36736,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMomentaryRotButton()
             {
+            }
+            public CMomentaryRotButton(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMomentaryRotButton", "CMomentaryRotButton", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34353,6 +36829,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMoodVData()
             {
             }
+            public CMoodVData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMoodVData", "CMoodVData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34380,6 +36860,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMorphBundleData()
             {
+            }
+            public CMorphBundleData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMorphBundleData", "CMorphBundleData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34423,6 +36907,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMorphConstraint()
             {
+            }
+            public CMorphConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMorphConstraint", "CMorphConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34471,6 +36959,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMorphData()
             {
             }
+            public CMorphData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMorphData", "CMorphData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34498,6 +36990,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMorphRectData()
             {
+            }
+            public CMorphRectData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMorphRectData", "CMorphRectData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34542,6 +37038,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMorphSetData()
             {
             }
+            public CMorphSetData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMorphSetData", "CMorphSetData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34580,6 +37080,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMotionDataSet()
             {
             }
+            public CMotionDataSet(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionDataSet", "CMotionDataSet", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34607,6 +37111,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMotionGraph()
             {
+            }
+            public CMotionGraph(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionGraph", "CMotionGraph", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34655,6 +37163,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMotionGraphConfig()
             {
             }
+            public CMotionGraphConfig(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionGraphConfig", "CMotionGraphConfig", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34702,6 +37214,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMotionGraphGroup()
             {
             }
+            public CMotionGraphGroup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionGraphGroup", "CMotionGraphGroup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34738,6 +37254,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMotionGraphUpdateNode()
             {
             }
+            public CMotionGraphUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionGraphUpdateNode", "CMotionGraphUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34764,6 +37284,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMotionMatchingUpdateNode()
             {
+            }
+            public CMotionMatchingUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionMatchingUpdateNode", "CMotionMatchingUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -34899,6 +37423,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMotionMetricEvaluator()
             {
             }
+            public CMotionMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionMetricEvaluator", "CMotionMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34942,6 +37470,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMotionNode()
             {
             }
+            public CMotionNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionNode", "CMotionNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -34974,6 +37506,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMotionNodeBlend1D()
             {
             }
+            public CMotionNodeBlend1D(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionNodeBlend1D", "CMotionNodeBlend1D", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35005,6 +37541,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMotionNodeSequence()
             {
+            }
+            public CMotionNodeSequence(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionNodeSequence", "CMotionNodeSequence", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35043,6 +37583,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMotionSearchDB()
             {
             }
+            public CMotionSearchDB(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionSearchDB", "CMotionSearchDB", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35073,6 +37617,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMotionSearchNode()
             {
+            }
+            public CMotionSearchNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotionSearchNode", "CMotionSearchNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35105,6 +37653,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMotorController()
             {
+            }
+            public CMotorController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMotorController", "CMotorController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35148,6 +37700,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMovementComponentUpdater()
             {
+            }
+            public CMovementComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMovementComponentUpdater", "CMovementComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35205,6 +37761,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMovementHandshakeAnimTag()
             {
             }
+            public CMovementHandshakeAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMovementHandshakeAnimTag", "CMovementHandshakeAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35231,6 +37791,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMovementStatsProperty()
             {
+            }
+            public CMovementStatsProperty(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMovementStatsProperty", "CMovementStatsProperty", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35263,6 +37827,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMoverPathNode()
             {
+            }
+            public CMoverPathNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMoverPathNode", "CMoverPathNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35334,6 +37902,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMoverUpdateNode()
             {
+            }
+            public CMoverUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMoverUpdateNode", "CMoverUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35418,6 +37990,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMultiLightProxy()
             {
             }
+            public CMultiLightProxy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMultiLightProxy", "CMultiLightProxy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35480,6 +38056,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMultiplayer_Expresser()
             {
             }
+            public CMultiplayer_Expresser(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMultiplayer_Expresser", "CMultiplayer_Expresser", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35512,6 +38092,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CMultiplayRules()
             {
             }
+            public CMultiplayRules(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMultiplayRules", "CMultiplayRules", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35538,6 +38122,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CMultiSource()
             {
+            }
+            public CMultiSource(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CMultiSource", "CMultiSource", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35585,6 +38173,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNavHullPresetVData()
             {
             }
+            public CNavHullPresetVData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavHullPresetVData", "CNavHullPresetVData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35612,6 +38204,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNavHullVData()
             {
+            }
+            public CNavHullVData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavHullVData", "CNavHullVData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35711,6 +38307,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNavLinkAnimgraphVar()
             {
             }
+            public CNavLinkAnimgraphVar(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavLinkAnimgraphVar", "CNavLinkAnimgraphVar", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35738,6 +38338,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNavLinkAreaEntity()
             {
+            }
+            public CNavLinkAreaEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavLinkAreaEntity", "CNavLinkAreaEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35828,6 +38432,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNavLinkMovementVData()
             {
             }
+            public CNavLinkMovementVData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavLinkMovementVData", "CNavLinkMovementVData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35861,6 +38469,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNavSpaceInfo()
             {
             }
+            public CNavSpaceInfo(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavSpaceInfo", "CNavSpaceInfo", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35888,6 +38500,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNavVolume()
             {
             }
+            public CNavVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavVolume", "CNavVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -35911,6 +38527,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNavVolumeAll()
             {
+            }
+            public CNavVolumeAll(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavVolumeAll", "CNavVolumeAll", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35938,6 +38558,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNavVolumeBreadthFirstSearch()
             {
+            }
+            public CNavVolumeBreadthFirstSearch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavVolumeBreadthFirstSearch", "CNavVolumeBreadthFirstSearch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -35976,6 +38600,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNavVolumeCalculatedVector()
             {
             }
+            public CNavVolumeCalculatedVector(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavVolumeCalculatedVector", "CNavVolumeCalculatedVector", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36003,6 +38631,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNavVolumeMarkupVolume()
             {
             }
+            public CNavVolumeMarkupVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavVolumeMarkupVolume", "CNavVolumeMarkupVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36029,6 +38661,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNavVolumeSphere()
             {
+            }
+            public CNavVolumeSphere(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavVolumeSphere", "CNavVolumeSphere", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -36067,6 +38703,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNavVolumeSphericalShell()
             {
             }
+            public CNavVolumeSphericalShell(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavVolumeSphericalShell", "CNavVolumeSphericalShell", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36098,6 +38738,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNavVolumeVector()
             {
+            }
+            public CNavVolumeVector(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavVolumeVector", "CNavVolumeVector", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -36131,6 +38775,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNavWalkable()
             {
             }
+            public CNavWalkable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNavWalkable", "CNavWalkable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36157,6 +38805,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNetworkedSequenceOperation()
             {
+            }
+            public CNetworkedSequenceOperation(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNetworkedSequenceOperation", "CNetworkedSequenceOperation", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -36221,6 +38873,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNetworkOriginCellCoordQuantizedVector()
             {
             }
+            public CNetworkOriginCellCoordQuantizedVector(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNetworkOriginCellCoordQuantizedVector", "CNetworkOriginCellCoordQuantizedVector", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36279,6 +38935,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNetworkOriginQuantizedVector()
             {
             }
+            public CNetworkOriginQuantizedVector(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNetworkOriginQuantizedVector", "CNetworkOriginQuantizedVector", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36317,6 +38977,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNetworkTransmitComponent()
             {
             }
+            public CNetworkTransmitComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNetworkTransmitComponent", "CNetworkTransmitComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36345,6 +39009,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNetworkVarChainer()
             {
             }
+            public CNetworkVarChainer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNetworkVarChainer", "CNetworkVarChainer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36371,6 +39039,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNetworkVelocityVector()
             {
+            }
+            public CNetworkVelocityVector(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNetworkVelocityVector", "CNetworkVelocityVector", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -36410,6 +39082,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNetworkViewOffsetVector()
             {
             }
+            public CNetworkViewOffsetVector(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNetworkViewOffsetVector", "CNetworkViewOffsetVector", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36447,6 +39123,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNewParticleEffect()
             {
+            }
+            public CNewParticleEffect(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNewParticleEffect", "CNewParticleEffect", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -36564,6 +39244,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmAdditiveBlendTask()
             {
             }
+            public CNmAdditiveBlendTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmAdditiveBlendTask", "CNmAdditiveBlendTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36590,6 +39274,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmBitFlags()
             {
+            }
+            public CNmBitFlags(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmBitFlags", "CNmBitFlags", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -36619,6 +39307,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmBlendTask()
             {
             }
+            public CNmBlendTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmBlendTask", "CNmBlendTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36646,6 +39338,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmBlendTaskBase()
             {
             }
+            public CNmBlendTaskBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmBlendTaskBase", "CNmBlendTaskBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36672,6 +39368,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmBoneWeightList()
             {
+            }
+            public CNmBoneWeightList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmBoneWeightList", "CNmBoneWeightList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -36701,6 +39401,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmCachedPoseReadTask()
             {
             }
+            public CNmCachedPoseReadTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmCachedPoseReadTask", "CNmCachedPoseReadTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36728,6 +39432,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmCachedPoseWriteTask()
             {
             }
+            public CNmCachedPoseWriteTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmCachedPoseWriteTask", "CNmCachedPoseWriteTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36754,6 +39462,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmChainLookatTask()
             {
+            }
+            public CNmChainLookatTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmChainLookatTask", "CNmChainLookatTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -36837,6 +39549,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmChainSolverTask()
             {
             }
+            public CNmChainSolverTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmChainSolverTask", "CNmChainSolverTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36903,6 +39619,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmClip()
             {
             }
+            public CNmClip(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmClip", "CNmClip", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36959,6 +39679,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmEvent()
             {
             }
+            public CNmEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmEvent", "CNmEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -36997,6 +39721,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmEventConsumer()
             {
             }
+            public CNmEventConsumer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmEventConsumer", "CNmEventConsumer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37020,6 +39748,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmEventConsumerBody()
             {
+            }
+            public CNmEventConsumerBody(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmEventConsumerBody", "CNmEventConsumerBody", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37048,6 +39780,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmEventConsumerHudModelArms()
             {
             }
+            public CNmEventConsumerHudModelArms(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmEventConsumerHudModelArms", "CNmEventConsumerHudModelArms", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37074,6 +39810,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmEventConsumerLegacy()
             {
+            }
+            public CNmEventConsumerLegacy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmEventConsumerLegacy", "CNmEventConsumerLegacy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37102,6 +39842,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmEventConsumerParticle()
             {
             }
+            public CNmEventConsumerParticle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmEventConsumerParticle", "CNmEventConsumerParticle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37128,6 +39872,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmEventConsumerSound()
             {
+            }
+            public CNmEventConsumerSound(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmEventConsumerSound", "CNmEventConsumerSound", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37156,6 +39904,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmFollowBoneTask()
             {
             }
+            public CNmFollowBoneTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmFollowBoneTask", "CNmFollowBoneTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37182,6 +39934,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmFootEvent()
             {
+            }
+            public CNmFootEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmFootEvent", "CNmFootEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37215,6 +39971,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmFrameSnapEvent()
             {
             }
+            public CNmFrameSnapEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmFrameSnapEvent", "CNmFrameSnapEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37246,6 +40006,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmGraphDefinition()
             {
+            }
+            public CNmGraphDefinition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmGraphDefinition", "CNmGraphDefinition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37290,6 +40054,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmIDEvent()
             {
             }
+            public CNmIDEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmIDEvent", "CNmIDEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37316,6 +40084,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmIKBody()
             {
+            }
+            public CNmIKBody(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmIKBody", "CNmIKBody", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37360,6 +40132,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmIKEffector()
             {
             }
+            public CNmIKEffector(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmIKEffector", "CNmIKEffector", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37402,6 +40178,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmIKJoint()
             {
+            }
+            public CNmIKJoint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmIKJoint", "CNmIKJoint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37456,6 +40236,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmIKRig()
             {
             }
+            public CNmIKRig(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmIKRig", "CNmIKRig", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37479,6 +40263,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmLegacyEvent()
             {
+            }
+            public CNmLegacyEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmLegacyEvent", "CNmLegacyEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37511,6 +40299,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmMaterialAttributeEvent()
             {
+            }
+            public CNmMaterialAttributeEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmMaterialAttributeEvent", "CNmMaterialAttributeEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37549,6 +40341,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmModelSpaceBlendTask()
             {
             }
+            public CNmModelSpaceBlendTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmModelSpaceBlendTask", "CNmModelSpaceBlendTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37575,6 +40371,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmOrientationWarpEvent()
             {
+            }
+            public CNmOrientationWarpEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmOrientationWarpEvent", "CNmOrientationWarpEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37603,6 +40403,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmOverlayBlendTask()
             {
             }
+            public CNmOverlayBlendTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmOverlayBlendTask", "CNmOverlayBlendTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37629,6 +40433,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmParticleEvent()
             {
+            }
+            public CNmParticleEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmParticleEvent", "CNmParticleEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37697,6 +40505,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmPoseTask()
             {
             }
+            public CNmPoseTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmPoseTask", "CNmPoseTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37720,6 +40532,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmReferencePoseTask()
             {
+            }
+            public CNmReferencePoseTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmReferencePoseTask", "CNmReferencePoseTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37747,6 +40563,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmRootMotionData()
             {
+            }
+            public CNmRootMotionData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmRootMotionData", "CNmRootMotionData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37786,6 +40606,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmRootMotionEvent()
             {
             }
+            public CNmRootMotionEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmRootMotionEvent", "CNmRootMotionEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37818,6 +40642,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmSampleTask()
             {
             }
+            public CNmSampleTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmSampleTask", "CNmSampleTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37845,6 +40673,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmScaleTask()
             {
             }
+            public CNmScaleTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmScaleTask", "CNmScaleTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37871,6 +40703,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmSkeleton()
             {
+            }
+            public CNmSkeleton(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmSkeleton", "CNmSkeleton", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37909,6 +40745,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmSoundEvent()
             {
+            }
+            public CNmSoundEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmSoundEvent", "CNmSoundEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -37972,6 +40812,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmSyncTrack()
             {
             }
+            public CNmSyncTrack(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmSyncTrack", "CNmSyncTrack", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -37999,6 +40843,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNmTarget()
             {
+            }
+            public CNmTarget(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmTarget", "CNmTarget", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38043,6 +40891,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmTargetWarpEvent()
             {
             }
+            public CNmTargetWarpEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmTargetWarpEvent", "CNmTargetWarpEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -38080,6 +40932,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmTransitionEvent()
             {
             }
+            public CNmTransitionEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmTransitionEvent", "CNmTransitionEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -38112,6 +40968,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNmZeroPoseTask()
             {
             }
+            public CNmZeroPoseTask(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNmZeroPoseTask", "CNmZeroPoseTask", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -38138,6 +40998,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CNPCPhysicsHull()
             {
+            }
+            public CNPCPhysicsHull(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNPCPhysicsHull", "CNPCPhysicsHull", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38187,6 +41051,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CNullEntity()
             {
             }
+            public CNullEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CNullEntity", "CNullEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -38213,6 +41081,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CollisionGroupContext_t()
             {
+            }
+            public CollisionGroupContext_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CollisionGroupContext_t", "CollisionGroupContext_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38241,6 +41113,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public COmniLight()
             {
+            }
+            public COmniLight(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("COmniLight", "COmniLight", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38283,6 +41159,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CompMatMutatorCondition_t()
             {
+            }
+            public CompMatMutatorCondition_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CompMatMutatorCondition_t", "CompMatMutatorCondition_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38331,6 +41211,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CompMatPropertyMutator_t()
             {
+            }
+            public CompMatPropertyMutator_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CompMatPropertyMutator_t", "CompMatPropertyMutator_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38479,6 +41363,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CompositeMaterial_t()
             {
             }
+            public CompositeMaterial_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CompositeMaterial_t", "CompositeMaterial_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -38503,6 +41391,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CompositeMaterialAssemblyProcedure_t()
             {
             }
+            public CompositeMaterialAssemblyProcedure_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CompositeMaterialAssemblyProcedure_t", "CompositeMaterialAssemblyProcedure_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -38526,6 +41418,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CompositeMaterialEditorPoint_t()
             {
+            }
+            public CompositeMaterialEditorPoint_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CompositeMaterialEditorPoint_t", "CompositeMaterialEditorPoint_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38564,6 +41460,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CompositeMaterialInputContainer_t()
             {
+            }
+            public CompositeMaterialInputContainer_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CompositeMaterialInputContainer_t", "CompositeMaterialInputContainer_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38617,6 +41517,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CompositeMaterialInputLooseVariable_t()
             {
+            }
+            public CompositeMaterialInputLooseVariable_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CompositeMaterialInputLooseVariable_t", "CompositeMaterialInputLooseVariable_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38811,6 +41715,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CompositeMaterialMatchFilter_t()
             {
             }
+            public CompositeMaterialMatchFilter_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CompositeMaterialMatchFilter_t", "CompositeMaterialMatchFilter_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -38854,6 +41762,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ConfigIndex()
             {
             }
+            public ConfigIndex(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ConfigIndex", "ConfigIndex", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -38886,6 +41798,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ConstantInfo_t()
             {
+            }
+            public ConstantInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ConstantInfo_t", "ConstantInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38924,6 +41840,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public constraint_axislimit_t()
             {
+            }
+            public constraint_axislimit_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("constraint_axislimit_t", "constraint_axislimit_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -38967,6 +41887,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public constraint_breakableparams_t()
             {
+            }
+            public constraint_breakableparams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("constraint_breakableparams_t", "constraint_breakableparams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39016,6 +41940,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public constraint_hingeparams_t()
             {
             }
+            public constraint_hingeparams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("constraint_hingeparams_t", "constraint_hingeparams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39056,6 +41984,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ConstraintSoundInfo()
             {
+            }
+            public ConstraintSoundInfo(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ConstraintSoundInfo", "ConstraintSoundInfo", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39118,6 +42050,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ControlPointReference_t()
             {
             }
+            public ControlPointReference_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ControlPointReference_t", "ControlPointReference_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39155,6 +42091,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public COrientationWarpUpdateNode()
             {
+            }
+            public COrientationWarpUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("COrientationWarpUpdateNode", "COrientationWarpUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39243,6 +42183,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public COrientConstraint()
             {
             }
+            public COrientConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("COrientConstraint", "COrientConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39269,6 +42213,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public COrnamentProp()
             {
+            }
+            public COrnamentProp(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("COrnamentProp", "COrnamentProp", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39301,6 +42249,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CountdownTimer()
             {
+            }
+            public CountdownTimer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CountdownTimer", "CountdownTimer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39345,6 +42297,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CovMatrix3()
             {
             }
+            public CovMatrix3(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CovMatrix3", "CovMatrix3", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39388,6 +42344,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPairedSequenceComponentUpdater()
             {
             }
+            public CPairedSequenceComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPairedSequenceComponentUpdater", "CPairedSequenceComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39414,6 +42374,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPairedSequenceUpdateNode()
             {
+            }
+            public CPairedSequenceUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPairedSequenceUpdateNode", "CPairedSequenceUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39442,6 +42406,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParamSpanUpdater()
             {
             }
+            public CParamSpanUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParamSpanUpdater", "CParamSpanUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39465,6 +42433,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParentConstraint()
             {
+            }
+            public CParentConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParentConstraint", "CParentConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39492,6 +42464,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleAnimTag()
             {
+            }
+            public CParticleAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleAnimTag", "CParticleAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39560,6 +42536,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleCollectionFloatInput()
             {
             }
+            public CParticleCollectionFloatInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleCollectionFloatInput", "CParticleCollectionFloatInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39586,6 +42566,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleCollectionRendererFloatInput()
             {
+            }
+            public CParticleCollectionRendererFloatInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleCollectionRendererFloatInput", "CParticleCollectionRendererFloatInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39614,6 +42598,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleCollectionRendererVecInput()
             {
             }
+            public CParticleCollectionRendererVecInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleCollectionRendererVecInput", "CParticleCollectionRendererVecInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39637,6 +42625,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleFloatInput()
             {
+            }
+            public CParticleFloatInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleFloatInput", "CParticleFloatInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -39847,6 +42839,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleFunction()
             {
             }
+            public CParticleFunction(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleFunction", "CParticleFunction", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39949,6 +42945,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleFunctionConstraint()
             {
             }
+            public CParticleFunctionConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleFunctionConstraint", "CParticleFunctionConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -39975,6 +42975,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleFunctionEmitter()
             {
+            }
+            public CParticleFunctionEmitter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleFunctionEmitter", "CParticleFunctionEmitter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -40008,6 +43012,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleFunctionForce()
             {
             }
+            public CParticleFunctionForce(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleFunctionForce", "CParticleFunctionForce", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -40034,6 +43042,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleFunctionInitializer()
             {
+            }
+            public CParticleFunctionInitializer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleFunctionInitializer", "CParticleFunctionInitializer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -40067,6 +43079,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleFunctionOperator()
             {
             }
+            public CParticleFunctionOperator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleFunctionOperator", "CParticleFunctionOperator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -40093,6 +43109,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleFunctionPreEmission()
             {
+            }
+            public CParticleFunctionPreEmission(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleFunctionPreEmission", "CParticleFunctionPreEmission", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -40125,6 +43145,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleFunctionRenderer()
             {
+            }
+            public CParticleFunctionRenderer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleFunctionRenderer", "CParticleFunctionRenderer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -40167,6 +43191,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleInput()
             {
             }
+            public CParticleInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleInput", "CParticleInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -40190,6 +43218,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleMassCalculationParameters()
             {
+            }
+            public CParticleMassCalculationParameters(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleMassCalculationParameters", "CParticleMassCalculationParameters", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -40231,6 +43263,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleModelInput()
             {
             }
+            public CParticleModelInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleModelInput", "CParticleModelInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -40268,6 +43304,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleProperty()
             {
             }
+            public CParticleProperty(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleProperty", "CParticleProperty", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -40291,6 +43331,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleRemapFloatInput()
             {
+            }
+            public CParticleRemapFloatInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleRemapFloatInput", "CParticleRemapFloatInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -40318,6 +43362,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleSystem()
             {
+            }
+            public CParticleSystem(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleSystem", "CParticleSystem", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -40445,6 +43493,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleSystemDefinition()
             {
+            }
+            public CParticleSystemDefinition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleSystemDefinition", "CParticleSystemDefinition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -40714,6 +43766,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CParticleTransformInput()
             {
             }
+            public CParticleTransformInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleTransformInput", "CParticleTransformInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -40775,6 +43831,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleVecInput()
             {
+            }
+            public CParticleVecInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleVecInput", "CParticleVecInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -40882,6 +43942,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CParticleVisibilityInputs()
             {
+            }
+            public CParticleVisibilityInputs(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CParticleVisibilityInputs", "CParticleVisibilityInputs", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41001,6 +44065,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPathAnimMotorUpdater()
             {
             }
+            public CPathAnimMotorUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathAnimMotorUpdater", "CPathAnimMotorUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41027,6 +44095,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPathAnimMotorUpdaterBase()
             {
+            }
+            public CPathAnimMotorUpdaterBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathAnimMotorUpdaterBase", "CPathAnimMotorUpdaterBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41059,6 +44131,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPathCorner()
             {
+            }
+            public CPathCorner(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathCorner", "CPathCorner", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41101,6 +44177,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPathCornerCrash()
             {
             }
+            public CPathCornerCrash(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathCornerCrash", "CPathCornerCrash", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41127,6 +44207,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPathHelperUpdateNode()
             {
+            }
+            public CPathHelperUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathHelperUpdateNode", "CPathHelperUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41164,6 +44248,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPathKeyFrame()
             {
+            }
+            public CPathKeyFrame(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathKeyFrame", "CPathKeyFrame", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41221,6 +44309,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPathMetricEvaluator()
             {
             }
+            public CPathMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathMetricEvaluator", "CPathMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41268,6 +44360,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPathMover()
             {
             }
+            public CPathMover(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathMover", "CPathMover", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41294,6 +44390,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPathParameters()
             {
+            }
+            public CPathParameters(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathParameters", "CPathParameters", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41357,6 +44457,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPathParticleRope()
             {
+            }
+            public CPathParticleRope(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathParticleRope", "CPathParticleRope", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41460,6 +44564,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPathParticleRopeAlias_path_particle_rope_clientside()
             {
             }
+            public CPathParticleRopeAlias_path_particle_rope_clientside(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathParticleRopeAlias_path_particle_rope_clientside", "CPathParticleRopeAlias_path_particle_rope_clientside", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41487,6 +44595,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPathQueryComponent()
             {
             }
+            public CPathQueryComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathQueryComponent", "CPathQueryComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41513,6 +44625,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPathQueryUtil()
             {
+            }
+            public CPathQueryUtil(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathQueryUtil", "CPathQueryUtil", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41557,6 +44673,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPathSimple()
             {
             }
+            public CPathSimple(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathSimple", "CPathSimple", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41598,6 +44718,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPathSimpleAPI()
             {
             }
+            public CPathSimpleAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathSimpleAPI", "CPathSimpleAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41621,6 +44745,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPathTrack()
             {
+            }
+            public CPathTrack(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPathTrack", "CPathTrack", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41690,6 +44818,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPerParticleFloatInput()
             {
             }
+            public CPerParticleFloatInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPerParticleFloatInput", "CPerParticleFloatInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41717,6 +44849,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPerParticleVecInput()
             {
             }
+            public CPerParticleVecInput(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPerParticleVecInput", "CPerParticleVecInput", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41743,6 +44879,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysBallSocket()
             {
+            }
+            public CPhysBallSocket(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysBallSocket", "CPhysBallSocket", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41800,6 +44940,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysBox()
             {
+            }
+            public CPhysBox(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysBox", "CPhysBox", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -41897,6 +45041,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysConstraint()
             {
             }
+            public CPhysConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysConstraint", "CPhysConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -41952,6 +45100,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysExplosion()
             {
+            }
+            public CPhysExplosion(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysExplosion", "CPhysExplosion", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -42029,6 +45181,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysFixed()
             {
             }
+            public CPhysFixed(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysFixed", "CPhysFixed", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -42086,6 +45242,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysForce()
             {
             }
+            public CPhysForce(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysForce", "CPhysForce", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -42140,6 +45300,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysHinge()
             {
+            }
+            public CPhysHinge(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysHinge", "CPhysHinge", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -42252,6 +45416,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysHingeAlias_phys_hinge_local()
             {
             }
+            public CPhysHingeAlias_phys_hinge_local(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysHingeAlias_phys_hinge_local", "CPhysHingeAlias_phys_hinge_local", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -42279,6 +45447,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysicalButton()
             {
             }
+            public CPhysicalButton(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicalButton", "CPhysicalButton", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -42305,6 +45477,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysicsBodyGameMarkup()
             {
+            }
+            public CPhysicsBodyGameMarkup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsBodyGameMarkup", "CPhysicsBodyGameMarkup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -42334,6 +45510,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysicsBodyGameMarkupData()
             {
             }
+            public CPhysicsBodyGameMarkupData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsBodyGameMarkupData", "CPhysicsBodyGameMarkupData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -42357,6 +45537,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysicsEntitySolver()
             {
+            }
+            public CPhysicsEntitySolver(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsEntitySolver", "CPhysicsEntitySolver", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -42402,6 +45586,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysicsProp()
             {
+            }
+            public CPhysicsProp(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsProp", "CPhysicsProp", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -42608,6 +45796,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysicsPropMultiplayer()
             {
             }
+            public CPhysicsPropMultiplayer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsPropMultiplayer", "CPhysicsPropMultiplayer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -42635,6 +45827,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysicsPropOverride()
             {
             }
+            public CPhysicsPropOverride(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsPropOverride", "CPhysicsPropOverride", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -42661,6 +45857,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysicsPropRespawnable()
             {
+            }
+            public CPhysicsPropRespawnable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsPropRespawnable", "CPhysicsPropRespawnable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -42714,6 +45914,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysicsShake()
             {
             }
+            public CPhysicsShake(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsShake", "CPhysicsShake", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -42741,6 +45945,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysicsSpring()
             {
+            }
+            public CPhysicsSpring(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsSpring", "CPhysicsSpring", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -42809,6 +46017,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysicsWire()
             {
             }
+            public CPhysicsWire(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysicsWire", "CPhysicsWire", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -42840,6 +46052,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysImpact()
             {
+            }
+            public CPhysImpact(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysImpact", "CPhysImpact", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -42882,6 +46098,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysLength()
             {
+            }
+            public CPhysLength(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysLength", "CPhysLength", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -42939,6 +46159,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysMagnet()
             {
+            }
+            public CPhysMagnet(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysMagnet", "CPhysMagnet", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -43019,6 +46243,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysMotor()
             {
+            }
+            public CPhysMotor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysMotor", "CPhysMotor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -43109,6 +46337,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysMotorAPI()
             {
             }
+            public CPhysMotorAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysMotorAPI", "CPhysMotorAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -43132,6 +46364,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysPulley()
             {
+            }
+            public CPhysPulley(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysPulley", "CPhysPulley", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -43174,6 +46410,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysSlideConstraint()
             {
+            }
+            public CPhysSlideConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysSlideConstraint", "CPhysSlideConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -43251,6 +46491,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysSurfaceProperties()
             {
             }
+            public CPhysSurfaceProperties(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysSurfaceProperties", "CPhysSurfaceProperties", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -43315,6 +46559,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysSurfacePropertiesAudio()
             {
             }
+            public CPhysSurfacePropertiesAudio(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysSurfacePropertiesAudio", "CPhysSurfacePropertiesAudio", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -43378,6 +46626,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysSurfacePropertiesPhysics()
             {
             }
+            public CPhysSurfacePropertiesPhysics(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysSurfacePropertiesPhysics", "CPhysSurfacePropertiesPhysics", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -43430,6 +46682,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysSurfacePropertiesSoundNames()
             {
+            }
+            public CPhysSurfacePropertiesSoundNames(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysSurfacePropertiesSoundNames", "CPhysSurfacePropertiesSoundNames", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -43514,6 +46770,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysSurfacePropertiesVehicle()
             {
             }
+            public CPhysSurfacePropertiesVehicle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysSurfacePropertiesVehicle", "CPhysSurfacePropertiesVehicle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -43547,6 +46807,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysThruster()
             {
             }
+            public CPhysThruster(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysThruster", "CPhysThruster", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -43579,6 +46843,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPhysTorque()
             {
             }
+            public CPhysTorque(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysTorque", "CPhysTorque", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -43610,6 +46878,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPhysWheelConstraint()
             {
+            }
+            public CPhysWheelConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPhysWheelConstraint", "CPhysWheelConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -43696,6 +46968,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPlantedC4()
             {
+            }
+            public CPlantedC4(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlantedC4", "CPlantedC4", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -43843,6 +47119,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlatTrigger()
             {
             }
+            public CPlatTrigger(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlatTrigger", "CPlatTrigger", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -43874,6 +47154,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayer_AutoaimServices()
             {
             }
+            public CPlayer_AutoaimServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_AutoaimServices", "CPlayer_AutoaimServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -43900,6 +47184,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPlayer_CameraServices()
             {
+            }
+            public CPlayer_CameraServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_CameraServices", "CPlayer_CameraServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -43973,6 +47261,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayer_FlashlightServices()
             {
             }
+            public CPlayer_FlashlightServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_FlashlightServices", "CPlayer_FlashlightServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44000,6 +47292,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayer_ItemServices()
             {
             }
+            public CPlayer_ItemServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_ItemServices", "CPlayer_ItemServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44026,6 +47322,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPlayer_MovementServices()
             {
+            }
+            public CPlayer_MovementServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_MovementServices", "CPlayer_MovementServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -44133,6 +47433,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayer_MovementServices_Humanoid()
             {
             }
+            public CPlayer_MovementServices_Humanoid(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_MovementServices_Humanoid", "CPlayer_MovementServices_Humanoid", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44225,6 +47529,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayer_ObserverServices()
             {
             }
+            public CPlayer_ObserverServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_ObserverServices", "CPlayer_ObserverServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44271,6 +47579,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayer_UseServices()
             {
             }
+            public CPlayer_UseServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_UseServices", "CPlayer_UseServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44298,6 +47610,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayer_WaterServices()
             {
             }
+            public CPlayer_WaterServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_WaterServices", "CPlayer_WaterServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44324,6 +47640,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPlayer_WeaponServices()
             {
+            }
+            public CPlayer_WeaponServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayer_WeaponServices", "CPlayer_WeaponServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -44370,6 +47690,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayerControllerComponent()
             {
             }
+            public CPlayerControllerComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayerControllerComponent", "CPlayerControllerComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44396,6 +47720,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPlayerInputAnimMotorUpdater()
             {
+            }
+            public CPlayerInputAnimMotorUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayerInputAnimMotorUpdater", "CPlayerInputAnimMotorUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -44452,6 +47780,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayerPawnComponent()
             {
             }
+            public CPlayerPawnComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayerPawnComponent", "CPlayerPawnComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public CBasePlayerPawn GetPawn()
             {
                 return Internal_API.Invoker.CallNative<CBasePlayerPawn>("SDKClass", "GetPawn", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44482,6 +47814,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPlayerPing()
             {
+            }
+            public CPlayerPing(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayerPing", "CPlayerPing", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -44532,6 +47868,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPlayerSprayDecal()
             {
+            }
+            public CPlayerSprayDecal(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayerSprayDecal", "CPlayerSprayDecal", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -44635,6 +47975,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPlayerSprayDecalRenderHelper()
             {
             }
+            public CPlayerSprayDecalRenderHelper(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayerSprayDecalRenderHelper", "CPlayerSprayDecalRenderHelper", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44658,6 +48002,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPlayerVisibility()
             {
+            }
+            public CPlayerVisibility(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPlayerVisibility", "CPlayerVisibility", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -44715,6 +48063,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointAngleSensor()
             {
+            }
+            public CPointAngleSensor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointAngleSensor", "CPointAngleSensor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -44788,6 +48140,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointAngularVelocitySensor()
             {
+            }
+            public CPointAngularVelocitySensor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointAngularVelocitySensor", "CPointAngularVelocitySensor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -44885,6 +48241,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointBroadcastClientCommand()
             {
             }
+            public CPointBroadcastClientCommand(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointBroadcastClientCommand", "CPointBroadcastClientCommand", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -44911,6 +48271,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointCamera()
             {
+            }
+            public CPointCamera(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointCamera", "CPointCamera", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45068,6 +48432,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointCameraVFOV()
             {
             }
+            public CPointCameraVFOV(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointCameraVFOV", "CPointCameraVFOV", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45099,6 +48467,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointChildModifier()
             {
+            }
+            public CPointChildModifier(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointChildModifier", "CPointChildModifier", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45132,6 +48504,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointClientCommand()
             {
             }
+            public CPointClientCommand(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointClientCommand", "CPointClientCommand", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45158,6 +48534,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointClientUIDialog()
             {
+            }
+            public CPointClientUIDialog(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointClientUIDialog", "CPointClientUIDialog", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45194,6 +48574,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointClientUIWorldPanel()
             {
+            }
+            public CPointClientUIWorldPanel(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointClientUIWorldPanel", "CPointClientUIWorldPanel", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45337,6 +48721,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointClientUIWorldTextPanel()
             {
             }
+            public CPointClientUIWorldTextPanel(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointClientUIWorldTextPanel", "CPointClientUIWorldTextPanel", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45369,6 +48757,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointConstraint()
             {
             }
+            public CPointConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointConstraint", "CPointConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45396,6 +48788,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointEntity()
             {
             }
+            public CPointEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointEntity", "CPointEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45422,6 +48818,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointEntityFinder()
             {
+            }
+            public CPointEntityFinder(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointEntityFinder", "CPointEntityFinder", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45481,6 +48881,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointGamestatsCounter()
             {
             }
+            public CPointGamestatsCounter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointGamestatsCounter", "CPointGamestatsCounter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45518,6 +48922,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointGiveAmmo()
             {
             }
+            public CPointGiveAmmo(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointGiveAmmo", "CPointGiveAmmo", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45548,6 +48956,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointHurt()
             {
+            }
+            public CPointHurt(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointHurt", "CPointHurt", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45604,6 +49016,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointOrient()
             {
+            }
+            public CPointOrient(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointOrient", "CPointOrient", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45666,6 +49082,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointPrefab()
             {
             }
+            public CPointPrefab(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointPrefab", "CPointPrefab", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45722,6 +49142,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointProximitySensor()
             {
             }
+            public CPointProximitySensor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointProximitySensor", "CPointProximitySensor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45757,6 +49181,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointPush()
             {
+            }
+            public CPointPush(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointPush", "CPointPush", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45819,6 +49247,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointServerCommand()
             {
             }
+            public CPointServerCommand(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointServerCommand", "CPointServerCommand", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45845,6 +49277,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointTeleport()
             {
+            }
+            public CPointTeleport(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointTeleport", "CPointTeleport", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45893,6 +49329,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointTeleportAPI()
             {
             }
+            public CPointTeleportAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointTeleportAPI", "CPointTeleportAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -45916,6 +49356,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointTemplate()
             {
+            }
+            public CPointTemplate(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointTemplate", "CPointTemplate", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -45979,6 +49423,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointTemplateAPI()
             {
             }
+            public CPointTemplateAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointTemplateAPI", "CPointTemplateAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -46002,6 +49450,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointValueRemapper()
             {
+            }
+            public CPointValueRemapper(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointValueRemapper", "CPointValueRemapper", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -46212,6 +49664,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPointVelocitySensor()
             {
             }
+            public CPointVelocitySensor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointVelocitySensor", "CPointVelocitySensor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -46262,6 +49718,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPointWorldText()
             {
+            }
+            public CPointWorldText(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPointWorldText", "CPointWorldText", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -46370,6 +49830,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPoseHandle()
             {
             }
+            public CPoseHandle(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPoseHandle", "CPoseHandle", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -46402,6 +49866,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPostProcessingVolume()
             {
+            }
+            public CPostProcessingVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPostProcessingVolume", "CPostProcessingVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -46485,6 +49953,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPrecipitation()
             {
             }
+            public CPrecipitation(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPrecipitation", "CPrecipitation", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -46512,6 +49984,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPrecipitationBlocker()
             {
             }
+            public CPrecipitationBlocker(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPrecipitationBlocker", "CPrecipitationBlocker", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -46538,6 +50014,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPrecipitationVData()
             {
+            }
+            public CPrecipitationVData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPrecipitationVData", "CPrecipitationVData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -46596,6 +50076,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CProductQuantizer()
             {
             }
+            public CProductQuantizer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CProductQuantizer", "CProductQuantizer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -46623,6 +50107,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CProjectedDecal()
             {
+            }
+            public CProjectedDecal(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CProjectedDecal", "CProjectedDecal", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -46660,6 +50148,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CProjectedTextureBase()
             {
+            }
+            public CProjectedTextureBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CProjectedTextureBase", "CProjectedTextureBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -46833,6 +50325,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPropDataComponent()
             {
             }
+            public CPropDataComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPropDataComponent", "CPropDataComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -46909,6 +50405,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CPropDoorRotating()
             {
+            }
+            public CPropDoorRotating(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPropDoorRotating", "CPropDoorRotating", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -47021,6 +50521,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPropDoorRotatingBreakable()
             {
             }
+            public CPropDoorRotatingBreakable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPropDoorRotatingBreakable", "CPropDoorRotatingBreakable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47068,6 +50572,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CPushable()
             {
             }
+            public CPushable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CPushable", "CPushable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47095,6 +50603,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRagdollAnimTag()
             {
             }
+            public CRagdollAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRagdollAnimTag", "CRagdollAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47121,6 +50633,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRagdollComponentUpdater()
             {
+            }
+            public CRagdollComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRagdollComponentUpdater", "CRagdollComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -47183,6 +50699,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRagdollConstraint()
             {
+            }
+            public CRagdollConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRagdollConstraint", "CRagdollConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -47256,6 +50776,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRagdollMagnet()
             {
             }
+            public CRagdollMagnet(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRagdollMagnet", "CRagdollMagnet", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47303,6 +50827,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRagdollManager()
             {
             }
+            public CRagdollManager(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRagdollManager", "CRagdollManager", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47349,6 +50877,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRagdollProp()
             {
+            }
+            public CRagdollProp(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRagdollProp", "CRagdollProp", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -47517,6 +51049,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRagdollPropAlias_physics_prop_ragdoll()
             {
             }
+            public CRagdollPropAlias_physics_prop_ragdoll(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRagdollPropAlias_physics_prop_ragdoll", "CRagdollPropAlias_physics_prop_ragdoll", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47543,6 +51079,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRagdollPropAttached()
             {
+            }
+            public CRagdollPropAttached(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRagdollPropAttached", "CRagdollPropAttached", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -47601,6 +51141,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRagdollUpdateNode()
             {
             }
+            public CRagdollUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRagdollUpdateNode", "CRagdollUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47638,6 +51182,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRandomNumberGeneratorParameters()
             {
             }
+            public CRandomNumberGeneratorParameters(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRandomNumberGeneratorParameters", "CRandomNumberGeneratorParameters", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47670,6 +51218,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRandSimTimer()
             {
+            }
+            public CRandSimTimer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRandSimTimer", "CRandSimTimer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -47708,6 +51260,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRandStopwatch()
             {
             }
+            public CRandStopwatch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRandStopwatch", "CRandStopwatch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47745,6 +51301,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRangeFloat()
             {
             }
+            public CRangeFloat(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRangeFloat", "CRangeFloat", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47773,6 +51333,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRangeInt()
             {
             }
+            public CRangeInt(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRangeInt", "CRangeInt", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47800,6 +51364,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRectLight()
             {
+            }
+            public CRectLight(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRectLight", "CRectLight", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -47833,6 +51401,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRegionSVM()
             {
             }
+            public CRegionSVM(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRegionSVM", "CRegionSVM", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47860,6 +51432,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRelativeLocation()
             {
+            }
+            public CRelativeLocation(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRelativeLocation", "CRelativeLocation", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -47903,6 +51479,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRemapFloat()
             {
             }
+            public CRemapFloat(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRemapFloat", "CRemapFloat", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47931,6 +51511,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRemapValueComponentUpdater()
             {
             }
+            public CRemapValueComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRemapValueComponentUpdater", "CRemapValueComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -47957,6 +51541,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRemapValueUpdateItem()
             {
+            }
+            public CRemapValueUpdateItem(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRemapValueUpdateItem", "CRemapValueUpdateItem", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48009,6 +51597,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRenderBufferBinding()
             {
             }
+            public CRenderBufferBinding(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRenderBufferBinding", "CRenderBufferBinding", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48041,6 +51633,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRenderComponent()
             {
+            }
+            public CRenderComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRenderComponent", "CRenderComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48092,6 +51688,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRenderGroom()
             {
+            }
+            public CRenderGroom(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRenderGroom", "CRenderGroom", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48176,6 +51776,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRenderMesh()
             {
             }
+            public CRenderMesh(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRenderMesh", "CRenderMesh", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48216,6 +51820,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRenderSkeleton()
             {
             }
+            public CRenderSkeleton(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRenderSkeleton", "CRenderSkeleton", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48248,6 +51856,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CReplicationParameters()
             {
+            }
+            public CReplicationParameters(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CReplicationParameters", "CReplicationParameters", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48294,6 +51906,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CResponseCriteriaSet()
             {
             }
+            public CResponseCriteriaSet(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CResponseCriteriaSet", "CResponseCriteriaSet", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48327,6 +51943,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CResponseQueue()
             {
             }
+            public CResponseQueue(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CResponseQueue", "CResponseQueue", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48350,6 +51970,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRetakeGameRules()
             {
+            }
+            public CRetakeGameRules(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRetakeGameRules", "CRetakeGameRules", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48399,6 +52023,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRevertSaved()
             {
             }
+            public CRevertSaved(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRevertSaved", "CRevertSaved", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48441,6 +52069,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRootUpdateNode()
             {
             }
+            public CRootUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRootUpdateNode", "CRootUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48467,6 +52099,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRopeKeyframe()
             {
+            }
+            public CRopeKeyframe(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRopeKeyframe", "CRopeKeyframe", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48583,6 +52219,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRopeKeyframeAlias_move_rope()
             {
             }
+            public CRopeKeyframeAlias_move_rope(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRopeKeyframeAlias_move_rope", "CRopeKeyframeAlias_move_rope", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48609,6 +52249,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRopeOverlapHit()
             {
+            }
+            public CRopeOverlapHit(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRopeOverlapHit", "CRopeOverlapHit", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48642,6 +52286,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRotButton()
             {
             }
+            public CRotButton(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRotButton", "CRotButton", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48668,6 +52316,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRotDoor()
             {
+            }
+            public CRotDoor(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRotDoor", "CRotDoor", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48701,6 +52353,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRuleBrushEntity()
             {
             }
+            public CRuleBrushEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRuleBrushEntity", "CRuleBrushEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48727,6 +52383,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CRuleEntity()
             {
+            }
+            public CRuleEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRuleEntity", "CRuleEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48760,6 +52420,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CRulePointEntity()
             {
             }
+            public CRulePointEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CRulePointEntity", "CRulePointEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48791,6 +52455,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSAdditionalMatchStats_t()
             {
+            }
+            public CSAdditionalMatchStats_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSAdditionalMatchStats_t", "CSAdditionalMatchStats_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -48879,6 +52547,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSAdditionalPerRoundStats_t()
             {
             }
+            public CSAdditionalPerRoundStats_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSAdditionalPerRoundStats_t", "CSAdditionalPerRoundStats_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -48931,6 +52603,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSceneEntity()
             {
+            }
+            public CSceneEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSceneEntity", "CSceneEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -49180,6 +52856,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSceneEntityAlias_logic_choreographed_scene()
             {
             }
+            public CSceneEntityAlias_logic_choreographed_scene(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSceneEntityAlias_logic_choreographed_scene", "CSceneEntityAlias_logic_choreographed_scene", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -49206,6 +52886,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSceneEventInfo()
             {
+            }
+            public CSceneEventInfo(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSceneEventInfo", "CSceneEventInfo", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -49293,6 +52977,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSceneListManager()
             {
             }
+            public CSceneListManager(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSceneListManager", "CSceneListManager", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -49324,6 +53012,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSceneObjectData()
             {
+            }
+            public CSceneObjectData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSceneObjectData", "CSceneObjectData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -49358,6 +53050,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CScriptComponent()
             {
             }
+            public CScriptComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CScriptComponent", "CScriptComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -49389,6 +53085,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CScriptedSequence()
             {
+            }
+            public CScriptedSequence(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CScriptedSequence", "CScriptedSequence", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -49782,6 +53482,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CScriptItem()
             {
             }
+            public CScriptItem(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CScriptItem", "CScriptItem", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -49813,6 +53517,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CScriptNavBlocker()
             {
+            }
+            public CScriptNavBlocker(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CScriptNavBlocker", "CScriptNavBlocker", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -49846,6 +53554,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CScriptTriggerHurt()
             {
             }
+            public CScriptTriggerHurt(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CScriptTriggerHurt", "CScriptTriggerHurt", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -49877,6 +53589,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CScriptTriggerMultiple()
             {
+            }
+            public CScriptTriggerMultiple(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CScriptTriggerMultiple", "CScriptTriggerMultiple", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -49910,6 +53626,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CScriptTriggerOnce()
             {
             }
+            public CScriptTriggerOnce(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CScriptTriggerOnce", "CScriptTriggerOnce", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -49941,6 +53661,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CScriptTriggerPush()
             {
+            }
+            public CScriptTriggerPush(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CScriptTriggerPush", "CScriptTriggerPush", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -49974,6 +53698,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CScriptUniformRandomStream()
             {
             }
+            public CScriptUniformRandomStream(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CScriptUniformRandomStream", "CScriptUniformRandomStream", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50001,6 +53729,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSelectorUpdateNode()
             {
+            }
+            public CSelectorUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSelectorUpdateNode", "CSelectorUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -50067,6 +53799,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSeqAutoLayer()
             {
             }
+            public CSeqAutoLayer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqAutoLayer", "CSeqAutoLayer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50123,6 +53859,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSeqAutoLayerFlag()
             {
+            }
+            public CSeqAutoLayerFlag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqAutoLayerFlag", "CSeqAutoLayerFlag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -50187,6 +53927,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSeqBoneMaskList()
             {
             }
+            public CSeqBoneMaskList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqBoneMaskList", "CSeqBoneMaskList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50224,6 +53968,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSeqCmdLayer()
             {
+            }
+            public CSeqCmdLayer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqCmdLayer", "CSeqCmdLayer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -50283,6 +54031,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSeqCmdSeqDesc()
             {
             }
+            public CSeqCmdSeqDesc(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqCmdSeqDesc", "CSeqCmdSeqDesc", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50339,6 +54091,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSeqIKLock()
             {
             }
+            public CSeqIKLock(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqIKLock", "CSeqIKLock", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50381,6 +54137,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSeqMultiFetch()
             {
+            }
+            public CSeqMultiFetch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqMultiFetch", "CSeqMultiFetch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -50444,6 +54204,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSeqMultiFetchFlag()
             {
             }
+            public CSeqMultiFetchFlag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqMultiFetchFlag", "CSeqMultiFetchFlag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50476,6 +54240,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSeqPoseParamDesc()
             {
+            }
+            public CSeqPoseParamDesc(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqPoseParamDesc", "CSeqPoseParamDesc", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -50519,6 +54287,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSeqPoseSetting()
             {
+            }
+            public CSeqPoseSetting(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqPoseSetting", "CSeqPoseSetting", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -50568,6 +54340,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSeqS1SeqDesc()
             {
             }
+            public CSeqS1SeqDesc(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqS1SeqDesc", "CSeqS1SeqDesc", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50608,6 +54384,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSeqScaleSet()
             {
             }
+            public CSeqScaleSet(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqScaleSet", "CSeqScaleSet", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50645,6 +54425,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSeqSeqDescFlag()
             {
+            }
+            public CSeqSeqDescFlag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqSeqDescFlag", "CSeqSeqDescFlag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -50724,6 +54508,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSeqSynthAnimDesc()
             {
             }
+            public CSeqSynthAnimDesc(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqSynthAnimDesc", "CSeqSynthAnimDesc", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50765,6 +54553,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSeqTransition()
             {
             }
+            public CSeqTransition(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSeqTransition", "CSeqTransition", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50798,6 +54590,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSequenceFinishedAnimTag()
             {
             }
+            public CSequenceFinishedAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSequenceFinishedAnimTag", "CSequenceFinishedAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50830,6 +54626,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSequenceGroupData()
             {
             }
+            public CSequenceGroupData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSequenceGroupData", "CSequenceGroupData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50858,6 +54658,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSequenceTagSpans()
             {
             }
+            public CSequenceTagSpans(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSequenceTagSpans", "CSequenceTagSpans", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50881,6 +54685,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSequenceUpdateNode()
             {
+            }
+            public CSequenceUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSequenceUpdateNode", "CSequenceUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -50923,6 +54731,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSequenceUpdateNodeBase()
             {
             }
+            public CSequenceUpdateNodeBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSequenceUpdateNodeBase", "CSequenceUpdateNodeBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50960,6 +54772,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CServerOnlyEntity()
             {
             }
+            public CServerOnlyEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CServerOnlyEntity", "CServerOnlyEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -50986,6 +54802,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CServerOnlyModelEntity()
             {
+            }
+            public CServerOnlyModelEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CServerOnlyModelEntity", "CServerOnlyModelEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51014,6 +54834,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CServerOnlyPointEntity()
             {
             }
+            public CServerOnlyPointEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CServerOnlyPointEntity", "CServerOnlyPointEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51041,6 +54865,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CServerRagdollTrigger()
             {
             }
+            public CServerRagdollTrigger(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CServerRagdollTrigger", "CServerRagdollTrigger", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51067,6 +54895,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSetParameterActionUpdater()
             {
+            }
+            public CSetParameterActionUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSetParameterActionUpdater", "CSetParameterActionUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51098,6 +54930,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CShatterGlassShard()
             {
+            }
+            public CShatterGlassShard(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CShatterGlassShard", "CShatterGlassShard", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51254,6 +55090,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CShatterGlassShardPhysics()
             {
             }
+            public CShatterGlassShardPhysics(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CShatterGlassShardPhysics", "CShatterGlassShardPhysics", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51295,6 +55135,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CShower()
             {
             }
+            public CShower(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CShower", "CShower", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51322,6 +55166,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSimpleMarkupVolumeTagged()
             {
             }
+            public CSimpleMarkupVolumeTagged(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSimpleMarkupVolumeTagged", "CSimpleMarkupVolumeTagged", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51348,6 +55196,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSimpleSimTimer()
             {
+            }
+            public CSimpleSimTimer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSimpleSimTimer", "CSimpleSimTimer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51382,6 +55234,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSimpleStopwatch()
             {
             }
+            public CSimpleStopwatch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSimpleStopwatch", "CSimpleStopwatch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51408,6 +55264,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSimTimer()
             {
+            }
+            public CSimTimer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSimTimer", "CSimTimer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51440,6 +55300,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSingleFrameUpdateNode()
             {
+            }
+            public CSingleFrameUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSingleFrameUpdateNode", "CSingleFrameUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51482,6 +55346,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSingleplayRules()
             {
             }
+            public CSingleplayRules(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSingleplayRules", "CSingleplayRules", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51514,6 +55382,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSkeletonAnimationController()
             {
             }
+            public CSkeletonAnimationController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSkeletonAnimationController", "CSkeletonAnimationController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51544,6 +55416,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSkeletonInstance()
             {
+            }
+            public CSkeletonInstance(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSkeletonInstance", "CSkeletonInstance", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51601,6 +55477,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSkillDamage()
             {
             }
+            public CSkillDamage(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSkillDamage", "CSkillDamage", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51638,6 +55518,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSkillFloat()
             {
             }
+            public CSkillFloat(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSkillFloat", "CSkillFloat", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51666,6 +55550,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSkillInt()
             {
             }
+            public CSkillInt(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSkillInt", "CSkillInt", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51693,6 +55581,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSkyboxReference()
             {
+            }
+            public CSkyboxReference(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSkyboxReference", "CSkyboxReference", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51729,6 +55621,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSkyCamera()
             {
+            }
+            public CSkyCamera(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSkyCamera", "CSkyCamera", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51774,6 +55670,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSlopeComponentUpdater()
             {
+            }
+            public CSlopeComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSlopeComponentUpdater", "CSlopeComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51831,6 +55731,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSlowDownOnSlopesUpdateNode()
             {
             }
+            public CSlowDownOnSlopesUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSlowDownOnSlopesUpdateNode", "CSlowDownOnSlopesUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51862,6 +55766,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSMatchStats_t()
             {
+            }
+            public CSMatchStats_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSMatchStats_t", "CSMatchStats_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -51955,6 +55863,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSmokeGrenade()
             {
             }
+            public CSmokeGrenade(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSmokeGrenade", "CSmokeGrenade", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -51981,6 +55893,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSmokeGrenadeProjectile()
             {
+            }
+            public CSmokeGrenadeProjectile(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSmokeGrenadeProjectile", "CSmokeGrenadeProjectile", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -52069,6 +55985,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSmoothFunc()
             {
             }
+            public CSmoothFunc(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSmoothFunc", "CSmoothFunc", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52117,6 +56037,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSolveIKChainUpdateNode()
             {
             }
+            public CSolveIKChainUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSolveIKChainUpdateNode", "CSolveIKChainUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52148,6 +56072,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSolveIKTargetHandle_t()
             {
             }
+            public CSolveIKTargetHandle_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSolveIKTargetHandle_t", "CSolveIKTargetHandle_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52178,6 +56106,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSosGroupActionLimitSchema()
             {
+            }
+            public CSosGroupActionLimitSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionLimitSchema", "CSosGroupActionLimitSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -52220,6 +56152,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSosGroupActionMemberCountEnvelopeSchema()
             {
+            }
+            public CSosGroupActionMemberCountEnvelopeSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionMemberCountEnvelopeSchema", "CSosGroupActionMemberCountEnvelopeSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -52288,6 +56224,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSosGroupActionSchema()
             {
             }
+            public CSosGroupActionSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionSchema", "CSosGroupActionSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52325,6 +56265,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSosGroupActionSetSoundeventParameterSchema()
             {
+            }
+            public CSosGroupActionSetSoundeventParameterSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionSetSoundeventParameterSchema", "CSosGroupActionSetSoundeventParameterSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -52377,6 +56321,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSosGroupActionSoundeventClusterSchema()
             {
+            }
+            public CSosGroupActionSoundeventClusterSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionSoundeventClusterSchema", "CSosGroupActionSoundeventClusterSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -52440,6 +56388,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSosGroupActionSoundeventCountSchema()
             {
             }
+            public CSosGroupActionSoundeventCountSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionSoundeventCountSchema", "CSosGroupActionSoundeventCountSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52476,6 +56428,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSosGroupActionSoundeventMinMaxValuesSchema()
             {
+            }
+            public CSosGroupActionSoundeventMinMaxValuesSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionSoundeventMinMaxValuesSchema", "CSosGroupActionSoundeventMinMaxValuesSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -52554,6 +56510,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSosGroupActionSoundeventPrioritySchema()
             {
             }
+            public CSosGroupActionSoundeventPrioritySchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionSoundeventPrioritySchema", "CSosGroupActionSoundeventPrioritySchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52601,6 +56561,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSosGroupActionTimeBlockLimitSchema()
             {
             }
+            public CSosGroupActionTimeBlockLimitSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionTimeBlockLimitSchema", "CSosGroupActionTimeBlockLimitSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52638,6 +56602,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSosGroupActionTimeLimitSchema()
             {
             }
+            public CSosGroupActionTimeLimitSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupActionTimeLimitSchema", "CSosGroupActionTimeLimitSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52669,6 +56637,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSosGroupBranchPattern()
             {
+            }
+            public CSosGroupBranchPattern(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupBranchPattern", "CSosGroupBranchPattern", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -52717,6 +56689,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSosGroupMatchPattern()
             {
+            }
+            public CSosGroupMatchPattern(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosGroupMatchPattern", "CSosGroupMatchPattern", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -52770,6 +56746,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSosSoundEventGroupListSchema()
             {
             }
+            public CSosSoundEventGroupListSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosSoundEventGroupListSchema", "CSosSoundEventGroupListSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52793,6 +56773,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSosSoundEventGroupSchema()
             {
+            }
+            public CSosSoundEventGroupSchema(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSosSoundEventGroupSchema", "CSosSoundEventGroupSchema", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -52859,6 +56843,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundAreaEntityBase()
             {
             }
+            public CSoundAreaEntityBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundAreaEntityBase", "CSoundAreaEntityBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52901,6 +56889,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundAreaEntityOrientedBox()
             {
             }
+            public CSoundAreaEntityOrientedBox(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundAreaEntityOrientedBox", "CSoundAreaEntityOrientedBox", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52938,6 +56930,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundAreaEntitySphere()
             {
             }
+            public CSoundAreaEntitySphere(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundAreaEntitySphere", "CSoundAreaEntitySphere", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -52969,6 +56965,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundContainerReference()
             {
+            }
+            public CSoundContainerReference(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundContainerReference", "CSoundContainerReference", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53002,6 +57002,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundContainerReferenceArray()
             {
             }
+            public CSoundContainerReferenceArray(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundContainerReferenceArray", "CSoundContainerReferenceArray", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53029,6 +57033,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundEnvelope()
             {
+            }
+            public CSoundEnvelope(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundEnvelope", "CSoundEnvelope", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53073,6 +57081,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundEventAABBEntity()
             {
             }
+            public CSoundEventAABBEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundEventAABBEntity", "CSoundEventAABBEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53109,6 +57121,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundEventEntity()
             {
+            }
+            public CSoundEventEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundEventEntity", "CSoundEventEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53200,6 +57216,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundEventEntityAlias_snd_event_point()
             {
             }
+            public CSoundEventEntityAlias_snd_event_point(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundEventEntityAlias_snd_event_point", "CSoundEventEntityAlias_snd_event_point", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53227,6 +57247,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundEventMetaData()
             {
             }
+            public CSoundEventMetaData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundEventMetaData", "CSoundEventMetaData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53250,6 +57274,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundEventOBBEntity()
             {
+            }
+            public CSoundEventOBBEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundEventOBBEntity", "CSoundEventOBBEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53288,6 +57316,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundEventParameter()
             {
             }
+            public CSoundEventParameter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundEventParameter", "CSoundEventParameter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53324,6 +57356,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundEventPathCornerEntity()
             {
+            }
+            public CSoundEventPathCornerEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundEventPathCornerEntity", "CSoundEventPathCornerEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53382,6 +57418,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundEventSphereEntity()
             {
             }
+            public CSoundEventSphereEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundEventSphereEntity", "CSoundEventSphereEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53414,6 +57454,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundInfoHeader()
             {
             }
+            public CSoundInfoHeader(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundInfoHeader", "CSoundInfoHeader", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53437,6 +57481,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundOpvarSetAABBEntity()
             {
+            }
+            public CSoundOpvarSetAABBEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundOpvarSetAABBEntity", "CSoundOpvarSetAABBEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53510,6 +57558,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundOpvarSetAutoRoomEntity()
             {
             }
+            public CSoundOpvarSetAutoRoomEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundOpvarSetAutoRoomEntity", "CSoundOpvarSetAutoRoomEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53551,6 +57603,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundOpvarSetEntity()
             {
+            }
+            public CSoundOpvarSetEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundOpvarSetEntity", "CSoundOpvarSetEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53619,6 +57675,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundOpvarSetOBBEntity()
             {
             }
+            public CSoundOpvarSetOBBEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundOpvarSetOBBEntity", "CSoundOpvarSetOBBEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53645,6 +57705,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundOpvarSetOBBWindEntity()
             {
+            }
+            public CSoundOpvarSetOBBWindEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundOpvarSetOBBWindEntity", "CSoundOpvarSetOBBWindEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53713,6 +57777,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundOpvarSetPathCornerEntity()
             {
             }
+            public CSoundOpvarSetPathCornerEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundOpvarSetPathCornerEntity", "CSoundOpvarSetPathCornerEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -53754,6 +57822,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundOpvarSetPointBase()
             {
+            }
+            public CSoundOpvarSetPointBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundOpvarSetPointBase", "CSoundOpvarSetPointBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53825,6 +57897,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSoundOpvarSetPointEntity()
             {
+            }
+            public CSoundOpvarSetPointEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundOpvarSetPointEntity", "CSoundOpvarSetPointEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -53970,6 +58046,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundPatch()
             {
             }
+            public CSoundPatch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundPatch", "CSoundPatch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54054,6 +58134,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSoundStackSave()
             {
             }
+            public CSoundStackSave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSoundStackSave", "CSoundStackSave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54086,6 +58170,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSpeedScaleUpdateNode()
             {
             }
+            public CSpeedScaleUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSpeedScaleUpdateNode", "CSpeedScaleUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54116,6 +58204,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSPerRoundStats_t()
             {
+            }
+            public CSPerRoundStats_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSPerRoundStats_t", "CSPerRoundStats_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -54205,6 +58297,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSpinUpdateBase()
             {
             }
+            public CSpinUpdateBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSpinUpdateBase", "CSpinUpdateBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54231,6 +58327,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSplineConstraint()
             {
+            }
+            public CSplineConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSplineConstraint", "CSplineConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -54308,6 +58408,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSpotlightEnd()
             {
             }
+            public CSpotlightEnd(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSpotlightEnd", "CSpotlightEnd", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54354,6 +58458,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSprite()
             {
+            }
+            public CSprite(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSprite", "CSprite", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -54486,6 +58594,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSpriteAlias_env_glow()
             {
             }
+            public CSpriteAlias_env_glow(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSpriteAlias_env_glow", "CSpriteAlias_env_glow", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54513,6 +58625,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSpriteOriented()
             {
             }
+            public CSpriteOriented(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSpriteOriented", "CSpriteOriented", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54539,6 +58655,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSSDSEndFrameViewInfo()
             {
+            }
+            public CSSDSEndFrameViewInfo(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSSDSEndFrameViewInfo", "CSSDSEndFrameViewInfo", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -54573,6 +58693,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSSDSMsg_EndFrame()
             {
             }
+            public CSSDSMsg_EndFrame(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSSDSMsg_EndFrame", "CSSDSMsg_EndFrame", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54596,6 +58720,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSSDSMsg_LayerBase()
             {
+            }
+            public CSSDSMsg_LayerBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSSDSMsg_LayerBase", "CSSDSMsg_LayerBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -54644,6 +58772,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSSDSMsg_PostLayer()
             {
             }
+            public CSSDSMsg_PostLayer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSSDSMsg_PostLayer", "CSSDSMsg_PostLayer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54671,6 +58803,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSSDSMsg_PreLayer()
             {
             }
+            public CSSDSMsg_PreLayer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSSDSMsg_PreLayer", "CSSDSMsg_PreLayer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54697,6 +58833,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSSDSMsg_ViewRender()
             {
+            }
+            public CSSDSMsg_ViewRender(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSSDSMsg_ViewRender", "CSSDSMsg_ViewRender", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -54729,6 +58869,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSSDSMsg_ViewTarget()
             {
+            }
+            public CSSDSMsg_ViewTarget(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSSDSMsg_ViewTarget", "CSSDSMsg_ViewTarget", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -54803,6 +58947,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSSDSMsg_ViewTargetList()
             {
             }
+            public CSSDSMsg_ViewTargetList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSSDSMsg_ViewTargetList", "CSSDSMsg_ViewTargetList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54834,6 +58982,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CStanceOverrideUpdateNode()
             {
+            }
+            public CStanceOverrideUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStanceOverrideUpdateNode", "CStanceOverrideUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -54875,6 +59027,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CStanceScaleUpdateNode()
             {
             }
+            public CStanceScaleUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStanceScaleUpdateNode", "CStanceScaleUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54906,6 +59062,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CStateActionUpdater()
             {
             }
+            public CStateActionUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStateActionUpdater", "CStateActionUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -54933,6 +59093,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CStateMachineComponentUpdater()
             {
+            }
+            public CStateMachineComponentUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStateMachineComponentUpdater", "CStateMachineComponentUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -54964,6 +59128,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CStateMachineUpdateNode()
             {
+            }
+            public CStateMachineUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStateMachineUpdateNode", "CStateMachineUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55011,6 +59179,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CStateNodeStateData()
             {
             }
+            public CStateNodeStateData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStateNodeStateData", "CStateNodeStateData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55038,6 +59210,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CStateNodeTransitionData()
             {
             }
+            public CStateNodeTransitionData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStateNodeTransitionData", "CStateNodeTransitionData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55064,6 +59240,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CStateUpdateData()
             {
+            }
+            public CStateUpdateData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStateUpdateData", "CStateUpdateData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55106,6 +59286,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CStaticPoseCache()
             {
             }
+            public CStaticPoseCache(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStaticPoseCache", "CStaticPoseCache", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55139,6 +59323,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CStaticPoseCacheBuilder()
             {
             }
+            public CStaticPoseCacheBuilder(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStaticPoseCacheBuilder", "CStaticPoseCacheBuilder", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55165,6 +59353,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CStepsRemainingMetricEvaluator()
             {
+            }
+            public CStepsRemainingMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStepsRemainingMetricEvaluator", "CStepsRemainingMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55202,6 +59394,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CStopAtGoalUpdateNode()
             {
+            }
+            public CStopAtGoalUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStopAtGoalUpdateNode", "CStopAtGoalUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55254,6 +59450,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CStopwatch()
             {
             }
+            public CStopwatch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStopwatch", "CStopwatch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55285,6 +59485,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CStopwatchBase()
             {
+            }
+            public CStopwatchBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStopwatchBase", "CStopwatchBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55318,6 +59522,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CStringAnimTag()
             {
             }
+            public CStringAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CStringAnimTag", "CStringAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55344,6 +59552,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CSubtractUpdateNode()
             {
+            }
+            public CSubtractUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSubtractUpdateNode", "CSubtractUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55392,6 +59604,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CSymbolAnimParameter()
             {
             }
+            public CSymbolAnimParameter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CSymbolAnimParameter", "CSymbolAnimParameter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55418,6 +59634,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTakeDamageInfo()
             {
+            }
+            public CTakeDamageInfo(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTakeDamageInfo", "CTakeDamageInfo", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55544,6 +59764,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTakeDamageInfoAPI()
             {
             }
+            public CTakeDamageInfoAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTakeDamageInfoAPI", "CTakeDamageInfoAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55567,6 +59791,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTakeDamageResult()
             {
+            }
+            public CTakeDamageResult(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTakeDamageResult", "CTakeDamageResult", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55620,6 +59848,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTakeDamageSummaryScopeGuard()
             {
             }
+            public CTakeDamageSummaryScopeGuard(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTakeDamageSummaryScopeGuard", "CTakeDamageSummaryScopeGuard", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55643,6 +59875,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTankTargetChange()
             {
+            }
+            public CTankTargetChange(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTankTargetChange", "CTankTargetChange", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55675,6 +59911,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTankTrainAI()
             {
+            }
+            public CTankTrainAI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTankTrainAI", "CTankTrainAI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55735,6 +59975,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTargetSelectorUpdateNode()
             {
+            }
+            public CTargetSelectorUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTargetSelectorUpdateNode", "CTargetSelectorUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55803,6 +60047,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTargetWarpUpdateNode()
             {
+            }
+            public CTargetWarpUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTargetWarpUpdateNode", "CTargetWarpUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55896,6 +60144,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTaskHandshakeAnimTag()
             {
             }
+            public CTaskHandshakeAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTaskHandshakeAnimTag", "CTaskHandshakeAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55923,6 +60175,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTaskStatusAnimTag()
             {
             }
+            public CTaskStatusAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTaskStatusAnimTag", "CTaskStatusAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -55949,6 +60205,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTeam()
             {
+            }
+            public CTeam(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTeam", "CTeam", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -55987,6 +60247,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTeamplayRules()
             {
             }
+            public CTeamplayRules(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTeamplayRules", "CTeamplayRules", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56014,6 +60278,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTestBlendContainer()
             {
             }
+            public CTestBlendContainer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTestBlendContainer", "CTestBlendContainer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56040,6 +60308,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTestEffect()
             {
+            }
+            public CTestEffect(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTestEffect", "CTestEffect", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56087,6 +60359,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTextureBasedAnimatable()
             {
+            }
+            public CTextureBasedAnimatable(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTextureBasedAnimatable", "CTextureBasedAnimatable", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56145,6 +60421,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTiltTwistConstraint()
             {
             }
+            public CTiltTwistConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTiltTwistConstraint", "CTiltTwistConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56181,6 +60461,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTimeline()
             {
+            }
+            public CTimeline(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTimeline", "CTimeline", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56244,6 +60528,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTimeRemainingMetricEvaluator()
             {
             }
+            public CTimeRemainingMetricEvaluator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTimeRemainingMetricEvaluator", "CTimeRemainingMetricEvaluator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56290,6 +60578,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTimerEntity()
             {
+            }
+            public CTimerEntity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTimerEntity", "CTimerEntity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56380,6 +60672,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CToggleComponentActionUpdater()
             {
             }
+            public CToggleComponentActionUpdater(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CToggleComponentActionUpdater", "CToggleComponentActionUpdater", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56415,6 +60711,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTonemapController2()
             {
+            }
+            public CTonemapController2(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTonemapController2", "CTonemapController2", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56468,6 +60768,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTonemapController2Alias_env_tonemap_controller2()
             {
             }
+            public CTonemapController2Alias_env_tonemap_controller2(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTonemapController2Alias_env_tonemap_controller2", "CTonemapController2Alias_env_tonemap_controller2", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56494,6 +60798,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTonemapTrigger()
             {
+            }
+            public CTonemapTrigger(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTonemapTrigger", "CTonemapTrigger", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56531,6 +60839,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTouchExpansionComponent()
             {
             }
+            public CTouchExpansionComponent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTouchExpansionComponent", "CTouchExpansionComponent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56557,6 +60869,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTransitionUpdateData()
             {
+            }
+            public CTransitionUpdateData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTransitionUpdateData", "CTransitionUpdateData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56590,6 +60906,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerActiveWeaponDetect()
             {
+            }
+            public CTriggerActiveWeaponDetect(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerActiveWeaponDetect", "CTriggerActiveWeaponDetect", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56627,6 +60947,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerBombReset()
             {
             }
+            public CTriggerBombReset(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerBombReset", "CTriggerBombReset", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56653,6 +60977,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerBrush()
             {
+            }
+            public CTriggerBrush(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerBrush", "CTriggerBrush", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56703,6 +61031,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerBuoyancy()
             {
             }
+            public CTriggerBuoyancy(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerBuoyancy", "CTriggerBuoyancy", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56739,6 +61071,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerCallback()
             {
             }
+            public CTriggerCallback(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerCallback", "CTriggerCallback", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56765,6 +61101,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerDetectBulletFire()
             {
+            }
+            public CTriggerDetectBulletFire(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerDetectBulletFire", "CTriggerDetectBulletFire", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56802,6 +61142,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerDetectExplosion()
             {
             }
+            public CTriggerDetectExplosion(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerDetectExplosion", "CTriggerDetectExplosion", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -56832,6 +61176,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerFan()
             {
+            }
+            public CTriggerFan(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerFan", "CTriggerFan", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -56968,6 +61316,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerGameEvent()
             {
             }
+            public CTriggerGameEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerGameEvent", "CTriggerGameEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57010,6 +61362,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerGravity()
             {
             }
+            public CTriggerGravity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerGravity", "CTriggerGravity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57037,6 +61393,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerHostageReset()
             {
             }
+            public CTriggerHostageReset(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerHostageReset", "CTriggerHostageReset", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57063,6 +61423,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerHurt()
             {
+            }
+            public CTriggerHurt(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerHurt", "CTriggerHurt", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57154,6 +61518,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerImpact()
             {
             }
+            public CTriggerImpact(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerImpact", "CTriggerImpact", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57195,6 +61563,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerLerpObject()
             {
+            }
+            public CTriggerLerpObject(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerLerpObject", "CTriggerLerpObject", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57274,6 +61646,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerLook()
             {
+            }
+            public CTriggerLook(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerLook", "CTriggerLook", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57368,6 +61744,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerMultiple()
             {
             }
+            public CTriggerMultiple(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerMultiple", "CTriggerMultiple", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57399,6 +61779,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerOnce()
             {
             }
+            public CTriggerOnce(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerOnce", "CTriggerOnce", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57425,6 +61809,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerPhysics()
             {
+            }
+            public CTriggerPhysics(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerPhysics", "CTriggerPhysics", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57518,6 +61906,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerProximity()
             {
             }
+            public CTriggerProximity(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerProximity", "CTriggerProximity", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57558,6 +61950,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerPush()
             {
+            }
+            public CTriggerPush(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerPush", "CTriggerPush", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57620,6 +62016,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerRemove()
             {
             }
+            public CTriggerRemove(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerRemove", "CTriggerRemove", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57650,6 +62050,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerSave()
             {
+            }
+            public CTriggerSave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerSave", "CTriggerSave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57692,6 +62096,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerSndSosOpvar()
             {
+            }
+            public CTriggerSndSosOpvar(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerSndSosOpvar", "CTriggerSndSosOpvar", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57780,6 +62188,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerSoundscape()
             {
             }
+            public CTriggerSoundscape(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerSoundscape", "CTriggerSoundscape", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57815,6 +62227,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerTeleport()
             {
+            }
+            public CTriggerTeleport(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerTeleport", "CTriggerTeleport", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57863,6 +62279,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTriggerToggleSave()
             {
             }
+            public CTriggerToggleSave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerToggleSave", "CTriggerToggleSave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -57889,6 +62309,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTriggerVolume()
             {
+            }
+            public CTriggerVolume(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTriggerVolume", "CTriggerVolume", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57925,6 +62349,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CTurnHelperUpdateNode()
             {
+            }
+            public CTurnHelperUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTurnHelperUpdateNode", "CTurnHelperUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -57983,6 +62411,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTwistConstraint()
             {
             }
+            public CTwistConstraint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTwistConstraint", "CTwistConstraint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58015,6 +62447,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CTwoBoneIKUpdateNode()
             {
             }
+            public CTwoBoneIKUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CTwoBoneIKUpdateNode", "CTwoBoneIKUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58045,6 +62481,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CUnaryUpdateNode()
             {
+            }
+            public CUnaryUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CUnaryUpdateNode", "CUnaryUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58077,6 +62517,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVariantDefaultAllocator()
             {
             }
+            public CVariantDefaultAllocator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVariantDefaultAllocator", "CVariantDefaultAllocator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58100,6 +62544,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVectorAnimParameter()
             {
+            }
+            public CVectorAnimParameter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVectorAnimParameter", "CVectorAnimParameter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58138,6 +62586,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVectorExponentialMovingAverage()
             {
             }
+            public CVectorExponentialMovingAverage(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVectorExponentialMovingAverage", "CVectorExponentialMovingAverage", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58162,6 +62614,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVectorMovingAverage()
             {
             }
+            public CVectorMovingAverage(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVectorMovingAverage", "CVectorMovingAverage", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58185,6 +62641,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVectorQuantizer()
             {
+            }
+            public CVectorQuantizer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVectorQuantizer", "CVectorQuantizer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58224,6 +62684,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVirtualAnimParameter()
             {
             }
+            public CVirtualAnimParameter(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVirtualAnimParameter", "CVirtualAnimParameter", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58261,6 +62725,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerAmpedDecayingSineWave()
             {
             }
+            public CVoiceContainerAmpedDecayingSineWave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerAmpedDecayingSineWave", "CVoiceContainerAmpedDecayingSineWave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58293,6 +62761,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerAnalysisBase()
             {
             }
+            public CVoiceContainerAnalysisBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerAnalysisBase", "CVoiceContainerAnalysisBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58321,6 +62793,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerBase()
             {
             }
+            public CVoiceContainerBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerBase", "CVoiceContainerBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58347,6 +62823,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVoiceContainerBlender()
             {
+            }
+            public CVoiceContainerBlender(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerBlender", "CVoiceContainerBlender", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58388,6 +62868,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerDecayingSineWave()
             {
             }
+            public CVoiceContainerDecayingSineWave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerDecayingSineWave", "CVoiceContainerDecayingSineWave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58425,6 +62909,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerDefault()
             {
             }
+            public CVoiceContainerDefault(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerDefault", "CVoiceContainerDefault", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58451,6 +62939,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVoiceContainerEnvelope()
             {
+            }
+            public CVoiceContainerEnvelope(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerEnvelope", "CVoiceContainerEnvelope", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58482,6 +62974,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVoiceContainerEnvelopeAnalyzer()
             {
+            }
+            public CVoiceContainerEnvelopeAnalyzer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerEnvelopeAnalyzer", "CVoiceContainerEnvelopeAnalyzer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58524,6 +63020,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVoiceContainerGranulator()
             {
+            }
+            public CVoiceContainerGranulator(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerGranulator", "CVoiceContainerGranulator", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58577,6 +63077,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerLoopTrigger()
             {
             }
+            public CVoiceContainerLoopTrigger(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerLoopTrigger", "CVoiceContainerLoopTrigger", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58628,6 +63132,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerNull()
             {
             }
+            public CVoiceContainerNull(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerNull", "CVoiceContainerNull", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58654,6 +63162,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVoiceContainerParameterBlender()
             {
+            }
+            public CVoiceContainerParameterBlender(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerParameterBlender", "CVoiceContainerParameterBlender", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58699,6 +63211,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVoiceContainerRandomSampler()
             {
+            }
+            public CVoiceContainerRandomSampler(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerRandomSampler", "CVoiceContainerRandomSampler", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58752,6 +63268,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerRealtimeFMSineWave()
             {
             }
+            public CVoiceContainerRealtimeFMSineWave(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerRealtimeFMSineWave", "CVoiceContainerRealtimeFMSineWave", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58794,6 +63314,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerSelector()
             {
             }
+            public CVoiceContainerSelector(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerSelector", "CVoiceContainerSelector", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58835,6 +63359,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerSet()
             {
             }
+            public CVoiceContainerSet(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerSet", "CVoiceContainerSet", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58861,6 +63389,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVoiceContainerSetElement()
             {
+            }
+            public CVoiceContainerSetElement(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerSetElement", "CVoiceContainerSetElement", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58893,6 +63425,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVoiceContainerShapedNoise()
             {
+            }
+            public CVoiceContainerShapedNoise(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerShapedNoise", "CVoiceContainerShapedNoise", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -58951,6 +63487,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerStaticAdditiveSynth()
             {
             }
+            public CVoiceContainerStaticAdditiveSynth(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerStaticAdditiveSynth", "CVoiceContainerStaticAdditiveSynth", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -58978,6 +63518,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVoiceContainerSwitch()
             {
             }
+            public CVoiceContainerSwitch(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoiceContainerSwitch", "CVoiceContainerSwitch", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59004,6 +63548,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CVoxelVisibility()
             {
+            }
+            public CVoxelVisibility(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVoxelVisibility", "CVoxelVisibility", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59087,6 +63635,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CVPhysXSurfacePropertiesList()
             {
             }
+            public CVPhysXSurfacePropertiesList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CVPhysXSurfacePropertiesList", "CVPhysXSurfacePropertiesList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59110,6 +63662,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWarpSectionAnimTag()
             {
+            }
+            public CWarpSectionAnimTag(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWarpSectionAnimTag", "CWarpSectionAnimTag", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59148,6 +63704,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWarpSectionAnimTagBase()
             {
             }
+            public CWarpSectionAnimTagBase(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWarpSectionAnimTagBase", "CWarpSectionAnimTagBase", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59175,6 +63735,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWaterBullet()
             {
             }
+            public CWaterBullet(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWaterBullet", "CWaterBullet", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59201,6 +63765,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWayPointHelperUpdateNode()
             {
+            }
+            public CWayPointHelperUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWayPointHelperUpdateNode", "CWayPointHelperUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59254,6 +63822,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponAug()
             {
             }
+            public CWeaponAug(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponAug", "CWeaponAug", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59281,6 +63853,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponAWP()
             {
             }
+            public CWeaponAWP(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponAWP", "CWeaponAWP", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59307,6 +63883,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponBaseItem()
             {
+            }
+            public CWeaponBaseItem(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponBaseItem", "CWeaponBaseItem", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59344,6 +63924,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponBizon()
             {
             }
+            public CWeaponBizon(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponBizon", "CWeaponBizon", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59370,6 +63954,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponCZ75a()
             {
+            }
+            public CWeaponCZ75a(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponCZ75a", "CWeaponCZ75a", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59403,6 +63991,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponElite()
             {
             }
+            public CWeaponElite(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponElite", "CWeaponElite", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59429,6 +64021,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponFamas()
             {
+            }
+            public CWeaponFamas(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponFamas", "CWeaponFamas", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59457,6 +64053,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponFiveSeven()
             {
             }
+            public CWeaponFiveSeven(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponFiveSeven", "CWeaponFiveSeven", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59483,6 +64083,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponG3SG1()
             {
+            }
+            public CWeaponG3SG1(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponG3SG1", "CWeaponG3SG1", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59511,6 +64115,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponGalilAR()
             {
             }
+            public CWeaponGalilAR(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponGalilAR", "CWeaponGalilAR", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59537,6 +64145,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponGlock()
             {
+            }
+            public CWeaponGlock(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponGlock", "CWeaponGlock", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59565,6 +64177,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponHKP2000()
             {
             }
+            public CWeaponHKP2000(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponHKP2000", "CWeaponHKP2000", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59591,6 +64207,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponM249()
             {
+            }
+            public CWeaponM249(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponM249", "CWeaponM249", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59619,6 +64239,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponM4A1()
             {
             }
+            public CWeaponM4A1(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponM4A1", "CWeaponM4A1", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59645,6 +64269,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponM4A1Silencer()
             {
+            }
+            public CWeaponM4A1Silencer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponM4A1Silencer", "CWeaponM4A1Silencer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59673,6 +64301,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponMAC10()
             {
             }
+            public CWeaponMAC10(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponMAC10", "CWeaponMAC10", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59699,6 +64331,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponMag7()
             {
+            }
+            public CWeaponMag7(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponMag7", "CWeaponMag7", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59727,6 +64363,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponMP5SD()
             {
             }
+            public CWeaponMP5SD(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponMP5SD", "CWeaponMP5SD", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59753,6 +64393,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponMP7()
             {
+            }
+            public CWeaponMP7(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponMP7", "CWeaponMP7", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59781,6 +64425,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponMP9()
             {
             }
+            public CWeaponMP9(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponMP9", "CWeaponMP9", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59807,6 +64455,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponNegev()
             {
+            }
+            public CWeaponNegev(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponNegev", "CWeaponNegev", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59835,6 +64487,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponNOVA()
             {
             }
+            public CWeaponNOVA(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponNOVA", "CWeaponNOVA", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59861,6 +64517,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponP250()
             {
+            }
+            public CWeaponP250(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponP250", "CWeaponP250", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59889,6 +64549,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponP90()
             {
             }
+            public CWeaponP90(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponP90", "CWeaponP90", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59915,6 +64579,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponRevolver()
             {
+            }
+            public CWeaponRevolver(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponRevolver", "CWeaponRevolver", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59943,6 +64611,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponSawedoff()
             {
             }
+            public CWeaponSawedoff(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponSawedoff", "CWeaponSawedoff", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -59969,6 +64641,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponSCAR20()
             {
+            }
+            public CWeaponSCAR20(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponSCAR20", "CWeaponSCAR20", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -59997,6 +64673,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponSG556()
             {
             }
+            public CWeaponSG556(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponSG556", "CWeaponSG556", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60024,6 +64704,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponSSG08()
             {
             }
+            public CWeaponSSG08(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponSSG08", "CWeaponSSG08", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60050,6 +64734,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponTaser()
             {
+            }
+            public CWeaponTaser(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponTaser", "CWeaponTaser", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60088,6 +64776,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponTec9()
             {
             }
+            public CWeaponTec9(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponTec9", "CWeaponTec9", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60114,6 +64806,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponUMP45()
             {
+            }
+            public CWeaponUMP45(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponUMP45", "CWeaponUMP45", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60142,6 +64838,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWeaponUSPSilencer()
             {
             }
+            public CWeaponUSPSilencer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponUSPSilencer", "CWeaponUSPSilencer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60168,6 +64868,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWeaponXM1014()
             {
+            }
+            public CWeaponXM1014(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWeaponXM1014", "CWeaponXM1014", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60196,6 +64900,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CWorld()
             {
             }
+            public CWorld(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWorld", "CWorld", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60222,6 +64930,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public CWorldCompositionChunkReferenceElement_t()
             {
+            }
+            public CWorldCompositionChunkReferenceElement_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CWorldCompositionChunkReferenceElement_t", "CWorldCompositionChunkReferenceElement_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60256,6 +64968,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public CZeroPoseUpdateNode()
             {
             }
+            public CZeroPoseUpdateNode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("CZeroPoseUpdateNode", "CZeroPoseUpdateNode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60282,6 +64998,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public Dop26_t()
             {
+            }
+            public Dop26_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("Dop26_t", "Dop26_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60310,6 +65030,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public DynamicMeshDeformParams_t()
             {
+            }
+            public DynamicMeshDeformParams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("DynamicMeshDeformParams_t", "DynamicMeshDeformParams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60358,6 +65082,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public DynamicVolumeDef_t()
             {
+            }
+            public DynamicVolumeDef_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("DynamicVolumeDef_t", "DynamicVolumeDef_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60419,6 +65147,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public dynpitchvol_base_t()
             {
+            }
+            public dynpitchvol_base_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("dynpitchvol_base_t", "dynpitchvol_base_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60568,6 +65300,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public dynpitchvol_t()
             {
             }
+            public dynpitchvol_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("dynpitchvol_t", "dynpitchvol_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60594,6 +65330,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EngineCountdownTimer()
             {
+            }
+            public EngineCountdownTimer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EngineCountdownTimer", "EngineCountdownTimer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60632,6 +65372,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EngineLoopState_t()
             {
+            }
+            public EngineLoopState_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EngineLoopState_t", "EngineLoopState_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60675,6 +65419,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EntComponentInfo_t()
             {
+            }
+            public EntComponentInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EntComponentInfo_t", "EntComponentInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60729,6 +65477,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EntInput_t()
             {
             }
+            public EntInput_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EntInput_t", "EntInput_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60752,6 +65504,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EntityIOConnectionData_t()
             {
+            }
+            public EntityIOConnectionData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EntityIOConnectionData_t", "EntityIOConnectionData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60811,6 +65567,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EntityKeyValueData_t()
             {
             }
+            public EntityKeyValueData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EntityKeyValueData_t", "EntityKeyValueData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60834,6 +65594,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EntityRenderAttribute_t()
             {
+            }
+            public EntityRenderAttribute_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EntityRenderAttribute_t", "EntityRenderAttribute_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60862,6 +65626,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EntitySpottedState_t()
             {
+            }
+            public EntitySpottedState_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EntitySpottedState_t", "EntitySpottedState_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60896,6 +65664,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EntOutput_t()
             {
             }
+            public EntOutput_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EntOutput_t", "EntOutput_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60919,6 +65691,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventAdvanceTick_t()
             {
+            }
+            public EventAdvanceTick_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventAdvanceTick_t", "EventAdvanceTick_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -60967,6 +65743,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventAppShutdown_t()
             {
             }
+            public EventAppShutdown_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventAppShutdown_t", "EventAppShutdown_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -60991,6 +65771,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventClientAdvanceNonRenderedFrame_t()
             {
             }
+            public EventClientAdvanceNonRenderedFrame_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientAdvanceNonRenderedFrame_t", "EventClientAdvanceNonRenderedFrame_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61014,6 +65798,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventClientAdvanceTick_t()
             {
+            }
+            public EventClientAdvanceTick_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientAdvanceTick_t", "EventClientAdvanceTick_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61041,6 +65829,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventClientFrameSimulate_t()
             {
+            }
+            public EventClientFrameSimulate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientFrameSimulate_t", "EventClientFrameSimulate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61083,6 +65875,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventClientOutput_t()
             {
+            }
+            public EventClientOutput_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientOutput_t", "EventClientOutput_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61131,6 +65927,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventClientPauseSimulate_t()
             {
             }
+            public EventClientPauseSimulate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientPauseSimulate_t", "EventClientPauseSimulate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61157,6 +65957,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventClientPollInput_t()
             {
+            }
+            public EventClientPollInput_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientPollInput_t", "EventClientPollInput_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61190,6 +65994,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventClientPollNetworking_t()
             {
             }
+            public EventClientPollNetworking_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientPollNetworking_t", "EventClientPollNetworking_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61218,6 +66026,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventClientPostAdvanceTick_t()
             {
             }
+            public EventClientPostAdvanceTick_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientPostAdvanceTick_t", "EventClientPostAdvanceTick_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61244,6 +66056,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventClientPostOutput_t()
             {
+            }
+            public EventClientPostOutput_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientPostOutput_t", "EventClientPostOutput_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61292,6 +66108,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventClientPostSimulate_t()
             {
             }
+            public EventClientPostSimulate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientPostSimulate_t", "EventClientPostSimulate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61318,6 +66138,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventClientPreOutput_t()
             {
+            }
+            public EventClientPreOutput_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientPreOutput_t", "EventClientPreOutput_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61371,6 +66195,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventClientPreSimulate_t()
             {
             }
+            public EventClientPreSimulate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientPreSimulate_t", "EventClientPreSimulate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61397,6 +66225,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventClientProcessGameInput_t()
             {
+            }
+            public EventClientProcessGameInput_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientProcessGameInput_t", "EventClientProcessGameInput_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61434,6 +66266,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventClientProcessInput_t()
             {
+            }
+            public EventClientProcessInput_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientProcessInput_t", "EventClientProcessInput_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61477,6 +66313,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventClientProcessNetworking_t()
             {
             }
+            public EventClientProcessNetworking_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientProcessNetworking_t", "EventClientProcessNetworking_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61504,6 +66344,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventClientSceneSystemThreadStateChange_t()
             {
+            }
+            public EventClientSceneSystemThreadStateChange_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientSceneSystemThreadStateChange_t", "EventClientSceneSystemThreadStateChange_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61533,6 +66377,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventClientSimulate_t()
             {
             }
+            public EventClientSimulate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventClientSimulate_t", "EventClientSimulate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61559,6 +66407,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventFrameBoundary_t()
             {
+            }
+            public EventFrameBoundary_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventFrameBoundary_t", "EventFrameBoundary_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61588,6 +66440,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventModInitialized_t()
             {
             }
+            public EventModInitialized_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventModInitialized_t", "EventModInitialized_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61611,6 +66467,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventPostAdvanceTick_t()
             {
+            }
+            public EventPostAdvanceTick_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventPostAdvanceTick_t", "EventPostAdvanceTick_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61659,6 +66519,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventPostDataUpdate_t()
             {
             }
+            public EventPostDataUpdate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventPostDataUpdate_t", "EventPostDataUpdate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61686,6 +66550,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventPreDataUpdate_t()
             {
+            }
+            public EventPreDataUpdate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventPreDataUpdate_t", "EventPreDataUpdate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61715,6 +66583,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventProfileStorageAvailable_t()
             {
             }
+            public EventProfileStorageAvailable_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventProfileStorageAvailable_t", "EventProfileStorageAvailable_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61743,6 +66615,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventServerAdvanceTick_t()
             {
             }
+            public EventServerAdvanceTick_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventServerAdvanceTick_t", "EventServerAdvanceTick_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61769,6 +66645,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventServerBeginAsyncPostTickWork_t()
             {
+            }
+            public EventServerBeginAsyncPostTickWork_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventServerBeginAsyncPostTickWork_t", "EventServerBeginAsyncPostTickWork_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61797,6 +66677,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventServerEndAsyncPostTickWork_t()
             {
             }
+            public EventServerEndAsyncPostTickWork_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventServerEndAsyncPostTickWork_t", "EventServerEndAsyncPostTickWork_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61820,6 +66704,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventServerPollNetworking_t()
             {
+            }
+            public EventServerPollNetworking_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventServerPollNetworking_t", "EventServerPollNetworking_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61848,6 +66736,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventServerPostAdvanceTick_t()
             {
             }
+            public EventServerPostAdvanceTick_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventServerPostAdvanceTick_t", "EventServerPostAdvanceTick_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61874,6 +66766,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventServerPostSimulate_t()
             {
+            }
+            public EventServerPostSimulate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventServerPostSimulate_t", "EventServerPostSimulate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -61902,6 +66798,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventServerProcessNetworking_t()
             {
             }
+            public EventServerProcessNetworking_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventServerProcessNetworking_t", "EventServerProcessNetworking_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61929,6 +66829,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventServerSimulate_t()
             {
             }
+            public EventServerSimulate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventServerSimulate_t", "EventServerSimulate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -61955,6 +66859,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventSetTime_t()
             {
+            }
+            public EventSetTime_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventSetTime_t", "EventSetTime_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62018,6 +66926,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventSimpleLoopFrameUpdate_t()
             {
             }
+            public EventSimpleLoopFrameUpdate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventSimpleLoopFrameUpdate_t", "EventSimpleLoopFrameUpdate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62054,6 +66966,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public EventSimulate_t()
             {
+            }
+            public EventSimulate_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventSimulate_t", "EventSimulate_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62092,6 +67008,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public EventSplitScreenStateChanged_t()
             {
             }
+            public EventSplitScreenStateChanged_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("EventSplitScreenStateChanged_t", "EventSplitScreenStateChanged_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62115,6 +67035,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public Extent()
             {
+            }
+            public Extent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("Extent", "Extent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62148,6 +67072,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ExtraVertexStreamOverride_t()
             {
+            }
+            public ExtraVertexStreamOverride_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ExtraVertexStreamOverride_t", "ExtraVertexStreamOverride_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62195,6 +67123,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FakeEntity_tAPI()
             {
             }
+            public FakeEntity_tAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FakeEntity_tAPI", "FakeEntity_tAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62218,6 +67150,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FakeEntityDerivedA_tAPI()
             {
+            }
+            public FakeEntityDerivedA_tAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FakeEntityDerivedA_tAPI", "FakeEntityDerivedA_tAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62243,6 +67179,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FakeEntityDerivedB_tAPI()
             {
             }
+            public FakeEntityDerivedB_tAPI(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FakeEntityDerivedB_tAPI", "FakeEntityDerivedB_tAPI", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62266,6 +67206,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeAnimStrayRadius_t()
             {
+            }
+            public FeAnimStrayRadius_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeAnimStrayRadius_t", "FeAnimStrayRadius_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62305,6 +67249,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeAntiTunnelGroupBuild_t()
             {
             }
+            public FeAntiTunnelGroupBuild_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeAntiTunnelGroupBuild_t", "FeAntiTunnelGroupBuild_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62337,6 +67285,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeAntiTunnelProbe_t()
             {
+            }
+            public FeAntiTunnelProbe_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeAntiTunnelProbe_t", "FeAntiTunnelProbe_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62401,6 +67353,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeAntiTunnelProbeBuild_t()
             {
             }
+            public FeAntiTunnelProbeBuild_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeAntiTunnelProbeBuild_t", "FeAntiTunnelProbeBuild_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62459,6 +67415,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeAxialEdgeBend_t()
             {
             }
+            public FeAxialEdgeBend_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeAxialEdgeBend_t", "FeAxialEdgeBend_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62507,6 +67467,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeBandBendLimit_t()
             {
             }
+            public FeBandBendLimit_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeBandBendLimit_t", "FeBandBendLimit_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62544,6 +67508,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeBoxRigid_t()
             {
+            }
+            public FeBoxRigid_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeBoxRigid_t", "FeBoxRigid_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62593,6 +67561,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeBuildBoxRigid_t()
             {
             }
+            public FeBuildBoxRigid_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeBuildBoxRigid_t", "FeBuildBoxRigid_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62634,6 +67606,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeBuildSDFRigid_t()
             {
+            }
+            public FeBuildSDFRigid_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeBuildSDFRigid_t", "FeBuildSDFRigid_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62677,6 +67653,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeBuildSphereRigid_t()
             {
             }
+            public FeBuildSphereRigid_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeBuildSphereRigid_t", "FeBuildSphereRigid_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62718,6 +67698,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeBuildTaperedCapsuleRigid_t()
             {
+            }
+            public FeBuildTaperedCapsuleRigid_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeBuildTaperedCapsuleRigid_t", "FeBuildTaperedCapsuleRigid_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62761,6 +67745,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeCollisionPlane_t()
             {
             }
+            public FeCollisionPlane_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeCollisionPlane_t", "FeCollisionPlane_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62803,6 +67791,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeCtrlOffset_t()
             {
             }
+            public FeCtrlOffset_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeCtrlOffset_t", "FeCtrlOffset_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62841,6 +67833,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeCtrlOsOffset_t()
             {
             }
+            public FeCtrlOsOffset_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeCtrlOsOffset_t", "FeCtrlOsOffset_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62873,6 +67869,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeCtrlSoftOffset_t()
             {
+            }
+            public FeCtrlSoftOffset_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeCtrlSoftOffset_t", "FeCtrlSoftOffset_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62917,6 +67917,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeDynKinLink_t()
             {
             }
+            public FeDynKinLink_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeDynKinLink_t", "FeDynKinLink_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -62949,6 +67953,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeEdgeDesc_t()
             {
+            }
+            public FeEdgeDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeEdgeDesc_t", "FeEdgeDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -62988,6 +67996,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeEffectDesc_t()
             {
             }
+            public FeEffectDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeEffectDesc_t", "FeEffectDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63026,6 +68038,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeFitInfluence_t()
             {
             }
+            public FeFitInfluence_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeFitInfluence_t", "FeFitInfluence_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63063,6 +68079,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeFitMatrix_t()
             {
+            }
+            public FeFitMatrix_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeFitMatrix_t", "FeFitMatrix_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63107,6 +68127,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeFitWeight_t()
             {
             }
+            public FeFitWeight_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeFitWeight_t", "FeFitWeight_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63145,6 +68169,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeFollowNode_t()
             {
             }
+            public FeFollowNode_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeFollowNode_t", "FeFollowNode_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63182,6 +68210,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeHingeLimit_t()
             {
+            }
+            public FeHingeLimit_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeHingeLimit_t", "FeHingeLimit_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63226,6 +68258,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeHingeLimitBuild_t()
             {
             }
+            public FeHingeLimitBuild_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeHingeLimitBuild_t", "FeHingeLimitBuild_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63269,6 +68305,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeKelagerBend2_t()
             {
             }
+            public FeKelagerBend2_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeKelagerBend2_t", "FeKelagerBend2_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63306,6 +68346,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeMorphLayerDepr_t()
             {
+            }
+            public FeMorphLayerDepr_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeMorphLayerDepr_t", "FeMorphLayerDepr_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63370,6 +68414,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeNodeBase_t()
             {
             }
+            public FeNodeBase_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeNodeBase_t", "FeNodeBase_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63402,6 +68450,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeNodeIntegrator_t()
             {
+            }
+            public FeNodeIntegrator_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeNodeIntegrator_t", "FeNodeIntegrator_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63446,6 +68498,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeNodeReverseOffset_t()
             {
             }
+            public FeNodeReverseOffset_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeNodeReverseOffset_t", "FeNodeReverseOffset_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63484,6 +68540,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeNodeWindBase_t()
             {
             }
+            public FeNodeWindBase_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeNodeWindBase_t", "FeNodeWindBase_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63507,6 +68567,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeProxyVertexMap_t()
             {
+            }
+            public FeProxyVertexMap_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeProxyVertexMap_t", "FeProxyVertexMap_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63540,6 +68604,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeQuad_t()
             {
+            }
+            public FeQuad_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeQuad_t", "FeQuad_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63578,6 +68646,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeRigidColliderIndices_t()
             {
+            }
+            public FeRigidColliderIndices_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeRigidColliderIndices_t", "FeRigidColliderIndices_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63627,6 +68699,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeRodConstraint_t()
             {
             }
+            public FeRodConstraint_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeRodConstraint_t", "FeRodConstraint_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63669,6 +68745,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeSDFRigid_t()
             {
+            }
+            public FeSDFRigid_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSDFRigid_t", "FeSDFRigid_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63748,6 +68828,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeSimdAnimStrayRadius_t()
             {
             }
+            public FeSimdAnimStrayRadius_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSimdAnimStrayRadius_t", "FeSimdAnimStrayRadius_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63786,6 +68870,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeSimdNodeBase_t()
             {
             }
+            public FeSimdNodeBase_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSimdNodeBase_t", "FeSimdNodeBase_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63819,6 +68907,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeSimdQuad_t()
             {
             }
+            public FeSimdQuad_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSimdQuad_t", "FeSimdQuad_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63846,6 +68938,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeSimdRodConstraint_t()
             {
+            }
+            public FeSimdRodConstraint_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSimdRodConstraint_t", "FeSimdRodConstraint_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63875,6 +68971,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeSimdRodConstraintAnim_t()
             {
             }
+            public FeSimdRodConstraintAnim_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSimdRodConstraintAnim_t", "FeSimdRodConstraintAnim_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63902,6 +69002,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeSimdSpringIntegrator_t()
             {
+            }
+            public FeSimdSpringIntegrator_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSimdSpringIntegrator_t", "FeSimdSpringIntegrator_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -63946,6 +69050,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeSimdTri_t()
             {
             }
+            public FeSimdTri_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSimdTri_t", "FeSimdTri_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -63973,6 +69081,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeSoftParent_t()
             {
+            }
+            public FeSoftParent_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSoftParent_t", "FeSoftParent_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64007,6 +69119,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeSourceEdge_t()
             {
             }
+            public FeSourceEdge_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSourceEdge_t", "FeSourceEdge_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64034,6 +69150,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeSphereRigid_t()
             {
+            }
+            public FeSphereRigid_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSphereRigid_t", "FeSphereRigid_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64083,6 +69203,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeSpringIntegrator_t()
             {
             }
+            public FeSpringIntegrator_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeSpringIntegrator_t", "FeSpringIntegrator_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64126,6 +69250,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeStiffHingeBuild_t()
             {
             }
+            public FeStiffHingeBuild_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeStiffHingeBuild_t", "FeStiffHingeBuild_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64168,6 +69296,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeTaperedCapsuleRigid_t()
             {
+            }
+            public FeTaperedCapsuleRigid_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeTaperedCapsuleRigid_t", "FeTaperedCapsuleRigid_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64217,6 +69349,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeTaperedCapsuleStretch_t()
             {
             }
+            public FeTaperedCapsuleStretch_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeTaperedCapsuleStretch_t", "FeTaperedCapsuleStretch_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64260,6 +69396,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeTreeChildren_t()
             {
             }
+            public FeTreeChildren_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeTreeChildren_t", "FeTreeChildren_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64288,6 +69428,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeTri_t()
             {
             }
+            public FeTri_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeTri_t", "FeTri_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64315,6 +69459,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeTwistConstraint_t()
             {
+            }
+            public FeTwistConstraint_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeTwistConstraint_t", "FeTwistConstraint_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64358,6 +69506,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeVertexMapBuild_t()
             {
+            }
+            public FeVertexMapBuild_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeVertexMapBuild_t", "FeVertexMapBuild_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64411,6 +69563,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeVertexMapDesc_t()
             {
+            }
+            public FeVertexMapDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeVertexMapDesc_t", "FeVertexMapDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64495,6 +69651,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FeWeightedNode_t()
             {
             }
+            public FeWeightedNode_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeWeightedNode_t", "FeWeightedNode_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64527,6 +69687,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FeWorldCollisionParams_t()
             {
+            }
+            public FeWorldCollisionParams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FeWorldCollisionParams_t", "FeWorldCollisionParams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64571,6 +69735,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FilterDamageType()
             {
             }
+            public FilterDamageType(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FilterDamageType", "FilterDamageType", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64602,6 +69770,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FilterHealth()
             {
+            }
+            public FilterHealth(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FilterHealth", "FilterHealth", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64644,6 +69816,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public fogparams_t()
             {
+            }
+            public fogparams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("fogparams_t", "fogparams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64788,6 +69964,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public fogplayerparams_t()
             {
             }
+            public fogplayerparams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("fogplayerparams_t", "fogplayerparams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64880,6 +70060,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FollowAttachmentData()
             {
             }
+            public FollowAttachmentData(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FollowAttachmentData", "FollowAttachmentData", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -64907,6 +70091,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FollowAttachmentSettings_t()
             {
+            }
+            public FollowAttachmentSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FollowAttachmentSettings_t", "FollowAttachmentSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64949,6 +70137,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FollowTargetOpFixedSettings_t()
             {
+            }
+            public FollowTargetOpFixedSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FollowTargetOpFixedSettings_t", "FollowTargetOpFixedSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -64997,6 +70189,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FootFixedData_t()
             {
+            }
+            public FootFixedData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FootFixedData_t", "FootFixedData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -65076,6 +70272,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FootFixedSettings()
             {
             }
+            public FootFixedSettings(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FootFixedSettings", "FootFixedSettings", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65147,6 +70347,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FootLockPoseOpFixedSettings()
             {
+            }
+            public FootLockPoseOpFixedSettings(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FootLockPoseOpFixedSettings", "FootLockPoseOpFixedSettings", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -65255,6 +70459,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FootPinningPoseOpFixedData_t()
             {
             }
+            public FootPinningPoseOpFixedData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FootPinningPoseOpFixedData_t", "FootPinningPoseOpFixedData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65308,6 +70516,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FootStepTrigger()
             {
             }
+            public FootStepTrigger(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FootStepTrigger", "FootStepTrigger", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65346,6 +70558,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FourCovMatrices3()
             {
             }
+            public FourCovMatrices3(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FourCovMatrices3", "FourCovMatrices3", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65383,6 +70599,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public FunctionInfo_t()
             {
+            }
+            public FunctionInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FunctionInfo_t", "FunctionInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -65431,6 +70651,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FuseFunctionIndex_t()
             {
             }
+            public FuseFunctionIndex_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FuseFunctionIndex_t", "FuseFunctionIndex_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65459,6 +70683,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public FuseVariableIndex_t()
             {
             }
+            public FuseVariableIndex_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("FuseVariableIndex_t", "FuseVariableIndex_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65486,6 +70714,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public GameAmmoTypeInfo_t()
             {
+            }
+            public GameAmmoTypeInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("GameAmmoTypeInfo_t", "GameAmmoTypeInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -65524,6 +70756,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public GeneratedTextureHandle_t()
             {
             }
+            public GeneratedTextureHandle_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("GeneratedTextureHandle_t", "GeneratedTextureHandle_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65551,6 +70787,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public HitReactFixedSettings_t()
             {
+            }
+            public HitReactFixedSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("HitReactFixedSettings_t", "HitReactFixedSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -65660,6 +70900,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public hudtextparms_t()
             {
             }
+            public hudtextparms_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("hudtextparms_t", "hudtextparms_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65702,6 +70946,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public HullFlags_t()
             {
+            }
+            public HullFlags_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("HullFlags_t", "HullFlags_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -65776,6 +71024,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public IChoreoServices()
             {
             }
+            public IChoreoServices(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IChoreoServices", "IChoreoServices", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65799,6 +71051,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public IClientAlphaProperty()
             {
+            }
+            public IClientAlphaProperty(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IClientAlphaProperty", "IClientAlphaProperty", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -65824,6 +71080,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public IEconItemInterface()
             {
             }
+            public IEconItemInterface(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IEconItemInterface", "IEconItemInterface", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65848,6 +71108,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public IHasAttributes()
             {
             }
+            public IHasAttributes(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IHasAttributes", "IHasAttributes", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65871,6 +71135,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public IKBoneNameAndIndex_t()
             {
+            }
+            public IKBoneNameAndIndex_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IKBoneNameAndIndex_t", "IKBoneNameAndIndex_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -65899,6 +71167,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public IKDemoCaptureSettings_t()
             {
+            }
+            public IKDemoCaptureSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IKDemoCaptureSettings_t", "IKDemoCaptureSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -65948,6 +71220,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public IKSolverSettings_t()
             {
             }
+            public IKSolverSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IKSolverSettings_t", "IKSolverSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -65985,6 +71261,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public IKTargetSettings_t()
             {
+            }
+            public IKTargetSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IKTargetSettings_t", "IKTargetSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66030,6 +71310,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public InfoOverlayData_t()
             {
+            }
+            public InfoOverlayData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("InfoOverlayData_t", "InfoOverlayData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66089,6 +71373,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public IntervalTimer()
             {
             }
+            public IntervalTimer(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IntervalTimer", "IntervalTimer", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66121,6 +71409,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public inv_image_camera_t()
             {
+            }
+            public inv_image_camera_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("inv_image_camera_t", "inv_image_camera_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66180,6 +71472,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public inv_image_data_t()
             {
             }
+            public inv_image_data_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("inv_image_data_t", "inv_image_data_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66223,6 +71519,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public inv_image_item_t()
             {
             }
+            public inv_image_item_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("inv_image_item_t", "inv_image_item_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66260,6 +71560,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public inv_image_light_barn_t()
             {
+            }
+            public inv_image_light_barn_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("inv_image_light_barn_t", "inv_image_light_barn_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66304,6 +71608,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public inv_image_light_fill_t()
             {
             }
+            public inv_image_light_fill_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("inv_image_light_fill_t", "inv_image_light_fill_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66341,6 +71649,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public inv_image_light_sun_t()
             {
+            }
+            public inv_image_light_sun_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("inv_image_light_sun_t", "inv_image_light_sun_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66380,6 +71692,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public inv_image_map_t()
             {
             }
+            public inv_image_map_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("inv_image_map_t", "inv_image_map_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66413,6 +71729,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public IParticleCollection()
             {
             }
+            public IParticleCollection(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IParticleCollection", "IParticleCollection", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66436,6 +71756,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public IParticleEffect()
             {
+            }
+            public IParticleEffect(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IParticleEffect", "IParticleEffect", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66461,6 +71785,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public IPhysicsPlayerController()
             {
             }
+            public IPhysicsPlayerController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IPhysicsPlayerController", "IPhysicsPlayerController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66484,6 +71812,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public IRagdoll()
             {
+            }
+            public IRagdoll(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("IRagdoll", "IRagdoll", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66509,6 +71841,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ISkeletonAnimationController()
             {
             }
+            public ISkeletonAnimationController(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ISkeletonAnimationController", "ISkeletonAnimationController", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66532,6 +71868,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public JiggleBoneSettings_t()
             {
+            }
+            public JiggleBoneSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("JiggleBoneSettings_t", "JiggleBoneSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66591,6 +71931,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public JiggleBoneSettingsList_t()
             {
             }
+            public JiggleBoneSettingsList_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("JiggleBoneSettingsList_t", "JiggleBoneSettingsList_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66614,6 +71958,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public lerpdata_t()
             {
+            }
+            public lerpdata_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("lerpdata_t", "lerpdata_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66661,6 +72009,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public locksound_t()
             {
             }
+            public locksound_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("locksound_t", "locksound_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66699,6 +72051,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public LookAtBone_t()
             {
             }
+            public LookAtBone_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("LookAtBone_t", "LookAtBone_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66731,6 +72087,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public LookAtOpFixedSettings_t()
             {
+            }
+            public LookAtOpFixedSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("LookAtOpFixedSettings_t", "LookAtOpFixedSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66803,6 +72163,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public magnetted_objects_t()
             {
             }
+            public magnetted_objects_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("magnetted_objects_t", "magnetted_objects_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66829,6 +72193,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ManifestTestResource_t()
             {
+            }
+            public ManifestTestResource_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ManifestTestResource_t", "ManifestTestResource_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66858,6 +72226,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MaterialGroup_t()
             {
             }
+            public MaterialGroup_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialGroup_t", "MaterialGroup_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66885,6 +72257,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public MaterialOverride_t()
             {
+            }
+            public MaterialOverride_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialOverride_t", "MaterialOverride_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -66928,6 +72304,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MaterialParam_t()
             {
             }
+            public MaterialParam_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialParam_t", "MaterialParam_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66956,6 +72336,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MaterialParamBuffer_t()
             {
             }
+            public MaterialParamBuffer_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialParamBuffer_t", "MaterialParamBuffer_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -66982,6 +72366,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public MaterialParamFloat_t()
             {
+            }
+            public MaterialParamFloat_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialParamFloat_t", "MaterialParamFloat_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67015,6 +72403,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MaterialParamInt_t()
             {
             }
+            public MaterialParamInt_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialParamInt_t", "MaterialParamInt_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67046,6 +72438,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public MaterialParamString_t()
             {
+            }
+            public MaterialParamString_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialParamString_t", "MaterialParamString_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67079,6 +72475,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MaterialParamTexture_t()
             {
             }
+            public MaterialParamTexture_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialParamTexture_t", "MaterialParamTexture_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67106,6 +72506,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MaterialParamVector_t()
             {
             }
+            public MaterialParamVector_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialParamVector_t", "MaterialParamVector_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67132,6 +72536,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public MaterialResourceData_t()
             {
+            }
+            public MaterialResourceData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialResourceData_t", "MaterialResourceData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67171,6 +72579,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MaterialVariable_t()
             {
             }
+            public MaterialVariable_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MaterialVariable_t", "MaterialVariable_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67208,6 +72620,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ModelBoneFlexDriver_t()
             {
             }
+            public ModelBoneFlexDriver_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ModelBoneFlexDriver_t", "ModelBoneFlexDriver_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67240,6 +72656,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ModelBoneFlexDriverControl_t()
             {
+            }
+            public ModelBoneFlexDriverControl_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ModelBoneFlexDriverControl_t", "ModelBoneFlexDriverControl_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67289,6 +72709,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ModelConfigHandle_t()
             {
             }
+            public ModelConfigHandle_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ModelConfigHandle_t", "ModelConfigHandle_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67316,6 +72740,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ModelEmbeddedMesh_t()
             {
+            }
+            public ModelEmbeddedMesh_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ModelEmbeddedMesh_t", "ModelEmbeddedMesh_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67369,6 +72797,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ModelMeshBufferData_t()
             {
+            }
+            public ModelMeshBufferData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ModelMeshBufferData_t", "ModelMeshBufferData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67443,6 +72875,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ModelReference_t()
             {
             }
+            public ModelReference_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ModelReference_t", "ModelReference_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67470,6 +72906,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ModelSkeletonData_t()
             {
+            }
+            public ModelSkeletonData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ModelSkeletonData_t", "ModelSkeletonData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67524,6 +72964,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MoodAnimation_t()
             {
             }
+            public MoodAnimation_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MoodAnimation_t", "MoodAnimation_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67551,6 +72995,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public MotionBlendItem()
             {
+            }
+            public MotionBlendItem(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MotionBlendItem", "MotionBlendItem", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67580,6 +73028,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MotionDBIndex()
             {
             }
+            public MotionDBIndex(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MotionDBIndex", "MotionDBIndex", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67607,6 +73059,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public MotionIndex()
             {
+            }
+            public MotionIndex(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MotionIndex", "MotionIndex", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67641,6 +73097,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public MovementGaitId_t()
             {
             }
+            public MovementGaitId_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("MovementGaitId_t", "MovementGaitId_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67664,6 +73124,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public NavGravity_t()
             {
+            }
+            public NavGravity_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("NavGravity_t", "NavGravity_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67698,6 +73162,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public NmBoneMaskSetDefinition_t()
             {
             }
+            public NmBoneMaskSetDefinition_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("NmBoneMaskSetDefinition_t", "NmBoneMaskSetDefinition_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67724,6 +73192,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public NmCompressionSettings_t()
             {
+            }
+            public NmCompressionSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("NmCompressionSettings_t", "NmCompressionSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67763,6 +73235,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public NmPercent_t()
             {
             }
+            public NmPercent_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("NmPercent_t", "NmPercent_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67790,6 +73266,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public NmSyncTrackTime_t()
             {
+            }
+            public NmSyncTrackTime_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("NmSyncTrackTime_t", "NmSyncTrackTime_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67823,6 +73303,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public NmSyncTrackTimeRange_t()
             {
             }
+            public NmSyncTrackTimeRange_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("NmSyncTrackTimeRange_t", "NmSyncTrackTimeRange_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -67853,6 +73337,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public NodeData_t()
             {
+            }
+            public NodeData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("NodeData_t", "NodeData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67911,6 +73399,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public OldFeEdge_t()
             {
+            }
+            public OldFeEdge_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("OldFeEdge_t", "OldFeEdge_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -67975,6 +73467,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public OutflowWithRequirements_t()
             {
             }
+            public OutflowWithRequirements_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("OutflowWithRequirements_t", "OutflowWithRequirements_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68002,6 +73498,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ParamSpan_t()
             {
+            }
+            public ParamSpan_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParamSpan_t", "ParamSpan_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -68045,6 +73545,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ParamSpanSample_t()
             {
             }
+            public ParamSpanSample_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParamSpanSample_t", "ParamSpanSample_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68072,6 +73576,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PARTICLE_EHANDLE__()
             {
+            }
+            public PARTICLE_EHANDLE__(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PARTICLE_EHANDLE__", "PARTICLE_EHANDLE__", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -68101,6 +73609,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ParticleAttributeIndex_t()
             {
             }
+            public ParticleAttributeIndex_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticleAttributeIndex_t", "ParticleAttributeIndex_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68128,6 +73640,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ParticleChildrenInfo_t()
             {
+            }
+            public ParticleChildrenInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticleChildrenInfo_t", "ParticleChildrenInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -68172,6 +73688,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ParticleControlPointConfiguration_t()
             {
             }
+            public ParticleControlPointConfiguration_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticleControlPointConfiguration_t", "ParticleControlPointConfiguration_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68203,6 +73723,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ParticleControlPointDriver_t()
             {
+            }
+            public ParticleControlPointDriver_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticleControlPointDriver_t", "ParticleControlPointDriver_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -68252,6 +73776,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ParticleIndex_t()
             {
             }
+            public ParticleIndex_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticleIndex_t", "ParticleIndex_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68279,6 +73807,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ParticleNamedValueConfiguration_t()
             {
+            }
+            public ParticleNamedValueConfiguration_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticleNamedValueConfiguration_t", "ParticleNamedValueConfiguration_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -68328,6 +73860,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ParticleNamedValueSource_t()
             {
             }
+            public ParticleNamedValueSource_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticleNamedValueSource_t", "ParticleNamedValueSource_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68364,6 +73900,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ParticleNode_t()
             {
+            }
+            public ParticleNode_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticleNode_t", "ParticleNode_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -68421,6 +73961,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ParticlePreviewBodyGroup_t()
             {
             }
+            public ParticlePreviewBodyGroup_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticlePreviewBodyGroup_t", "ParticlePreviewBodyGroup_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68453,6 +73997,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ParticlePreviewState_t()
             {
+            }
+            public ParticlePreviewState_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ParticlePreviewState_t", "ParticlePreviewState_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -68552,6 +74100,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PermEntityLumpData_t()
             {
             }
+            public PermEntityLumpData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PermEntityLumpData_t", "PermEntityLumpData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68579,6 +74131,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PermModelData_t()
             {
+            }
+            public PermModelData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PermModelData_t", "PermModelData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -68665,6 +74221,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PermModelDataAnimatedMaterialAttribute_t()
             {
             }
+            public PermModelDataAnimatedMaterialAttribute_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PermModelDataAnimatedMaterialAttribute_t", "PermModelDataAnimatedMaterialAttribute_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68698,6 +74258,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PermModelExtPart_t()
             {
             }
+            public PermModelExtPart_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PermModelExtPart_t", "PermModelExtPart_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -68730,6 +74294,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PermModelInfo_t()
             {
+            }
+            public PermModelInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PermModelInfo_t", "PermModelInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -68803,6 +74371,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PhysFeModelDesc_t()
             {
+            }
+            public PhysFeModelDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PhysFeModelDesc_t", "PhysFeModelDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -69092,6 +74664,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PhysicsParticleId_t()
             {
             }
+            public PhysicsParticleId_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PhysicsParticleId_t", "PhysicsParticleId_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69119,6 +74695,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PhysicsRagdollPose_t()
             {
+            }
+            public PhysicsRagdollPose_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PhysicsRagdollPose_t", "PhysicsRagdollPose_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -69151,6 +74731,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PhysShapeMarkup_t()
             {
+            }
+            public PhysShapeMarkup_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PhysShapeMarkup_t", "PhysShapeMarkup_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -69185,6 +74769,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PhysSoftbodyDesc_t()
             {
             }
+            public PhysSoftbodyDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PhysSoftbodyDesc_t", "PhysSoftbodyDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69217,6 +74805,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PointCameraSettings_t()
             {
+            }
+            public PointCameraSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PointCameraSettings_t", "PointCameraSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -69261,6 +74853,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PointDefinition_t()
             {
             }
+            public PointDefinition_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PointDefinition_t", "PointDefinition_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69299,6 +74895,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PointDefinitionWithTimeValues_t()
             {
             }
+            public PointDefinitionWithTimeValues_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PointDefinitionWithTimeValues_t", "PointDefinitionWithTimeValues_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69330,6 +74930,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PostProcessingBloomParameters_t()
             {
+            }
+            public PostProcessingBloomParameters_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PostProcessingBloomParameters_t", "PostProcessingBloomParameters_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -69434,6 +75038,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PostProcessingFogScatteringParameters_t()
             {
             }
+            public PostProcessingFogScatteringParameters_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PostProcessingFogScatteringParameters_t", "PostProcessingFogScatteringParameters_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69482,6 +75090,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PostProcessingLocalContrastParameters_t()
             {
             }
+            public PostProcessingLocalContrastParameters_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PostProcessingLocalContrastParameters_t", "PostProcessingLocalContrastParameters_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69529,6 +75141,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PostProcessingResource_t()
             {
+            }
+            public PostProcessingResource_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PostProcessingResource_t", "PostProcessingResource_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -69607,6 +75223,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public PostProcessingTonemapParameters_t()
             {
+            }
+            public PostProcessingTonemapParameters_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PostProcessingTonemapParameters_t", "PostProcessingTonemapParameters_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -69706,6 +75326,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PostProcessingVignetteParameters_t()
             {
             }
+            public PostProcessingVignetteParameters_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PostProcessingVignetteParameters_t", "PostProcessingVignetteParameters_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69759,6 +75383,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public PredictedDamageTag_t()
             {
             }
+            public PredictedDamageTag_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("PredictedDamageTag_t", "PredictedDamageTag_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69802,6 +75430,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public QuestProgress()
             {
             }
+            public QuestProgress(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("QuestProgress", "QuestProgress", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69825,6 +75457,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ragdoll_t()
             {
+            }
+            public ragdoll_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ragdoll_t", "ragdoll_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -69863,6 +75499,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RagdollCreationParams_t()
             {
+            }
+            public RagdollCreationParams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RagdollCreationParams_t", "RagdollCreationParams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -69912,6 +75552,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ragdollelement_t()
             {
             }
+            public ragdollelement_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ragdollelement_t", "ragdollelement_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69955,6 +75599,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ragdollhierarchyjoint_t()
             {
             }
+            public ragdollhierarchyjoint_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ragdollhierarchyjoint_t", "ragdollhierarchyjoint_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -69988,6 +75636,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public Relationship_t()
             {
             }
+            public Relationship_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("Relationship_t", "Relationship_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70020,6 +75672,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RelationshipOverride_t()
             {
+            }
+            public RelationshipOverride_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RelationshipOverride_t", "RelationshipOverride_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70056,6 +75712,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RenderHairStrandInfo_t()
             {
+            }
+            public RenderHairStrandInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RenderHairStrandInfo_t", "RenderHairStrandInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70115,6 +75775,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RenderInputLayoutField_t()
             {
             }
+            public RenderInputLayoutField_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RenderInputLayoutField_t", "RenderInputLayoutField_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70168,6 +75832,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RenderProjectedMaterial_t()
             {
             }
+            public RenderProjectedMaterial_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RenderProjectedMaterial_t", "RenderProjectedMaterial_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70191,6 +75859,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RenderSkeletonBone_t()
             {
+            }
+            public RenderSkeletonBone_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RenderSkeletonBone_t", "RenderSkeletonBone_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70234,6 +75906,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ResourceId_t()
             {
             }
+            public ResourceId_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ResourceId_t", "ResourceId_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70261,6 +75937,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ResponseContext_t()
             {
+            }
+            public ResponseContext_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ResponseContext_t", "ResponseContext_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70299,6 +75979,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ResponseFollowup()
             {
+            }
+            public ResponseFollowup(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ResponseFollowup", "ResponseFollowup", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70358,6 +76042,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public ResponseParams()
             {
             }
+            public ResponseParams(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ResponseParams", "ResponseParams", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70395,6 +76083,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnBlendVertex_t()
             {
             }
+            public RnBlendVertex_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnBlendVertex_t", "RnBlendVertex_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70427,6 +76119,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RnBodyDesc_t()
             {
+            }
+            public RnBodyDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnBodyDesc_t", "RnBodyDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70631,6 +76327,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnCapsule_t()
             {
             }
+            public RnCapsule_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnCapsule_t", "RnCapsule_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70664,6 +76364,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnCapsuleDesc_t()
             {
             }
+            public RnCapsuleDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnCapsuleDesc_t", "RnCapsuleDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70695,6 +76399,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnFace_t()
             {
             }
+            public RnFace_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnFace_t", "RnFace_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70722,6 +76430,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RnHalfEdge_t()
             {
+            }
+            public RnHalfEdge_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnHalfEdge_t", "RnHalfEdge_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70765,6 +76477,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RnHull_t()
             {
+            }
+            public RnHull_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnHull_t", "RnHull_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70832,6 +76548,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnHullDesc_t()
             {
             }
+            public RnHullDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnHullDesc_t", "RnHullDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70862,6 +76582,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RnMesh_t()
             {
+            }
+            public RnMesh_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnMesh_t", "RnMesh_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70921,6 +76645,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnMeshDesc_t()
             {
             }
+            public RnMeshDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnMeshDesc_t", "RnMeshDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -70951,6 +76679,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RnNode_t()
             {
+            }
+            public RnNode_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnNode_t", "RnNode_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -70995,6 +76727,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnPlane_t()
             {
             }
+            public RnPlane_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnPlane_t", "RnPlane_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71027,6 +76763,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RnShapeDesc_t()
             {
+            }
+            public RnShapeDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnShapeDesc_t", "RnShapeDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71081,6 +76821,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnSoftbodyCapsule_t()
             {
             }
+            public RnSoftbodyCapsule_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnSoftbodyCapsule_t", "RnSoftbodyCapsule_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71119,6 +76863,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnSoftbodyParticle_t()
             {
             }
+            public RnSoftbodyParticle_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnSoftbodyParticle_t", "RnSoftbodyParticle_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71146,6 +76894,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RnSoftbodySpring_t()
             {
+            }
+            public RnSoftbodySpring_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnSoftbodySpring_t", "RnSoftbodySpring_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71180,6 +76932,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnSphereDesc_t()
             {
             }
+            public RnSphereDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnSphereDesc_t", "RnSphereDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71206,6 +76962,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RnTriangle_t()
             {
+            }
+            public RnTriangle_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnTriangle_t", "RnTriangle_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71235,6 +76995,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public RnVertex_t()
             {
             }
+            public RnVertex_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnVertex_t", "RnVertex_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71262,6 +77026,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public RnWing_t()
             {
+            }
+            public RnWing_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("RnWing_t", "RnWing_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71291,6 +77059,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SampleCode()
             {
             }
+            public SampleCode(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SampleCode", "SampleCode", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71319,6 +77091,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SceneEventId_t()
             {
             }
+            public SceneEventId_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SceneEventId_t", "SceneEventId_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71346,6 +77122,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public SceneObject_t()
             {
+            }
+            public SceneObject_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SceneObject_t", "SceneObject_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71425,6 +77205,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SceneViewId_t()
             {
             }
+            public SceneViewId_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SceneViewId_t", "SceneViewId_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71457,6 +77241,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ScriptInfo_t()
             {
+            }
+            public ScriptInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ScriptInfo_t", "ScriptInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71501,6 +77289,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SelectedEditItemInfo_t()
             {
             }
+            public SelectedEditItemInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SelectedEditItemInfo_t", "SelectedEditItemInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71524,6 +77316,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public SellbackPurchaseEntry_t()
             {
+            }
+            public SellbackPurchaseEntry_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SellbackPurchaseEntry_t", "SellbackPurchaseEntry_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71571,6 +77367,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public SequenceHistory_t()
             {
+            }
+            public SequenceHistory_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SequenceHistory_t", "SequenceHistory_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71625,6 +77425,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SequenceWeightedList_t()
             {
             }
+            public SequenceWeightedList_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SequenceWeightedList_t", "SequenceWeightedList_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71657,6 +77461,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ServerAuthoritativeWeaponSlot_t()
             {
+            }
+            public ServerAuthoritativeWeaponSlot_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ServerAuthoritativeWeaponSlot_t", "ServerAuthoritativeWeaponSlot_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71695,6 +77503,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public shard_model_desc_t()
             {
+            }
+            public shard_model_desc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("shard_model_desc_t", "shard_model_desc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71774,6 +77586,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SimpleConstraintSoundProfile()
             {
             }
+            public SimpleConstraintSoundProfile(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SimpleConstraintSoundProfile", "SimpleConstraintSoundProfile", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71806,6 +77622,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public SkeletonAnimCapture_t()
             {
+            }
+            public SkeletonAnimCapture_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SkeletonAnimCapture_t", "SkeletonAnimCapture_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71865,6 +77685,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SkeletonBoneBounds_t()
             {
             }
+            public SkeletonBoneBounds_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SkeletonBoneBounds_t", "SkeletonBoneBounds_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71898,6 +77722,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SkeletonDemoDb_t()
             {
             }
+            public SkeletonDemoDb_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SkeletonDemoDb_t", "SkeletonDemoDb_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -71925,6 +77753,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public sky3dparams_t()
             {
+            }
+            public sky3dparams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("sky3dparams_t", "sky3dparams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -71967,6 +77799,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public sndopvarlatchdata_t()
             {
+            }
+            public sndopvarlatchdata_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("sndopvarlatchdata_t", "sndopvarlatchdata_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72016,6 +77852,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SolveIKChainPoseOpFixedSettings_t()
             {
             }
+            public SolveIKChainPoseOpFixedSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SolveIKChainPoseOpFixedSettings_t", "SolveIKChainPoseOpFixedSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72039,6 +77879,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public SosEditItemInfo_t()
             {
+            }
+            public SosEditItemInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SosEditItemInfo_t", "SosEditItemInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72088,6 +77932,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public SoundOpvarTraceResult_t()
             {
             }
+            public SoundOpvarTraceResult_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SoundOpvarTraceResult_t", "SoundOpvarTraceResult_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72125,6 +77973,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public SpawnPoint()
             {
+            }
+            public SpawnPoint(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SpawnPoint", "SpawnPoint", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72168,6 +78020,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public StanceInfo_t()
             {
             }
+            public StanceInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("StanceInfo_t", "StanceInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72200,6 +78056,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public SummaryTakeDamageInfo_t()
             {
+            }
+            public SummaryTakeDamageInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("SummaryTakeDamageInfo_t", "SummaryTakeDamageInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72241,6 +78101,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public TagSpan_t()
             {
             }
+            public TagSpan_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("TagSpan_t", "TagSpan_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72278,6 +78142,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public TextureControls_t()
             {
+            }
+            public TextureControls_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("TextureControls_t", "TextureControls_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72375,6 +78243,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public TextureGroup_t()
             {
             }
+            public TextureGroup_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("TextureGroup_t", "TextureGroup_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72431,6 +78303,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public thinkfunc_t()
             {
             }
+            public thinkfunc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("thinkfunc_t", "thinkfunc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72469,6 +78345,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public TimedEvent()
             {
             }
+            public TimedEvent(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("TimedEvent", "TimedEvent", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72502,6 +78382,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public TraceSettings_t()
             {
             }
+            public TraceSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("TraceSettings_t", "TraceSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72534,6 +78418,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public TwoBoneIKSettings_t()
             {
+            }
+            public TwoBoneIKSettings_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("TwoBoneIKSettings_t", "TwoBoneIKSettings_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72629,6 +78517,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VariableInfo_t()
             {
             }
+            public VariableInfo_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VariableInfo_t", "VariableInfo_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72681,6 +78573,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VecInputMaterialVariable_t()
             {
             }
+            public VecInputMaterialVariable_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VecInputMaterialVariable_t", "VecInputMaterialVariable_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72708,6 +78604,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VelocitySampler()
             {
+            }
+            public VelocitySampler(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VelocitySampler", "VelocitySampler", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72747,6 +78647,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VertexPositionColor_t()
             {
             }
+            public VertexPositionColor_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VertexPositionColor_t", "VertexPositionColor_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72774,6 +78678,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VertexPositionNormal_t()
             {
+            }
+            public VertexPositionNormal_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VertexPositionNormal_t", "VertexPositionNormal_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72807,6 +78715,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public ViewAngleServerChange_t()
             {
+            }
+            public ViewAngleServerChange_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("ViewAngleServerChange_t", "ViewAngleServerChange_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72846,6 +78758,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMapResourceData_t()
             {
             }
+            public VMapResourceData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMapResourceData_t", "VMapResourceData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -72869,6 +78785,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixAutoFilterDesc_t()
             {
+            }
+            public VMixAutoFilterDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixAutoFilterDesc_t", "VMixAutoFilterDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -72931,6 +78851,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixBoxverb2Desc_t()
             {
+            }
+            public VMixBoxverb2Desc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixBoxverb2Desc_t", "VMixBoxverb2Desc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -73039,6 +78963,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixBoxverbDesc_t()
             {
             }
+            public VMixBoxverbDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixBoxverbDesc_t", "VMixBoxverbDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73146,6 +79074,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixConvolutionDesc_t()
             {
             }
+            public VMixConvolutionDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixConvolutionDesc_t", "VMixConvolutionDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73209,6 +79141,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixDelayDesc_t()
             {
             }
+            public VMixDelayDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixDelayDesc_t", "VMixDelayDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73266,6 +79202,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixDiffusorDesc_t()
             {
             }
+            public VMixDiffusorDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixDiffusorDesc_t", "VMixDiffusorDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73308,6 +79248,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixDualCompressorDesc_t()
             {
+            }
+            public VMixDualCompressorDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixDualCompressorDesc_t", "VMixDualCompressorDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -73355,6 +79299,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixDynamics3BandDesc_t()
             {
+            }
+            public VMixDynamics3BandDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixDynamics3BandDesc_t", "VMixDynamics3BandDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -73423,6 +79371,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixDynamicsBand_t()
             {
+            }
+            public VMixDynamicsBand_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixDynamicsBand_t", "VMixDynamicsBand_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -73497,6 +79449,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixDynamicsCompressorDesc_t()
             {
             }
+            public VMixDynamicsCompressorDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixDynamicsCompressorDesc_t", "VMixDynamicsCompressorDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73564,6 +79520,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixDynamicsDesc_t()
             {
+            }
+            public VMixDynamicsDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixDynamicsDesc_t", "VMixDynamicsDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -73648,6 +79608,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixEffectChainDesc_t()
             {
             }
+            public VMixEffectChainDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixEffectChainDesc_t", "VMixEffectChainDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73675,6 +79639,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixEnvelopeDesc_t()
             {
+            }
+            public VMixEnvelopeDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixEnvelopeDesc_t", "VMixEnvelopeDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -73714,6 +79682,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixEQ8Desc_t()
             {
             }
+            public VMixEQ8Desc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixEQ8Desc_t", "VMixEQ8Desc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73737,6 +79709,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixFilterDesc_t()
             {
+            }
+            public VMixFilterDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixFilterDesc_t", "VMixFilterDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -73791,6 +79767,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixFreeverbDesc_t()
             {
             }
+            public VMixFreeverbDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixFreeverbDesc_t", "VMixFreeverbDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73833,6 +79813,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixModDelayDesc_t()
             {
+            }
+            public VMixModDelayDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixModDelayDesc_t", "VMixModDelayDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -73901,6 +79885,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixOscDesc_t()
             {
             }
+            public VMixOscDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixOscDesc_t", "VMixOscDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73939,6 +79927,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixPannerDesc_t()
             {
             }
+            public VMixPannerDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixPannerDesc_t", "VMixPannerDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -73971,6 +79963,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixPitchShiftDesc_t()
             {
+            }
+            public VMixPitchShiftDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixPitchShiftDesc_t", "VMixPitchShiftDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -74015,6 +80011,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixPlateverbDesc_t()
             {
             }
+            public VMixPlateverbDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixPlateverbDesc_t", "VMixPlateverbDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -74052,6 +80052,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixShaperDesc_t()
             {
+            }
+            public VMixShaperDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixShaperDesc_t", "VMixShaperDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -74101,6 +80105,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VMixSubgraphSwitchDesc_t()
             {
             }
+            public VMixSubgraphSwitchDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixSubgraphSwitchDesc_t", "VMixSubgraphSwitchDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -74138,6 +80146,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixUtilityDesc_t()
             {
+            }
+            public VMixUtilityDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixUtilityDesc_t", "VMixUtilityDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -74191,6 +80203,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VMixVocoderDesc_t()
             {
+            }
+            public VMixVocoderDesc_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VMixVocoderDesc_t", "VMixVocoderDesc_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -74265,6 +80281,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VoxelVisBlockOffset_t()
             {
             }
+            public VoxelVisBlockOffset_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VoxelVisBlockOffset_t", "VoxelVisBlockOffset_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -74298,6 +80318,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VPhysics2ShapeDef_t()
             {
             }
+            public VPhysics2ShapeDef_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VPhysics2ShapeDef_t", "VPhysics2ShapeDef_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -74325,6 +80349,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public vphysics_save_cphysicsbody_t()
             {
+            }
+            public vphysics_save_cphysicsbody_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("vphysics_save_cphysicsbody_t", "vphysics_save_cphysicsbody_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -74357,6 +80385,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VPhysicsCollisionAttribute_t()
             {
+            }
+            public VPhysicsCollisionAttribute_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VPhysicsCollisionAttribute_t", "VPhysicsCollisionAttribute_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -74420,6 +80452,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VPhysXAggregateData_t()
             {
+            }
+            public VPhysXAggregateData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VPhysXAggregateData_t", "VPhysXAggregateData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -74497,6 +80533,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VPhysXBodyPart_t()
             {
+            }
+            public VPhysXBodyPart_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VPhysXBodyPart_t", "VPhysXBodyPart_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -74580,6 +80620,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VPhysXCollisionAttributes_t()
             {
             }
+            public VPhysXCollisionAttributes_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VPhysXCollisionAttributes_t", "VPhysXCollisionAttributes_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -74643,6 +80687,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VPhysXConstraint2_t()
             {
             }
+            public VPhysXConstraint2_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VPhysXConstraint2_t", "VPhysXConstraint2_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -74684,6 +80732,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VPhysXConstraintParams_t()
             {
+            }
+            public VPhysXConstraintParams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VPhysXConstraintParams_t", "VPhysXConstraintParams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -74888,6 +80940,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VPhysXJoint_t()
             {
             }
+            public VPhysXJoint_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VPhysXJoint_t", "VPhysXJoint_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -75038,6 +81094,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VPhysXRange_t()
             {
             }
+            public VPhysXRange_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VPhysXRange_t", "VPhysXRange_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -75071,6 +81131,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public VsInputSignature_t()
             {
             }
+            public VsInputSignature_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VsInputSignature_t", "VsInputSignature_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -75094,6 +81158,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public VsInputSignatureElement_t()
             {
+            }
+            public VsInputSignatureElement_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("VsInputSignatureElement_t", "VsInputSignatureElement_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -75128,6 +81196,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public WaterWheelDrag_t()
             {
             }
+            public WaterWheelDrag_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("WaterWheelDrag_t", "WaterWheelDrag_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -75160,6 +81232,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public WaterWheelFrictionScale_t()
             {
+            }
+            public WaterWheelFrictionScale_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("WaterWheelFrictionScale_t", "WaterWheelFrictionScale_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -75194,6 +81270,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public WeaponPurchaseCount_t()
             {
             }
+            public WeaponPurchaseCount_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("WeaponPurchaseCount_t", "WeaponPurchaseCount_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -75227,6 +81307,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public WeaponPurchaseTracker_t()
             {
             }
+            public WeaponPurchaseTracker_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("WeaponPurchaseTracker_t", "WeaponPurchaseTracker_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -75250,6 +81334,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public WeightList()
             {
+            }
+            public WeightList(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("WeightList", "WeightList", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -75284,6 +81372,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public World_t()
             {
             }
+            public World_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("World_t", "World_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -75314,6 +81406,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public WorldBuilderParams_t()
             {
+            }
+            public WorldBuilderParams_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("WorldBuilderParams_t", "WorldBuilderParams_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -75366,6 +81462,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public WorldNode_t()
             {
+            }
+            public WorldNode_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("WorldNode_t", "WorldNode_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
@@ -75424,6 +81524,10 @@ namespace SwiftlyS2.API.SDK.CS2
             public WorldNodeOnDiskBufferData_t()
             {
             }
+            public WorldNodeOnDiskBufferData_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("WorldNodeOnDiskBufferData_t", "WorldNodeOnDiskBufferData_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
+            }
             public string ToPtr()
             {
                 return Internal_API.Invoker.CallNative<string>("SDKClass", "ToPtr", Internal_API.CallKind.ClassFunction, m_classData);
@@ -75461,6 +81565,10 @@ namespace SwiftlyS2.API.SDK.CS2
             }
             public WrappedPhysicsJoint_t()
             {
+            }
+            public WrappedPhysicsJoint_t(IntPtr ptr_or_class)
+            {
+                this.m_classData = Internal_API.Invoker.CallNative<IntPtr>("WrappedPhysicsJoint_t", "WrappedPhysicsJoint_t", Internal_API.CallKind.ClassFunction, $"0x{ptr_or_class:X}");
             }
             public string ToPtr()
             {
